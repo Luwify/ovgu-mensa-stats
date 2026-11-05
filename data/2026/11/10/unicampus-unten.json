@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bacon-burger, kartoffelspalten, buttermilch-ranch-dip",
+      "name": {
+        "de": "Bacon-Burger, Kartoffelspalten, Buttermilch-Ranch-Dip",
+        "en": "bacon burger, potato wedges, buttermilk ranch dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "9",
+        "a1",
+        "c",
+        "g",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten",
+      "name": {
+        "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten",
+        "en": "turkey escalope Hamburg style with fried egg, cream sauce, carrot-courgette-parsnip vegetables, potato croquettes"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten",
+      "name": {
+        "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten",
+        "en": "turkey escalope Hamburg style with fried egg, cream sauce, carrot-courgette-parsnip vegetables, potato croquettes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebackener goudakäse, preiselbeeren, blumenkohl à la dubbary in bechamelsauce, kräuter-gerste",
+      "name": {
+        "de": "Gebackener Goudakäse, Preiselbeeren, Blumenkohl à la Dubbary in Bechamelsauce, Kräuter-Gerste",
+        "en": "baked Gouda cheese, European cranberries, cauliflower à la Dubbary in Béchamel sauce, herbs barley"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Barock",
+          "en": "History Bites - Baroque"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a2",
+        "a3",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pflaumen-streusel-kuchen vom blech",
+      "name": {
+        "de": "Pflaumen-Streusel-Kuchen vom Blech",
+        "en": "plum crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

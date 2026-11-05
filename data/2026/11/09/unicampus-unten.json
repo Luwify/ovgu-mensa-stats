@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "gabelspaghetti, bolognese aus geflügelhack und mediterranem gemüse",
+      "name": {
+        "de": "Gabelspaghetti, Bolognese aus Geflügelhack und mediterranem Gemüse",
+        "en": "cut up shortened spaghetti, bolognese made from minced poultry and mediterranean vegetables"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfel-pfannkuchen, honig-sauerrahm, heiße beerenfrüchte, geröstete walnüsse",
+      "name": {
+        "de": "Apfel-Pfannkuchen, Honig-Sauerrahm, heiße Beerenfrüchte, geröstete Walnüsse",
+        "en": "apple pancakes, honey sour cream, hot berries, roasted walnuts"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Antike",
+          "en": "History Bites - Classical Antiquity"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g",
+        "h3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti, bolognese aus geflügelhack und mediterranem gemüse",
+      "name": {
+        "de": "Gabelspaghetti, Bolognese aus Geflügelhack und mediterranem Gemüse",
+        "en": "cut up shortened spaghetti, bolognese made from minced poultry and mediterranean vegetables"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "wildbratwurst mit tunke, lehm und stroh - wacholdersauce, erbspüree, sauerkraut",
+      "name": {
+        "de": "Wildbratwurst mit Tunke, Lehm und Stroh - Wacholdersauce, Erbspüree, Sauerkraut",
+        "en": "venison sausage with Tunke, Lehm and Stroh - juniper sauce, pea purée, sauerkraut"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Mittelalter",
+          "en": "History Bites - Middle Ages"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        },
+        {
+          "key": "wild",
+          "label": "Wild"
+        }
+      ],
+      "codes": [
+        "3",
+        "8",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-kirschkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Kirschkuchen",
+        "en": "vegan chocolate cherry cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

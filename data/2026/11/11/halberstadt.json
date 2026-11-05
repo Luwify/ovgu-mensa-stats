@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "reispfanne nasi goreng mit asiagemüse, gerösteten zwiebeln und gebratenen hähnchenbruststreifen, süß-saure sauce",
+      "name": {
+        "de": "Reispfanne Nasi Goreng mit Asiagemüse, gerösteten Zwiebeln und gebratenen Hähnchenbruststreifen, süß-saure Sauce",
+        "en": "rice pan Nasi Goreng with Asian vegetables, fried onions and fried chicken breast strips, sweet sour sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "reispfanne nasi goreng mit asiagemüse, gerösteten zwiebeln und gebratenen sojastreifen, süß-saure sauce",
+      "name": {
+        "de": "Reispfanne Nasi Goreng mit Asiagemüse, gerösteten Zwiebeln und gebratenen Sojastreifen, süß-saure Sauce",
+        "en": "rice pan Nasi Goreng with Asian vegetables, fried onions and fried soya strips, sweet sour sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, zartweizen",
+      "name": {
+        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Zartweizen",
+        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, tender wheat"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

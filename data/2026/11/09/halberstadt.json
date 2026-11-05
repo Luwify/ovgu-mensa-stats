@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "chili sin carne aus sonnenblumenhack, langkornreis",
+      "name": {
+        "de": "Chili sin carne aus Sonnenblumenhack, Langkornreis",
+        "en": "Chilli sin carne made from sunflower mince, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "wirsingkohleintopf",
+      "name": {
+        "de": "Wirsingkohleintopf",
+        "en": "savoy cabbage stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "eine schinkenknacker zum eintopf",
+      "name": {
+        "de": "Eine Schinkenknacker zum Eintopf",
+        "en": "One ham sausage to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 170,
+        "guests": 190
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tagliatelle mit wildlachs, blattpinat und kirschtomaten in gorgonzolasoße",
+      "name": {
+        "de": "Tagliatelle mit Wildlachs, Blattpinat und Kirschtomaten in Gorgonzolasoße",
+        "en": "tagliatelle with wild salmon, leaf spinach and cherry tomatoes in Gorgonzola cheese sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "g",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

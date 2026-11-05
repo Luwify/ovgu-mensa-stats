@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Veganes Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "vegan pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rigatoni verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "name": {
+        "de": "Rigatoni Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "rigatoni Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mandelkuchen vom blech",
+      "name": {
+        "de": "Mandelkuchen vom Blech",
+        "en": "almond cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g",
+        "h1"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate al sugo piccante mit rinderhack und chili in gemüsesugo",
+      "name": {
+        "de": "Penne Rigate al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",
+        "en": "penne rigate al Sugo piccante with minced beef and chilli in vegetable sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate al funghi mit champignons in cremesauce",
+      "name": {
+        "de": "Penne Rigate al Funghi mit Champignons in Cremesauce",
+        "en": "penne rigate al Funghi with champignons in cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "blumenkohl-käsetaler, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Blumenkohl-Käsetaler, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "cauliflower cheese pieces, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bratreis mit chinagemüse, süß-saure sauce",
+      "name": {
+        "de": "Bratreis mit Chinagemüse, süß-saure Sauce",
+        "en": "fried rice with Chinese vegetables, sweet sour sauce"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "f",
+        "k"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchenschnitzel, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchenschnitzel, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken escalope, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

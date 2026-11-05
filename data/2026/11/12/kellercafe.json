@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "date": "2026-11-12",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hokifilet meuniere mit zitronen-petersilien-mehlierung, weißweinsauce, ratatouille, langkornreis",
+      "name": {
+        "de": "Hokifilet Meuniere mit Zitronen-Petersilien-Mehlierung, Weißweinsauce, Ratatouille, Langkornreis",
+        "en": "hoki fillet 'miller style' with lemon parseley flour coating, white wine sauce, ratatouille, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "5",
+        "a1",
+        "d",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "name": {
+        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
+        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sudenburger currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Vegane Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "vegan curry sausage, french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "saftiger kokos-buttermilch-kuchen vom blech",
+      "name": {
+        "de": "Saftiger Kokos-Buttermilch-Kuchen vom Blech",
+        "en": "juicy coconut buttermilk cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "pfannengyros, tzatziki, pommes frites, bunter weißkrautsalat",
+      "name": {
+        "de": "Pfannengyros, Tzatziki, Pommes Frites, bunter Weißkrautsalat",
+        "en": "pan-fried gyros, tzatziki, french fries, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes pfannengyros, tzatziki, pommes frites, bunter weißkrautsalat",
+      "name": {
+        "de": "Veganes Pfannengyros, Tzatziki, Pommes Frites, bunter Weißkrautsalat",
+        "en": "vegan pan-fried gyros, tzatziki, french fries, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "reispfanne nasi goreng mit asiagemüse, gerösteten zwiebeln und gebratenen hähnchenbruststreifen, süß-saure sauce",
+      "name": {
+        "de": "Reispfanne Nasi Goreng mit Asiagemüse, gerösteten Zwiebeln und gebratenen Hähnchenbruststreifen, süß-saure Sauce",
+        "en": "rice pan Nasi Goreng with Asian vegetables, fried onions and fried chicken breast strips, sweet sour sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "reispfanne nasi goreng mit asiagemüse, gerösteten zwiebeln und gebratenen sojastreifen, süß-saure sauce",
+      "name": {
+        "de": "Reispfanne Nasi Goreng mit Asiagemüse, gerösteten Zwiebeln und gebratenen Sojastreifen, süß-saure Sauce",
+        "en": "rice pan Nasi Goreng with Asian vegetables, fried onions and fried soya strips, sweet sour sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-kirschkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Kirschkuchen",
+        "en": "vegan chocolate cherry cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla norma mit pikantem auberginen-tomatensugo",
+      "name": {
+        "de": "Penne Rigate alla Norma mit pikantem Auberginen-Tomatensugo",
+        "en": "penne rigate alla Norma with spicy eggplant tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käseschnitzel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Käseschnitzel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 quinoa-erbsen-frikadellen, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Quinoa-Erbsen-Frikadellen, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 fried quinoa pea patties, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "paprika-sahne-hähnchen, bunter gemüsereis",
+      "name": {
+        "de": "Paprika-Sahne-Hähnchen, bunter Gemüsereis",
+        "en": "bell pepper cream chicken, colourful vegetable rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

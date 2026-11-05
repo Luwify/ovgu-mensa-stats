@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "rigatoni verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "name": {
+        "de": "Rigatoni Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "rigatoni Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sudenburger currywurst, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Weißkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mini-schweinegrillhaxe, majoransauce, sauerkraut, bratkartoffeln",
+      "name": {
+        "de": "Mini-Schweinegrillhaxe, Majoransauce, Sauerkraut, Bratkartoffeln",
+        "en": "small grilled pork leg, marjoram sauce, sauerkraut, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

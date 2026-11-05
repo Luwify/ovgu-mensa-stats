@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "date": "2026-11-12",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten",
+      "name": {
+        "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten",
+        "en": "turkey escalope Hamburg style with fried egg, cream sauce, carrot-courgette-parsnip vegetables, potato croquettes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
+      "name": {
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, tender wheat"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratenes seehechtfilet grenobler art mit kapern-petersilien-butter und zitrone, champignon-spinat-gemüse, tomatenreis",
+      "name": {
+        "de": "Gebratenes Seehechtfilet Grenobler Art mit Kapern-Petersilien-Butter und Zitrone, Champignon-Spinat-Gemüse, Tomatenreis",
+        "en": "fried hake fillet 'Grenoble-style' with pickled capers-parsley-butter and lemon, mushroom spinach vegetables, tomato rice"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Die Goldenen Zwanziger",
+          "en": "History Bites - The Roaring Twenties"
+        }
+      ],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla casalinga mit kochschinken und erbsen in sahnesauce",
+      "name": {
+        "de": "Penne Rigate alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
+        "en": "penne rigate alla Casalinga with cooked ham and peas in cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "name": {
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

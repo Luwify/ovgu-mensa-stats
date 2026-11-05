@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "date": "2026-11-07",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitzel piccata im käsemantel, majoransauce,brokkoli, salzkartoffeln",
+      "name": {
+        "de": "Hähnchenschnitzel Piccata im Käsemantel, Majoransauce,Brokkoli, Salzkartoffeln",
+        "en": "chicken escalope piccata in cheese coating, marjoram sauce,broccoli, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "paprikaschote mit bunter gemüsefüllung, zartweizenpfanne mit pastinake, möhre, fenchel und wirsing, paprikasauce",
+      "name": {
+        "de": "Paprikaschote mit bunter Gemüsefüllung, Zartweizenpfanne mit Pastinake, Möhre, Fenchel und Wirsing, Paprikasauce",
+        "en": "bell pepper with colourful vegetable filling, soft wheat pan with parsnip, carrot, fennel and savoy cabbage, bell pepper sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "linseneintopf",
+      "name": {
+        "de": "Linseneintopf",
+        "en": "lentil stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

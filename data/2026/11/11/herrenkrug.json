@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "2 rote beete-puffer, meerrettichsauce, pfannengemüse, bio-langkornreis",
+      "name": {
+        "de": "2 Rote Beete-Puffer, Meerrettichsauce, Pfannengemüse, BIO-Langkornreis",
+        "en": "2 beetroot hash browns, horseradish sauce, pan-fried vegetables, organic long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "coq au vin - hähnchenbrust und hähnchenunterschenkel mit schmorgemüse in rotweinsauce, kürbis-kartoffelstampf",
+      "name": {
+        "de": "Coq au vin - Hähnchenbrust und Hähnchenunterschenkel mit Schmorgemüse in Rotweinsauce, Kürbis-Kartoffelstampf",
+        "en": "Coq au vin - chicken breast and chicken drumstick with braised vegetables in red wine sauce, pumpkin mashed potatoes"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Biedermeierzeit",
+          "en": "History Bites - Biedermeier Period"
+        }
+      ],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rigatoni verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "name": {
+        "de": "Rigatoni Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "rigatoni Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rouladentopf - rindergeschnetzeltes mit schinkenspeck, gewürzgurke, zwiebel und senf, rotkohl, kartoffelklöße",
+      "name": {
+        "de": "Rouladentopf - Rindergeschnetzeltes mit Schinkenspeck, Gewürzgurke, Zwiebel und Senf, Rotkohl, Kartoffelklöße",
+        "en": "Rouladentopf - beef strips with bacon, pickled cucumber, onion and mustard, red cabbage, potato dumplings"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Deutsche Kaiserzeit",
+          "en": "History Bites - German Imperial Era"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "8",
+        "9",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

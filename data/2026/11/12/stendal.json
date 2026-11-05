@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "date": "2026-11-12",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "4 kartoffel-frischkäsetaschen, tomatendip, marinierte blattsalate",
+      "name": {
+        "de": "4 Kartoffel-Frischkäsetaschen, Tomatendip, marinierte Blattsalate",
+        "en": "4 potato cream cheese pockets, tomato dip, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
+      "name": {
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, tender wheat"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratenes seehechtfilet grenobler art mit kapern-petersilien-butter und zitrone, champignon-spinat-gemüse, tomatenreis",
+      "name": {
+        "de": "Gebratenes Seehechtfilet Grenobler Art mit Kapern-Petersilien-Butter und Zitrone, Champignon-Spinat-Gemüse, Tomatenreis",
+        "en": "fried hake fillet 'Grenoble-style' with pickled capers-parsley-butter and lemon, mushroom spinach vegetables, tomato rice"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Die Goldenen Zwanziger",
+          "en": "History Bites - The Roaring Twenties"
+        }
+      ],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla napoletana mit geschmortem rindfleisch und wurzelgemüse",
+      "name": {
+        "de": "Penne Rigate alla Napoletana mit geschmortem Rindfleisch und Wurzelgemüse",
+        "en": "penne rigate alla Napoletana with braised beef and root vegetables"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "name": {
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

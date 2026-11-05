@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "sojageschnetzeltes puszta art mit paprika, zwiebel, gewürzgurke und chili, langkornreis",
+      "name": {
+        "de": "Sojageschnetzeltes Puszta Art mit Paprika, Zwiebel, Gewürzgurke und Chili, Langkornreis",
+        "en": "sliced soya in cream sauce 'Puszta style' with bell pepper, onion, pickled cucumber and chilli, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sudenburger currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Vegane Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "vegan curry sausage, french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bananen-schokokuchen vom blech",
+      "name": {
+        "de": "Bananen-Schokokuchen vom Blech",
+        "en": "banana chocolate cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "eine schinkenknacker zum eintopf",
+      "name": {
+        "de": "Eine Schinkenknacker zum Eintopf",
+        "en": "One ham sausage to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 170,
+        "guests": 190
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "ein paar geflügel-wiener würstchen zum eintopf",
+      "name": {
+        "de": "Ein Paar Geflügel-Wiener Würstchen zum Eintopf",
+        "en": "A pair of poultry 'Vienna style' sausages to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 170,
+        "guests": 190
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "S"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfel-pfannkuchen, honig-sauerrahm, heiße beerenfrüchte, geröstete walnüsse",
+      "name": {
+        "de": "Apfel-Pfannkuchen, Honig-Sauerrahm, heiße Beerenfrüchte, geröstete Walnüsse",
+        "en": "apple pancakes, honey sour cream, hot berries, roasted walnuts"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Antike",
+          "en": "History Bites - Classical Antiquity"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g",
+        "h3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffeleintopf",
+      "name": {
+        "de": "Kartoffeleintopf",
+        "en": "potato stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "wildbratwurst mit tunke, lehm und stroh - wacholdersauce, erbspüree, sauerkraut",
+      "name": {
+        "de": "Wildbratwurst mit Tunke, Lehm und Stroh - Wacholdersauce, Erbspüree, Sauerkraut",
+        "en": "venison sausage with Tunke, Lehm and Stroh - juniper sauce, pea purée, sauerkraut"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Mittelalter",
+          "en": "History Bites - Middle Ages"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        },
+        {
+          "key": "wild",
+          "label": "Wild"
+        }
+      ],
+      "codes": [
+        "3",
+        "8",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "linseneintopf",
+      "name": {
+        "de": "Linseneintopf",
+        "en": "lentil stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

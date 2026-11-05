@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "date": "2026-11-06",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "7 chicken nuggets, süß-saure sauce, chinagemüse oder brokkoli, langkornreis oder pommes frites",
+      "name": {
+        "de": "7 Chicken Nuggets, süß-saure Sauce, Chinagemüse oder Brokkoli, Langkornreis oder Pommes Frites",
+        "en": "7 Chicken Nuggets, sweet sour sauce, Chinese vegetables or broccoli, long grain rice or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kasslerbraten, grünkohl, kartoffelklöße",
+      "name": {
+        "de": "Kasslerbraten, Grünkohl, Kartoffelklöße",
+        "en": "smoked pork roast, kale, potato dumplings"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "8",
+        "i",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene kürbiskern-schupfnudeln, aioli, rotkrautsalat mit hirtenkäse, granatapfelkernen, rucola und walnüssen in balsamicomarinade",
+      "name": {
+        "de": "Gebratene Kürbiskern-Schupfnudeln, Aioli, Rotkrautsalat mit Hirtenkäse, Granatapfelkernen, Rucola und Walnüssen in Balsamicomarinade",
+        "en": "fried pumpkin seed potato noodles, aioli, red cabbage salad with herder's cheese, pomegranate seeds, arugula and walnuts"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "a4",
+        "f",
+        "g",
+        "h3",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chili sin carne aus bio-sonnenblumenhack, langkornreis",
+      "name": {
+        "de": "Chili sin carne aus BIO-Sonnenblumenhack, Langkornreis",
+        "en": "Chilli sin carne made from organic sunflower mince, long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "papageienkuchen",
+      "name": {
+        "de": "Papageienkuchen",
+        "en": "rainbow sheet cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g",
+        "A"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

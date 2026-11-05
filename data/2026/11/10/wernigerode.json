@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, salzkartoffeln oder pommes frites",
+      "name": {
+        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Salzkartoffeln oder Pommes Frites",
+        "en": "chicken slices Diana with broccoli cheese filling, Dutch sauce, mixed vegetables 'Leipzig style', salt potatoes or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "orientalische kürbissuppe mit kichererbsen und koriander",
+      "name": {
+        "de": "Orientalische Kürbissuppe mit Kichererbsen und Koriander",
+        "en": "oriental pumpkin soup with chickpeas and coriander"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebackener goudakäse, preiselbeeren, blumenkohl à la dubbary in bechamelsauce, kräuter-gerste",
+      "name": {
+        "de": "Gebackener Goudakäse, Preiselbeeren, Blumenkohl à la Dubbary in Bechamelsauce, Kräuter-Gerste",
+        "en": "baked Gouda cheese, European cranberries, cauliflower à la Dubbary in Béchamel sauce, herbs barley"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Barock",
+          "en": "History Bites - Baroque"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a2",
+        "a3",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "name": {
+        "de": "Penne Rigate Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "penne rigate Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "date": "2026-11-06",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "4 kartoffel-frischkäsetaschen, tomatendip, marinierte blattsalate",
+      "name": {
+        "de": "4 Kartoffel-Frischkäsetaschen, Tomatendip, marinierte Blattsalate",
+        "en": "4 potato cream cheese pockets, tomato dip, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "pork escalope with breading, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "Vegan escalope, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "papageienkuchen",
+      "name": {
+        "de": "Papageienkuchen",
+        "en": "rainbow sheet cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

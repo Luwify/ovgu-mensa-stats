@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "5 kartoffelrösti, kräuterquark, marinierte blattsalate",
+      "name": {
+        "de": "5 Kartoffelrösti, Kräuterquark, marinierte Blattsalate",
+        "en": "5 hash browns, herb quark, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mango-chicken-curry, langkornreis, koriandergrün",
+      "name": {
+        "de": "Mango-Chicken-Curry, Langkornreis, Koriandergrün",
+        "en": "mango chicken curry, long grain rice, coriander leaves"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

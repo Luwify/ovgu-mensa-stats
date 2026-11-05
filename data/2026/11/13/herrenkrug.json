@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "barbecue-chicken-pizza mit paprika, mais und roten zwiebeln",
+      "name": {
+        "de": "Barbecue-Chicken-Pizza mit Paprika, Mais und roten Zwiebeln",
+        "en": "Barbecue chicken pizza with bell pepper, corn and red onions"
+      },
+      "labels": [],
+      "prices": {
+        "students": 410,
+        "staff": 580,
+        "guests": 720
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sellerieschnitzel, schnittlauchsauce, möhren-steckrübengemüse, süß-saure linsen mit backpflaumen",
+      "name": {
+        "de": "Sellerieschnitzel, Schnittlauchsauce, Möhren-Steckrübengemüse, süß-saure Linsen mit Backpflaumen",
+        "en": "celery schnitzel, chive sauce, carrot turnip vegetables, sweet and sour lentils with pruns"
+      },
+      "labels": [
+        {
+          "de": "History Bites - Nachkriegszeit",
+          "en": "History Bites - Postwar Era"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "f",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 kartoffelrösti, kräuterquark, marinierte blattsalate",
+      "name": {
+        "de": "5 Kartoffelrösti, Kräuterquark, marinierte Blattsalate",
+        "en": "5 hash browns, herb quark, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "braumeistersteak - paniertes schweinerückensteak mit kochschinken-käsefüllung, biersauce, butterbohnen, bratkartoffeln",
+      "name": {
+        "de": "Braumeistersteak - Paniertes Schweinerückensteak mit Kochschinken-Käsefüllung, Biersauce, Butterbohnen, Bratkartoffeln",
+        "en": "Braumeistersteak - breaded pork steak filled with cooked ham and cheese, Biersauce, butter beans, fried potatoes"
+      },
+      "labels": [
+        {
+          "de": "History Bites - DDR-Zeit",
+          "en": "History Bites - GDR Era"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "a3",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bananen-schokokuchen vom blech",
+      "name": {
+        "de": "Bananen-Schokokuchen vom Blech",
+        "en": "banana chocolate cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

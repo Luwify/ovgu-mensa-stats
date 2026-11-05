@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "date": "2026-11-06",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchencrossies, süß-saure sauce, chinagemüse, langkornreis",
+      "name": {
+        "de": "Hähnchencrossies, süß-saure Sauce, Chinagemüse, Langkornreis",
+        "en": "chicken crossies, sweet sour sauce, Chinese vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "blumenkohl-knusper-medaillon gärtnerin art mit hollandaise und gemüseallerlei, salzkartoffeln",
+      "name": {
+        "de": "Blumenkohl-Knusper-Medaillon Gärtnerin Art mit Hollandaise und Gemüseallerlei, Salzkartoffeln",
+        "en": "crunchy cauliflower medallion, gardener`s style with hollandaise sauce and vegetables mix, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebackene frühlingsrolle, süß-saure sauce, chinagemüse, langkornreis",
+      "name": {
+        "de": "Gebackene Frühlingsrolle, süß-saure Sauce, Chinagemüse, Langkornreis",
+        "en": "baked spring roll, sweet sour sauce, Chinese vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "f",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "6 seelachs-kibbelinge, süß-saure sauce, chinagemüse, langkornreis",
+      "name": {
+        "de": "6 Seelachs-Kibbelinge, süß-saure Sauce, Chinagemüse, Langkornreis",
+        "en": "6 deep fried pollacks, sweet sour sauce, Chinese vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "d",
+        "f",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

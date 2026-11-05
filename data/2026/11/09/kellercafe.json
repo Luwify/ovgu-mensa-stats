@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "orientalische kürbissuppe mit kichererbsen und koriander",
+      "name": {
+        "de": "Orientalische Kürbissuppe mit Kichererbsen und Koriander",
+        "en": "oriental pumpkin soup with chickpeas and coriander"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti, bolognese aus geflügelhack und mediterranem gemüse",
+      "name": {
+        "de": "Gabelspaghetti, Bolognese aus Geflügelhack und mediterranem Gemüse",
+        "en": "cut up shortened spaghetti, bolognese made from minced poultry and mediterranean vegetables"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sudenburger currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Vegane Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "vegan curry sausage, french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-kirschkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Kirschkuchen",
+        "en": "vegan chocolate cherry cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}
