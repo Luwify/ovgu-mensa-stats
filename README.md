@@ -14,8 +14,9 @@ Not affiliated with OvGU or Studentenwerk Magdeburg. The data starts with the fi
    [Luwify/ovgu-mensa](https://github.com/Luwify/ovgu-mensa) at its latest release tag, builds the `:scraper` CLI and
    commits the new files in `data/`. The CLI uses the app's own parser and host fallback; there is no second parser here.
    Until a release contains the CLI, the workflow uses the commit in `SCRAPER_FALLBACK_REF`.
-2. After a commit with new data, the same run calls `.github/workflows/pages.yml`: tests, smoke test, build, deploy to
-   GitHub Pages. The call is needed because a push made with the job's token starts no other workflow.
+2. After a commit with new data, the same run calls `.github/workflows/pages.yml`: aggregation tests, build, deploy to
+   GitHub Pages. The call is needed because a push made with the job's token starts no other workflow. The Playwright
+   smoke test runs on every push of code, not on the daily data commit.
 
 A run is idempotent. The files hold no time of the fetch, so an unchanged menu gives identical bytes and no commit. A
 Mensa that fails is retried once and then shows as a warning on the run page; the others go through. The run only fails

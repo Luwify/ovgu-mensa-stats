@@ -106,3 +106,5 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/pages.yml
+    with:
+      skip_browser_test: true

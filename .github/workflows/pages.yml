@@ -5,6 +5,12 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_call:
+    inputs:
+      # The daily data commit changes no code, so it doesn't need the browser test (run on every push), and a hanging
+      # browser install can't cost a day's update.
+      skip_browser_test:
+        type: boolean
+        default: false
 
 permissions: {}
 
@@ -32,11 +38,14 @@ jobs:
         run: python -m unittest tests.test_build_site
 
       - name: Install Playwright
+        if: ${{ !inputs.skip_browser_test }}
+        timeout-minutes: 5
         run: |
           pip install --quiet --requirement tests/requirements.txt
           python -m playwright install --with-deps chromium
 
       - name: Smoke test
+        if: ${{ !inputs.skip_browser_test }}
         run: python -m unittest tests.smoke_test
 
       - name: Build
