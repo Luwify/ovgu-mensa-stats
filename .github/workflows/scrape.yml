@@ -13,9 +13,9 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Used only while the latest release of the app has no scraper/ yet: the first commit with the CLI. Remove once a
-  # release contains it.
-  SCRAPER_FALLBACK_REF: 188bbf4e7054a4d66a05e8b0b73a0b0a68c3731e
+  # Used only while the latest release of the app has no scraper/ yet: a commit of the app with the current CLI. Remove
+  # once a release contains it.
+  SCRAPER_FALLBACK_REF: 2fd924038e9789ac597488b7bf3318140877fc68
 
 jobs:
   scrape:
@@ -69,7 +69,8 @@ jobs:
         working-directory: .mensa
         run: ./gradlew --no-daemon :scraper:installDist
 
-      # Fails only when no Mensa gave any dishes. One failing Mensa is a warning on the run page.
+      # Fails only when no Mensa could be fetched. One failing Mensa is a warning on the run page; pages without dishes
+      # (closed, holidays) are a normal run with nothing to commit.
       - name: Scrape
         run: .mensa/scraper/build/install/scraper/bin/scraper --out data
 

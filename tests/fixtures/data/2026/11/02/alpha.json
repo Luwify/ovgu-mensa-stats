@@ -58,6 +58,25 @@
       "dinner": false,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "käsespätzle",
+      "name": {
+        "de": "Käsespätzle",
+        "en": "Cheese spaetzle"
+      },
+      "labels": [],
+      "prices": {
+        "students": 300,
+        "staff": 450,
+        "guests": 600
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
     }
   ]
 }

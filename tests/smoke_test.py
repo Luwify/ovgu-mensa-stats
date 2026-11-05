@@ -58,8 +58,8 @@ class Smoke(unittest.TestCase):
         expect(page.locator("#tiles .tile")).to_have_count(4)
         expect(page.locator("#list-title")).to_have_text("Häufigste Gerichte")
         expect(page.locator("#list .dish").first).to_contain_text("Linsen-Dal mit Reis")
-        expect(page.locator("#list .dish").first).to_contain_text("5×")
-        expect(page.locator("#shares li")).to_have_count(3)
+        expect(page.locator("#list .dish").first).to_contain_text("4×")
+        expect(page.locator("#shares li")).to_have_count(4)  # selection overall + 3 Mensen
         expect(page.locator("#mensen tbody tr")).to_have_count(3)
 
     def test_footer_says_source_and_no_affiliation(self):
@@ -84,13 +84,9 @@ class Smoke(unittest.TestCase):
         page.fill("#q", "festes")
         expect(page.locator("#list .dish")).to_contain_text("Festes Angebot")
 
-    def test_mensa_and_kind_filters(self):
+    def test_kind_filter(self):
         page = self.open()
-        page.select_option("#mensa", "beta")
-        expect(page.locator("#list .dish")).to_have_count(2)
-        expect(page.locator("#list")).not_to_contain_text("Testschnitzel")
-        page.select_option("#mensa", "")
-        page.get_by_role("button", name="Vegetarisch").click()
+        page.locator("#kinds").get_by_role("button", name="Vegetarisch").click()
         expect(page.locator("#list")).not_to_contain_text("Testschnitzel")
         expect(page.locator("#list")).to_contain_text("Käsespätzle")
         expect(page.locator("#list")).to_contain_text("Linsen-Dal")
@@ -105,7 +101,7 @@ class Smoke(unittest.TestCase):
         expect(dialog).to_contain_text("Alpha-Mensa")
         expect(dialog).to_contain_text("Beta-Mensa")
         expect(dialog.locator(".chart svg path")).to_have_count(3)
-        expect(dialog.locator("table.prices tbody tr")).to_have_count(2)
+        expect(dialog.locator("table.prices tbody tr")).to_have_count(3)
         expect(dialog.locator("table.prices tbody tr").first).to_contain_text("2,90")
         dialog.locator(".chart svg").hover()
         expect(page.locator("#tip")).to_contain_text("Studierende")
@@ -121,10 +117,10 @@ class Smoke(unittest.TestCase):
         page = self.open()
         page.select_option("#month", "2026-10")
         first = page.locator("#shares li").first
-        expect(first).to_contain_text("Beta-Mensa")
-        expect(first).to_contain_text("100")
+        expect(first).to_contain_text("Auswahl gesamt")
+        expect(page.locator("#shares li", has_text="Beta-Mensa")).to_contain_text("100")
         page.select_option("#month", "2026-11")
-        expect(page.locator("#shares li")).to_have_count(2)
+        expect(page.locator("#shares li", has_text="Festmensa")).to_have_count(1)
 
     def test_english_toggle_is_remembered(self):
         page = self.open()

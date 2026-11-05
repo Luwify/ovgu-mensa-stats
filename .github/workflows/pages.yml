@@ -44,9 +44,9 @@ jobs:
           pip install --quiet --requirement tests/requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Smoke test
+      - name: Browser tests
         if: ${{ !inputs.skip_browser_test }}
-        run: python -m unittest tests.smoke_test
+        run: python -m unittest tests.smoke_test tests.filters_test
 
       - name: Build
         run: python scripts/build_site.py

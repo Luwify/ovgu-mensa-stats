@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
-"""Builds the static site: copies site/ and writes the aggregated JSON the page reads.
+"""Builds the static site: copies site/ and writes stats/data.json, the packed data the page counts from.
 
     python3 scripts/build_site.py [--data data] [--out _site]
 
-Standard library only. A "day entry" below is one dish on one day in one Mensa, the same dish twice on a day (lunch and
-dinner) counts once. Dishes are matched by the `key` the scraper wrote, which is the Mensa MD app's favorites key.
+Standard library only. The same dish twice on a day in one Mensa (lunch and dinner) is one record. Dishes are matched by
+the `key` the scraper wrote, which is the Mensa MD app's favorites key (`Favorites.normalize` in its :core module).
 """
 from __future__ import annotations
 
 import argparse
 import json
 import shutil
-import statistics
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -21,6 +20,7 @@ SCHEMA = 1
 GROUPS = ("students", "staff", "guests")
 VEGAN = "vegan"
 VEGETARIAN = "vegetarisch"
+KIND_VEGAN, KIND_VEGETARIAN, KIND_OTHER = 0, 1, 2
 
 
 def load_days(data_dir: Path) -> list[dict]:
@@ -40,117 +40,61 @@ def load_days(data_dir: Path) -> list[dict]:
     return days
 
 
-def price_row(prices: dict) -> tuple:
-    return tuple(prices.get(group) for group in GROUPS)
+def kind_of(dish: dict) -> int:
+    tags = {tag["key"] for tag in dish.get("tags", [])}
+    return KIND_VEGAN if VEGAN in tags else KIND_VEGETARIAN if VEGETARIAN in tags else KIND_OTHER
 
 
-def typical_price(rows: list[tuple]) -> tuple:
-    """Per group the middle price of a day's Mensen; always a price that really was on a menu."""
-    result = []
-    for i in range(len(GROUPS)):
-        values = [row[i] for row in rows if row[i] is not None]
-        result.append(statistics.median_low(values) if values else None)
-    return tuple(result)
+def aggregate(days: list[dict], generated: str) -> dict:
+    """Packs the day files for the browser, which does all counting (site/stats.js), so any choice of Mensen works.
 
-
-def price_changes(by_date: dict[str, list[tuple]]) -> list[list]:
-    """[date, students, staff, guests] for the first day and every day the typical price differs from the day before."""
-    changes: list[list] = []
-    previous = None
-    for date in sorted(by_date):
-        row = typical_price(by_date[date])
-        if row != previous:
-            changes.append([date, *row])
-            previous = row
-    return changes
-
-
-def aggregate(days: list[dict], generated: str) -> tuple[dict, list[dict]]:
-    """Returns (summary, dishes). Fixed lists count as "on offer", never as day entries (they have no real days)."""
-    dishes: dict[str, dict] = {}
+    Per dish, `occ` holds one record per day and Mensa as four flat numbers: day index, Mensa index, index into the
+    dish's `prices` (-1 = none) and kind. Sorted by day, then Mensa. `fixed` has the same records for lists without dates:
+    they say what was on offer but are never counted as days. Dishes are matched by `key` only.
+    """
     mensen: dict[str, dict] = {}
-    shares: dict[tuple[str, str], Counter] = defaultdict(Counter)
-    tag_labels: dict[str, Counter] = defaultdict(Counter)
-    dated_days = set()
-    fallback_files = 0
-
     for day in days:
-        date, mensa_id = day["date"], day["mensa"]["id"]
-        fixed = bool(day.get("fixed"))
-        fallback_files += day.get("source") == "fallback"
-        mensa = mensen.setdefault(mensa_id, {
-            "id": mensa_id, "fixed": fixed, "entries": 0, "keys": set(), "first": date, "last": date,
-        })
-        mensa["name"] = day["mensa"]["name"]  # days are sorted, so the newest spelling wins
-        mensa["last"] = date
-        if not fixed:
-            dated_days.add(date)
+        mensen[day["mensa"]["id"]] = {"id": day["mensa"]["id"], "name": day["mensa"]["name"], "fixed": bool(day.get("fixed"))}
+    mensa_list = sorted(mensen.values(), key=lambda m: m["name"]["de"].casefold())
+    mensa_index = {m["id"]: i for i, m in enumerate(mensa_list)}
+    dates = sorted({day["date"] for day in days})
+    date_index = {date: i for i, date in enumerate(dates)}
 
+    dishes: dict[str, dict] = {}
+    tag_labels: dict[str, Counter] = defaultdict(Counter)
+    for day in days:
         seen = set()
         for dish in day["dishes"]:
             key = dish["key"]
             if not key or key in seen:
                 continue
             seen.add(key)
-            entry = dishes.setdefault(key, {
-                "key": key, "count": 0, "first": date, "last": date, "mensen": Counter(), "fixedIn": set(),
-                "tags": set(), "cake": False, "byDate": defaultdict(list), "latest": {},
-            })
-            entry["name"] = dish["name"]
-            entry["last"] = date
+            entry = dishes.setdefault(key, {"key": key, "tags": set(), "cake": False, "prices": [], "occ": [], "fixed": []})
+            entry["name"] = dish["name"]  # days are sorted, so the newest spelling wins
             entry["cake"] = entry["cake"] or bool(dish.get("cake"))
-            tags = {tag["key"] for tag in dish.get("tags", [])}
-            entry["tags"] |= tags
             for tag in dish.get("tags", []):
+                entry["tags"].add(tag["key"])
                 tag_labels[tag["key"]][tag.get("label", tag["key"])] += 1
             prices = dish.get("prices") or {}
+            price = -1
             if prices:
-                row = price_row(prices)
-                entry["byDate"][date].append(row)
-                entry["latest"][mensa_id] = list(row)
-            mensa["keys"].add(key)
-            mensa["entries"] += 0 if fixed else 1
-            if fixed:
-                entry["fixedIn"].add(mensa_id)
-            else:
-                entry["count"] += 1
-                entry["mensen"][mensa_id] += 1
-            kind = "vegan" if VEGAN in tags else "vegetarian" if VEGETARIAN in tags else "other"
-            shares[(mensa_id, date[:7])][kind] += 1
+                row = [prices.get(group) for group in GROUPS]
+                if row not in entry["prices"]:
+                    entry["prices"].append(row)
+                price = entry["prices"].index(row)
+            target = entry["fixed"] if day.get("fixed") else entry["occ"]
+            target.extend((date_index[day["date"]], mensa_index[day["mensa"]["id"]], price, kind_of(dish)))
 
-    dish_list = [{
-        "key": e["key"],
-        "name": e["name"],
-        "count": e["count"],
-        "first": e["first"],
-        "last": e["last"],
-        "mensen": dict(sorted(e["mensen"].items())),
-        "fixedIn": sorted(e["fixedIn"]),
-        "tags": sorted(e["tags"]),
-        "cake": e["cake"],
-        "prices": price_changes(e["byDate"]),
-        "latest": dict(sorted(e["latest"].items())),
-    } for e in dishes.values()]
-    dish_list.sort(key=lambda d: (-d["count"], d["name"]["de"].casefold(), d["key"]))
-
-    summary = {
+    dish_list = [{**e, "tags": sorted(e["tags"])} for e in dishes.values()]
+    dish_list.sort(key=lambda d: (d["name"]["de"].casefold(), d["key"]))
+    return {
         "generated": generated,
-        "firstDate": days[0]["date"] if days else None,
-        "lastDate": days[-1]["date"] if days else None,
-        "days": len(dated_days),
-        "entries": sum(d["count"] for d in dish_list),
-        "dishes": len(dish_list),
-        "fallbackFiles": fallback_files,
-        "mensen": sorted(({
-            "id": m["id"], "name": m["name"], "fixed": m["fixed"], "entries": m["entries"], "dishes": len(m["keys"]),
-            "first": m["first"], "last": m["last"],
-        } for m in mensen.values()), key=lambda m: m["name"]["de"].casefold()),
-        "shares": [{
-            "mensa": mensa_id, "month": month, "vegan": c["vegan"], "vegetarian": c["vegetarian"], "other": c["other"],
-        } for (mensa_id, month), c in sorted(shares.items())],
+        "fallbackFiles": sum(day.get("source") == "fallback" for day in days),
+        "dates": dates,
+        "mensen": mensa_list,
         "tags": {key: labels.most_common(1)[0][0] for key, labels in sorted(tag_labels.items())},
+        "dishes": dish_list,
     }
-    return summary, dish_list
 
 
 def write_json(path: Path, value) -> None:
@@ -161,11 +105,10 @@ def build(data_dir: Path, site_dir: Path, out_dir: Path) -> dict:
     shutil.rmtree(out_dir, ignore_errors=True)
     shutil.copytree(site_dir, out_dir)
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    summary, dishes = aggregate(load_days(data_dir), generated)
+    data = aggregate(load_days(data_dir), generated)
     (out_dir / "stats").mkdir()
-    write_json(out_dir / "stats" / "summary.json", summary)
-    write_json(out_dir / "stats" / "dishes.json", dishes)
-    return summary
+    write_json(out_dir / "stats" / "data.json", data)
+    return data
 
 
 def main() -> None:
@@ -174,8 +117,8 @@ def main() -> None:
     parser.add_argument("--data", type=Path, default=root / "data")
     parser.add_argument("--out", type=Path, default=root / "_site")
     args = parser.parse_args()
-    summary = build(args.data, root / "site", args.out)
-    print(f"{summary['dishes']} dishes, {summary['entries']} day entries, {summary['firstDate']} to {summary['lastDate']}")
+    data = build(args.data, root / "site", args.out)
+    print(f"{len(data['dishes'])} dishes on {len(data['dates'])} days in {len(data['mensen'])} Mensen")
 
 
 if __name__ == "__main__":

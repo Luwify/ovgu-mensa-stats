@@ -10,18 +10,23 @@ const TEXT = {
     fallback: (n) => ` ${n} Tagespläne stammen vom Testserver des Studentenwerks, weil die Hauptseite nicht erreichbar war.`,
     themeToggle: "Hell oder dunkel", langSwitch: "Switch to English", overview: "Überblick",
     tileDays: "Tage erfasst", tileDishes: "verschiedene Gerichte", tileEntries: "Einträge im Plan", tileMensen: "Mensen",
-    dishes: "Gerichte", search: "Suche", searchHint: "z. B. Currywurst", mensa: "Mensa", allMensen: "Alle Mensen",
+    filterTitle: "Auswahl", once: "Gleiches Gericht am selben Tag nur einmal zählen",
+    dishes: "Gerichte", search: "Suche", searchHint: "z. B. Currywurst", mensa: "Mensen", allMensen: "Alle",
     kindFilter: "Art", all: "Alle", vegan: "Vegan", vegetarian: "Vegetarisch", other: "Sonstige",
     topTitle: "Häufigste Gerichte", hits: (n) => `${n} Treffer`, noHits: "Nichts gefunden.",
     more: (n) => `${n} weitere anzeigen`, times: (n) => `${n}×`,
     lastSeen: (d) => `zuletzt ${d}`, inMensen: (n) => `in ${n} ${n === 1 ? "Mensa" : "Mensen"}`, fixedOffer: "Festes Angebot",
     shareTitle: "Vegan und vegetarisch je Mensa", month: "Monat", allMonths: "Gesamter Zeitraum",
-    shareHint: "Anteil an allen Gerichten des Speiseplans. Vegan zählt nicht zusätzlich als vegetarisch.",
+    shareHint: "Anteil an allen Gerichten des Speiseplans der ausgewählten Mensen. Vegan zählt nicht zusätzlich als vegetarisch.",
+    shareTotal: "Auswahl gesamt",
+    noMenus: (n, list) => `An ${n} ${n === 1 ? "Werktag" : "Werktagen"} steht für diese Auswahl nichts im Speiseplan (geschlossen, Feiertag oder nicht erfasst): ${list}`,
+    notInSelection: "In dieser Auswahl nicht im Plan.",
     shareValue: (a, b, n) => `${a} % vegan · ${b} % vegetarisch · ${n} Gerichte`, shareFixed: "Festes Angebot, jeder Tag gleich",
     mensenTitle: "Mensen", colMensa: "Mensa", colEntries: "Einträge", colDishes: "Gerichte", colFirst: "Erster Tag", colLast: "Letzter Tag",
     aboutTitle: "So wird gezählt",
-    about1: "Gezählt wird, wie oft ein Gericht im veröffentlichten Speiseplan steht: einmal je Tag und Mensa, auch für die kommenden Tage. Ein Eintrag im Plan heißt nicht, dass das Gericht wirklich ausgegeben wurde.",
-    about2: "Gerichte gelten als gleich, wenn ihr Name bis auf Groß- und Kleinschreibung und Leerzeichen übereinstimmt. Kleine Änderungen im Namen ergeben ein neues Gericht.",
+    about1: "Gezählt wird, wie oft ein Gericht im veröffentlichten Speiseplan der ausgewählten Mensen steht, auch für die kommenden Tage. Ist „Gleiches Gericht am selben Tag nur einmal zählen“ an, zählt ein Gericht in mehreren Mensen am selben Tag einmal, sonst je Mensa. Hat es dann nur in einer davon die Kennzeichnung vegan oder vegetarisch, gilt diese. Ein Eintrag im Plan heißt nicht, dass das Gericht wirklich ausgegeben wurde.",
+    about2: "Gerichte gelten als gleich, wenn ihr Name wie bei den Favoriten der App übereinstimmt: Groß- und Kleinschreibung, Leerzeichen, Satzzeichen am Anfang und Ende und vorangestellte Hinweise zählen nicht. Andere Änderungen im Namen ergeben ein neues Gericht.",
+    aboutPrice: "Der Preisverlauf zeigt einen Wert je Tag. Unterscheiden sich die Preise zwischen den ausgewählten Mensen, gilt je Gruppe der niedrigste.",
     about3: "PIER 16 hat einen festen Plan ohne Tage. Diese Gerichte stehen als „Festes Angebot“ in der Liste und zählen nicht zur Häufigkeit.",
     about4: "Diese Seite ist keine Allergen-Auskunft.",
     source: "Quelle:", facts: "Hier stehen nur Fakten (Namen, Preise, Kennzeichen), keine übernommenen Texte oder Bilder.",
@@ -42,18 +47,23 @@ const TEXT = {
     fallback: (n) => ` ${n} daily menus come from the Studentenwerk's test server because the main site could not be reached.`,
     themeToggle: "Light or dark", langSwitch: "Auf Deutsch umschalten", overview: "Overview",
     tileDays: "days recorded", tileDishes: "different dishes", tileEntries: "menu entries", tileMensen: "canteens",
-    dishes: "Dishes", search: "Search", searchHint: "e.g. curry sausage", mensa: "Canteen", allMensen: "All canteens",
+    filterTitle: "Selection", once: "Count the same dish on the same day only once",
+    dishes: "Dishes", search: "Search", searchHint: "e.g. curry sausage", mensa: "Canteens", allMensen: "All",
     kindFilter: "Kind", all: "All", vegan: "Vegan", vegetarian: "Vegetarian", other: "Other",
     topTitle: "Most frequent dishes", hits: (n) => `${n} ${n === 1 ? "result" : "results"}`, noHits: "Nothing found.",
     more: (n) => `Show ${n} more`, times: (n) => `${n}×`,
     lastSeen: (d) => `last ${d}`, inMensen: (n) => `in ${n} ${n === 1 ? "canteen" : "canteens"}`, fixedOffer: "Fixed menu",
     shareTitle: "Vegan and vegetarian by canteen", month: "Month", allMonths: "Whole period",
-    shareHint: "Share of all dishes on the menu. Vegan dishes are not counted again as vegetarian.",
+    shareHint: "Share of all dishes on the menus of the selected canteens. Vegan dishes are not counted again as vegetarian.",
+    shareTotal: "Selection overall",
+    noMenus: (n, list) => `On ${n} ${n === 1 ? "weekday" : "weekdays"} this selection has nothing on the menu (closed, holiday or not recorded): ${list}`,
+    notInSelection: "Not on the menu in this selection.",
     shareValue: (a, b, n) => `${a}% vegan · ${b}% vegetarian · ${n} dishes`, shareFixed: "Fixed menu, the same every day",
     mensenTitle: "Canteens", colMensa: "Canteen", colEntries: "Entries", colDishes: "Dishes", colFirst: "First day", colLast: "Last day",
     aboutTitle: "How it is counted",
-    about1: "The count is how often a dish is on the published menu: once per day and canteen, including the coming days. An entry on the menu does not mean the dish was really served.",
-    about2: "Dishes count as the same when their German names match apart from upper and lower case and spaces. A small change in the name makes a new dish.",
+    about1: "The count is how often a dish is on the published menus of the selected canteens, including the coming days. With “Count the same dish on the same day only once” on, a dish in several canteens on one day counts once, otherwise once per canteen. If only one of them tags it vegan or vegetarian, that tag counts. An entry on the menu does not mean the dish was really served.",
+    about2: "Dishes count as the same when their German names match like the favorites of the app: upper and lower case, spaces, punctuation at the ends and leading labels don't matter. Any other change in the name makes a new dish.",
+    aboutPrice: "The price history shows one value per day. If prices differ between the selected canteens, the lowest per group counts.",
     about3: "PIER 16 has a fixed menu without days. Its dishes appear in the list as “Fixed menu” and don't count towards frequency.",
     about4: "This page is not allergen information.",
     source: "Source:", facts: "Only facts are shown here (names, prices, tags), no copied texts or images.",
@@ -78,8 +88,9 @@ const store = {
 
 const state = {
   lang: store.get("lang") === "en" ? "en" : "de",
-  summary: null, dishes: [], byKey: new Map(),
-  query: "", mensa: "", kind: "", shown: PAGE, month: "", openKey: null,
+  data: null, byKey: new Map(), flags: null, view: null,
+  mensen: [], once: true, // the filters every statistic follows; no Mensen = all
+  query: "", kind: "", shown: PAGE, month: "", openKey: null,
 };
 const t = () => TEXT[state.lang];
 
@@ -104,8 +115,7 @@ const fmtMonth = (ym) => new Intl.DateTimeFormat(locale(), { month: "long", year
 const fmtNum = (n) => new Intl.NumberFormat(locale()).format(n);
 const fmtPrice = (cents) => (cents === null || cents === undefined ? "–" : new Intl.NumberFormat(locale(), { style: "currency", currency: "EUR" }).format(cents / 100));
 const nameOf = (text) => text[state.lang] || text.de;
-const mensaName = (id) => { const m = state.summary.mensen.find((x) => x.id === id); return m ? nameOf(m.name) : id; };
-const tagLabel = (key) => t().tags[key] || state.summary.tags[key] || key;
+const tagLabel = (key) => t().tags[key] || state.data.tags[key] || key;
 const fold = (s) => s.toLocaleLowerCase("de").replace(/ß/g, "ss").normalize("NFD").replace(/\p{M}/gu, "");
 
 /* ---------- static text ---------- */
@@ -123,13 +133,21 @@ function applyText() {
 
 function renderAll() {
   applyText();
-  const s = state.summary;
-  if (!s) return;
-  if (!s.firstDate) { $("since").textContent = t().noData; }
-  else $("since").textContent = t().since(fmtDate(s.firstDate)) + (s.fallbackFiles ? t().fallback(s.fallbackFiles) : "");
-  $("built").textContent = t().built(fmtDate(s.generated.slice(0, 10)));
+  const d = state.data;
+  if (!d) return;
+  const first = d.dates[0];
+  if (!first) $("since").textContent = t().noData;
+  else $("since").textContent = t().since(fmtDate(first)) + (d.fallbackFiles ? t().fallback(d.fallbackFiles) : "");
+  $("built").textContent = t().built(fmtDate(d.generated.slice(0, 10)));
+  renderFilters();
+  renderView();
+}
+
+/** Everything that depends on the selection. */
+function renderView() {
   renderTiles();
-  renderSelects();
+  renderGaps();
+  renderMonths();
   renderKinds();
   renderList();
   renderShares();
@@ -137,25 +155,91 @@ function renderAll() {
   if (state.openKey) renderDetail();
 }
 
+/* ---------- filters ---------- */
+
+/** After a change of Mensen or the toggle: one pass over the data, then every view reads from the result. */
+function recompute() {
+  state.flags = MensaStats.mask(state.data, state.mensen);
+  state.view = MensaStats.compute(state.data, state.flags, state.once);
+}
+
+function selectionChanged() {
+  state.shown = PAGE;
+  recompute();
+  saveFilters();
+  renderFilters();
+  renderView();
+}
+
+function toggleMensa(id) {
+  state.mensen = state.mensen.includes(id) ? state.mensen.filter((m) => m !== id) : [...state.mensen, id];
+  // Every Mensa picked is the same as all, and keeps the link short.
+  if (state.mensen.length === state.data.mensen.length) state.mensen = [];
+  selectionChanged();
+}
+
+function renderFilters() {
+  const chip = (label, pressed, onclick, id) => h("button", {
+    type: "button", class: "chip", "aria-pressed": String(pressed), "data-mensa": id, onclick,
+  }, label);
+  $("mensa-chips").replaceChildren(
+    chip(t().allMensen, !state.mensen.length, () => { state.mensen = []; selectionChanged(); }, ""),
+    ...state.data.mensen.map((m) => chip(nameOf(m.name), state.mensen.includes(m.id), () => toggleMensa(m.id), m.id)),
+  );
+  $("once").checked = state.once;
+}
+
+/** The URL says what is shown, so a link reproduces the view; the browser remembers it for the next visit. */
+function saveFilters() {
+  const query = new URLSearchParams();
+  if (state.mensen.length) query.set("m", state.data.mensen.filter((m) => state.mensen.includes(m.id)).map((m) => m.id).join(","));
+  if (!state.once) query.set("once", "0");
+  if (state.kind) query.set("kind", state.kind);
+  if (state.month) query.set("month", state.month);
+  if (state.query.trim()) query.set("q", state.query.trim());
+  const text = query.toString().replace(/%2C/g, ",");
+  history.replaceState(history.state, "", `${location.pathname}${text ? `?${text}` : ""}${location.hash}`);
+  store.set("filters", JSON.stringify({ m: state.mensen, once: state.once, kind: state.kind, month: state.month }));
+}
+
+function loadFilters() {
+  const query = new URLSearchParams(location.search);
+  const fromUrl = ["m", "once", "kind", "month", "q"].some((k) => query.has(k));
+  let saved = {};
+  try { saved = JSON.parse(store.get("filters")) || {}; } catch { /* unreadable: defaults */ }
+  const known = new Set(state.data.mensen.map((m) => m.id));
+  const list = fromUrl ? (query.get("m") || "").split(",") : Array.isArray(saved.m) ? saved.m : [];
+  state.mensen = [...new Set(list)].filter((id) => known.has(id));
+  if (state.mensen.length === known.size) state.mensen = [];
+  state.once = fromUrl ? query.get("once") !== "0" : saved.once !== false;
+  const kind = fromUrl ? query.get("kind") : saved.kind;
+  state.kind = kind === "vegan" || kind === "vegetarian" ? kind : "";
+  const month = fromUrl ? query.get("month") : saved.month;
+  state.month = state.data.months.includes(month) ? month : "";
+  state.query = query.get("q") || "";
+  $("q").value = state.query;
+}
+
 function renderTiles() {
-  const s = state.summary;
+  const v = state.view;
   const tile = (value, label) => h("div", { class: "tile" }, h("b", {}, fmtNum(value)), h("span", {}, label));
   $("tiles").replaceChildren(
-    tile(s.days, t().tileDays), tile(s.dishes, t().tileDishes), tile(s.entries, t().tileEntries), tile(s.mensen.length, t().tileMensen),
+    tile(v.days, t().tileDays), tile(v.distinct, t().tileDishes), tile(v.entries, t().tileEntries), tile(v.selected, t().tileMensen),
   );
 }
 
-function renderSelects() {
-  const s = state.summary;
-  $("mensa").replaceChildren(
-    h("option", { value: "" }, t().allMensen),
-    ...s.mensen.map((m) => h("option", { value: m.id }, nameOf(m.name))),
-  );
-  $("mensa").value = state.mensa;
-  const months = [...new Set(s.shares.map((x) => x.month))].sort().reverse();
+function renderGaps() {
+  const days = state.view.noMenuDays;
+  $("gaps").hidden = !days.length;
+  if (!days.length) return;
+  const shown = days.slice(-6).map(fmtDate).join(", ");
+  $("gaps").textContent = t().noMenus(days.length, days.length > 6 ? `… ${shown}` : shown);
+}
+
+function renderMonths() {
   $("month").replaceChildren(
     h("option", { value: "" }, t().allMonths),
-    ...months.map((m) => h("option", { value: m }, fmtMonth(m))),
+    ...[...state.data.months].reverse().map((m) => h("option", { value: m }, fmtMonth(m))),
   );
   $("month").value = state.month;
 }
@@ -164,41 +248,30 @@ function renderKinds() {
   const kinds = [["", t().all], ["vegan", t().vegan], ["vegetarian", t().vegetarian]];
   $("kinds").replaceChildren(...kinds.map(([value, label]) => h("button", {
     type: "button", class: "chip", "aria-pressed": String(state.kind === value),
-    onclick: () => { state.kind = value; state.shown = PAGE; renderKinds(); renderList(); },
+    onclick: () => { state.kind = value; state.shown = PAGE; saveFilters(); renderKinds(); renderList(); },
   }, label)));
 }
 
 /* ---------- dish list ---------- */
 
-/** How often the dish counts under the current Mensa filter. */
-const countOf = (d) => (state.mensa ? d.mensen[state.mensa] || 0 : d.count);
-
 function matches() {
   const words = fold(state.query).split(/\s+/).filter(Boolean);
-  const isFixed = state.mensa && state.summary.mensen.find((m) => m.id === state.mensa)?.fixed;
-  const result = state.dishes.filter((d) => {
-    if (state.mensa && !d.mensen[state.mensa] && !d.fixedIn.includes(state.mensa)) return false;
+  const onlyFixed = state.view.mensen.every((m) => m.fixed);
+  return state.view.ranked.filter(({ dish: d, count }) => {
     if (state.kind === "vegan" && !d.tags.includes("vegan")) return false;
     if (state.kind === "vegetarian" && !d.tags.includes("vegetarisch") && !d.tags.includes("vegan")) return false;
     // The ranking is about real days; fixed-menu dishes show up when looked for.
-    if (!words.length && !isFixed && countOf(d) === 0) return false;
+    if (!words.length && !onlyFixed && count === 0) return false;
     return words.every((w) => d.search.includes(w));
   });
-  return result.sort((a, b) => countOf(b) - countOf(a) || a.name.de.localeCompare(b.name.de, "de"));
 }
 
 function renderList() {
   const found = matches();
   $("list-title").textContent = state.query.trim() ? t().hits(found.length) : t().topTitle;
-  const max = Math.max(1, ...found.map(countOf));
-  const rows = found.slice(0, state.shown).map((d) => {
-    const n = countOf(d);
-    const where = Object.keys(d.mensen).length;
-    const meta = [
-      n === 0 ? null : t().lastSeen(fmtDate(d.last)),
-      where ? t().inMensen(where) : null,
-      d.fixedIn.length ? t().fixedOffer : null,
-    ].filter(Boolean).join(" · ");
+  const max = Math.max(1, ...found.map((r) => r.count));
+  const rows = found.slice(0, state.shown).map(({ dish: d, count: n, last, fixedHere }) => {
+    const meta = [n === 0 ? null : t().lastSeen(fmtDate(state.data.dates[last])), fixedHere ? t().fixedOffer : null].filter(Boolean).join(" · ");
     return h("li", {}, h("button", { type: "button", class: "dish", onclick: () => openDish(d.key) },
       h("span", { class: "dish-name" }, nameOf(d.name)),
       h("span", { class: "dish-count" }, n ? t().times(n) : ""),
@@ -215,32 +288,35 @@ function renderList() {
 
 /* ---------- shares ---------- */
 
+function shareRow(label, [vegan, vegetarian, other], tip, total) {
+  const sum = vegan + vegetarian + other;
+  const pct = (v) => Math.round((v / sum) * 100);
+  const value = t().shareValue(pct(vegan), pct(vegetarian), fmtNum(sum));
+  const part = (v, color) => (v ? h("i", { style: `flex:${v} 1 0;background:var(${color})` }) : null);
+  return h("li", { class: total ? "total" : null },
+    h("div", { class: "share-head" }, h("span", {}, label),
+      h("span", {}, new Intl.NumberFormat(locale(), { style: "percent" }).format((vegan + vegetarian) / sum))),
+    h("div", { class: "stack", role: "img", "aria-label": value, "data-tip": tip ? `${value}\n${tip}` : value },
+      part(vegan, "--vegan"), part(vegetarian, "--vegetarian"), part(other, "--other")),
+  );
+}
+
 function renderShares() {
-  const s = state.summary;
   const swatches = [["--vegan", t().vegan], ["--vegetarian", t().vegetarian], ["--other", t().other]];
   $("share-legend").replaceChildren(...swatches.map(([color, label]) => h("li", {},
     h("span", { class: "swatch", style: `background:var(${color})` }), label)));
 
-  const rows = new Map();
-  for (const x of s.shares) {
-    if (state.month && x.month !== state.month) continue;
-    const row = rows.get(x.mensa) || { mensa: x.mensa, vegan: 0, vegetarian: 0, other: 0 };
-    row.vegan += x.vegan; row.vegetarian += x.vegetarian; row.other += x.other;
-    rows.set(x.mensa, row);
-  }
-  const list = [...rows.values()].map((r) => ({ ...r, total: r.vegan + r.vegetarian + r.other }))
-    .sort((a, b) => (b.vegan + b.vegetarian) / b.total - (a.vegan + a.vegetarian) / a.total);
-  $("shares").replaceChildren(...list.map((r) => {
-    const pct = (v) => Math.round((v / r.total) * 100);
-    const fixed = s.mensen.find((m) => m.id === r.mensa)?.fixed;
-    const value = t().shareValue(pct(r.vegan), pct(r.vegetarian), fmtNum(r.total));
-    const part = (v, color) => (v ? h("i", { style: `flex:${v} 1 0;background:var(${color})` }) : null);
-    return h("li", {},
-      h("div", { class: "share-head" }, h("span", {}, mensaName(r.mensa)), h("span", {}, new Intl.NumberFormat(locale(), { style: "percent" }).format((r.vegan + r.vegetarian) / r.total))),
-      h("div", { class: "stack", role: "img", "aria-label": value, "data-tip": fixed ? `${value}\n${t().shareFixed}` : value },
-        part(r.vegan, "--vegan"), part(r.vegetarian, "--vegetarian"), part(r.other, "--other")),
-    );
-  }));
+  const month = state.month ? state.data.months.indexOf(state.month) : null;
+  const plant = ([a, b, c]) => (a + b) / (a + b + c);
+  const rows = state.view.mensen
+    .map((m) => ({ m, share: MensaStats.shareOf(state.data, state.view, m.index, month) }))
+    .filter((r) => r.share.some(Boolean))
+    .sort((a, b) => plant(b.share) - plant(a.share));
+  const all = MensaStats.shareOf(state.data, state.view, null, month);
+  $("shares").replaceChildren(
+    rows.length > 1 && all.some(Boolean) ? shareRow(t().shareTotal, all, null, true) : "",
+    ...rows.map((r) => shareRow(nameOf(r.m.name), r.share, r.m.fixed ? t().shareFixed : null, false)),
+  );
 }
 
 /* ---------- Mensen ---------- */
@@ -249,12 +325,12 @@ function renderMensen() {
   const head = h("thead", {}, h("tr", {},
     h("th", { scope: "col" }, t().colMensa), h("th", { scope: "col", class: "num" }, t().colEntries), h("th", { scope: "col", class: "num" }, t().colDishes),
     h("th", { scope: "col", class: "num" }, t().colFirst), h("th", { scope: "col", class: "num" }, t().colLast)));
-  const body = h("tbody", {}, state.summary.mensen.map((m) => h("tr", {},
+  const body = h("tbody", {}, state.view.mensen.map((m) => h("tr", {},
     h("th", { scope: "row" }, nameOf(m.name)),
     h("td", { class: "num" }, m.fixed ? t().fixedOffer : fmtNum(m.entries)),
     h("td", { class: "num" }, fmtNum(m.dishes)),
-    h("td", { class: "num" }, fmtDate(m.first)),
-    h("td", { class: "num" }, fmtDate(m.last)))));
+    h("td", { class: "num" }, m.first ? fmtDate(m.first) : "–"),
+    h("td", { class: "num" }, m.last ? fmtDate(m.last) : "–"))));
   $("mensen").replaceChildren(head, body);
 }
 
@@ -274,26 +350,28 @@ function closeDish() {
 }
 
 function renderDetail() {
-  const d = state.byKey.get(state.openKey);
-  if (!d) return;
-  $("detail-name").textContent = nameOf(d.name);
+  const dish = state.byKey.get(state.openKey);
+  if (!dish) return;
+  const d = MensaStats.detail(state.data, dish, state.flags, state.once);
+  $("detail-name").textContent = nameOf(dish.name);
   const fact = (label, value) => h("div", {}, h("dt", {}, label), h("dd", {}, value));
-  const where = Object.entries(d.mensen).sort((a, b) => b[1] - a[1]);
-  const max = Math.max(1, ...where.map(([, n]) => n));
-  const whereRows = where.map(([id, n]) => h("li", {},
-    h("span", {}, mensaName(id)), h("b", {}, t().times(n)),
-    h("span", { class: "bar", "aria-hidden": "true" }, h("i", { style: `width:${(n / max) * 100}%` }))));
-  const fixedRows = d.fixedIn.map((id) => h("li", {}, h("span", {}, mensaName(id)), h("span", {}, t().fixedOffer)));
+  const max = Math.max(1, ...d.where.map((w) => w.count));
+  const whereRows = d.where.map((w) => h("li", {},
+    h("span", {}, nameOf(w.mensa.name)), h("b", {}, t().times(w.count)),
+    h("span", { class: "bar", "aria-hidden": "true" }, h("i", { style: `width:${(w.count / max) * 100}%` }))));
+  const fixedRows = d.fixedIn.map((m) => h("li", {}, h("span", {}, nameOf(m.name)), h("span", {}, t().fixedOffer)));
+  const nowhere = !d.first;
   $("detail-body").replaceChildren(
-    d.tags.length ? h("ul", { class: "tags" }, d.tags.map((k) => h("li", {}, tagLabel(k)))) : "",
-    h("dl", { class: "facts" },
+    dish.tags.length ? h("ul", { class: "tags" }, dish.tags.map((k) => h("li", {}, tagLabel(k)))) : "",
+    nowhere ? h("p", { class: "hint" }, t().notInSelection) : "",
+    nowhere ? "" : h("dl", { class: "facts" },
       fact(t().count, d.count ? t().times(d.count) : t().fixedOffer),
       fact(t().first, fmtDate(d.first)),
       fact(t().last, fmtDate(d.last))),
-    h("h3", {}, t().whereTitle),
-    h("ul", { class: "bars" }, whereRows, fixedRows),
-    h("h3", {}, t().priceHistory),
-    priceSection(d),
+    nowhere ? "" : h("h3", {}, t().whereTitle),
+    nowhere ? "" : h("ul", { class: "bars" }, whereRows, fixedRows),
+    nowhere ? "" : h("h3", {}, t().priceHistory),
+    nowhere ? "" : priceSection(d),
   );
 }
 
@@ -411,9 +489,9 @@ function routeFromHash() {
 }
 
 function wire() {
-  $("q").addEventListener("input", (e) => { state.query = e.target.value; state.shown = PAGE; renderList(); });
-  $("mensa").addEventListener("change", (e) => { state.mensa = e.target.value; state.shown = PAGE; renderList(); });
-  $("month").addEventListener("change", (e) => { state.month = e.target.value; renderShares(); });
+  $("q").addEventListener("input", (e) => { state.query = e.target.value; state.shown = PAGE; saveFilters(); renderList(); });
+  $("once").addEventListener("change", (e) => { state.once = e.target.checked; selectionChanged(); });
+  $("month").addEventListener("change", (e) => { state.month = e.target.value; saveFilters(); renderShares(); });
   $("more").addEventListener("click", () => { state.shown += PAGE; renderList(); });
   $("lang").addEventListener("click", () => {
     state.lang = state.lang === "de" ? "en" : "de";
@@ -442,20 +520,20 @@ async function main() {
   wire();
   applyText();
   try {
-    const [summary, dishes] = await Promise.all(["stats/summary.json", "stats/dishes.json"].map(async (url) => {
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`${url}: ${response.status}`);
-      return response.json();
-    }));
-    dishes.forEach((d) => { d.search = fold(`${d.name.de} ${d.name.en}`); });
-    state.summary = summary;
-    state.dishes = dishes;
-    state.byKey = new Map(dishes.map((d) => [d.key, d]));
+    const response = await fetch("stats/data.json");
+    if (!response.ok) throw new Error(`data.json: ${response.status}`);
+    const data = MensaStats.prepare(await response.json());
+    data.dishes.forEach((d) => { d.search = fold(`${d.name.de} ${d.name.en}`); });
+    state.data = data;
+    state.byKey = new Map(data.dishes.map((d) => [d.key, d]));
   } catch (error) {
     console.error(error);
     $("since").textContent = t().loadFailed;
     return;
   }
+  loadFilters();
+  recompute();
+  saveFilters();
   renderAll();
   routeFromHash();
 }

@@ -14,14 +14,14 @@
     {
       "key": "linsen-dal mit reis",
       "name": {
-        "de": "Linsen-Dal mit Reis",
+        "de": "LINSEN-DAL  mit Reis",
         "en": "Lentil dal with rice"
       },
       "labels": [],
       "prices": {
-        "students": 250,
-        "staff": 400,
-        "guests": 550
+        "students": 230,
+        "staff": 380,
+        "guests": 530
       },
       "unassignedPrices": [],
       "tags": [

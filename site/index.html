@@ -13,6 +13,7 @@
     // Before the first paint, so a chosen theme doesn't flash.
     try { document.documentElement.dataset.theme = localStorage.getItem("theme") || ""; } catch (e) {}
   </script>
+  <script src="stats.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -33,7 +34,17 @@
     <p class="note" id="since" role="note"></p>
     <noscript><p class="note">Diese Seite braucht JavaScript. / This page needs JavaScript.</p></noscript>
 
+    <section class="card filters" aria-labelledby="filter-h">
+      <h2 id="filter-h" data-i18n="filterTitle">Auswahl</h2>
+      <div class="chips" id="mensa-chips" role="group" data-i18n-aria="mensa" aria-label="Mensen"></div>
+      <label class="switch">
+        <input type="checkbox" id="once" checked>
+        <span data-i18n="once">Gleiches Gericht am selben Tag nur einmal zählen</span>
+      </label>
+    </section>
+
     <section class="tiles" id="tiles" aria-label="Überblick"></section>
+    <p class="hint" id="gaps" hidden></p>
 
     <section class="card" aria-labelledby="dishes-h">
       <h2 id="dishes-h" data-i18n="dishes">Gerichte</h2>
@@ -41,10 +52,6 @@
         <label class="field grow">
           <span data-i18n="search">Suche</span>
           <input type="search" id="q" autocomplete="off" data-i18n-placeholder="searchHint" placeholder="z. B. Currywurst">
-        </label>
-        <label class="field">
-          <span data-i18n="mensa">Mensa</span>
-          <select id="mensa"></select>
         </label>
       </div>
       <div class="chips" id="kinds" role="group" data-i18n-aria="kindFilter" aria-label="Art"></div>
@@ -61,7 +68,7 @@
           <select id="month"></select>
         </label>
       </div>
-      <p class="hint" data-i18n="shareHint">Anteil an allen Gerichten des Speiseplans. Vegan zählt nicht zusätzlich als vegetarisch.</p>
+      <p class="hint" data-i18n="shareHint">Anteil an allen Gerichten des Speiseplans der ausgewählten Mensen. Vegan zählt nicht zusätzlich als vegetarisch.</p>
       <ul class="legend" id="share-legend"></ul>
       <ul class="shares" id="shares"></ul>
     </section>
@@ -73,10 +80,11 @@
 
     <section class="card about" aria-labelledby="about-h">
       <h2 id="about-h" data-i18n="aboutTitle">So wird gezählt</h2>
-      <p data-i18n="about1">Gezählt wird, wie oft ein Gericht im veröffentlichten Speiseplan steht: einmal je Tag und Mensa, auch für die kommenden Tage. Ein Eintrag im Plan heißt nicht, dass das Gericht wirklich ausgegeben wurde.</p>
-      <p data-i18n="about2">Gerichte gelten als gleich, wenn ihr Name bis auf Groß- und Kleinschreibung und Leerzeichen übereinstimmt. Kleine Änderungen im Namen ergeben ein neues Gericht.</p>
-      <p data-i18n="about3">PIER 16 hat einen festen Plan ohne Tage. Diese Gerichte stehen als „Festes Angebot“ in der Liste und zählen nicht zur Häufigkeit.</p>
-      <p data-i18n="about4">Diese Seite ist keine Allergen-Auskunft.</p>
+      <p data-i18n="about1"></p>
+      <p data-i18n="about2"></p>
+      <p data-i18n="about3"></p>
+      <p data-i18n="aboutPrice"></p>
+      <p data-i18n="about4"></p>
     </section>
   </main>
 

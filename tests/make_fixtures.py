@@ -42,8 +42,13 @@ SUPPE = ("Tomatensuppe", "Tomato soup")
 
 write("2026-10-26", "alpha", [dish(*LINSEN, (250, 400, 550), ["vegan"]), dish(*SCHNITZEL, (380, 550, 690), ["schwein"])])
 write("2026-10-27", "alpha", [dish(*LINSEN, (250, 400, 550), ["vegan"]), dish(*KAESE, (300, 450, 600), ["vegetarisch"])])
-write("2026-10-27", "beta", [dish(*LINSEN, (250, 400, 550), ["vegan"]), dish(*SUPPE, (180, 300, 420), ["vegan", "neuertag"])])
-write("2026-11-02", "alpha", [dish(*LINSEN, (290, 440, 590), ["vegan"]), dish(*SCHNITZEL, (380, 550, 690), ["schwein"])])
+# Same day, other spelling and a lower price than Alpha; the key is what makes it the same dish.
+write("2026-10-27", "beta", [dish("LINSEN-DAL  mit Reis", "Lentil dal with rice", (230, 380, 530), ["vegan"], key=LINSEN[0].lower()),
+                             dish(*SUPPE, (180, 300, 420), ["vegan", "neuertag"])])
+# Tagged in one Mensa only: the tag counts when the same dish is counted once.
+write("2026-11-02", "alpha", [dish(*LINSEN, (290, 440, 590), ["vegan"]), dish(*SCHNITZEL, (380, 550, 690), ["schwein"]),
+                              dish(*KAESE, (300, 450, 600))])
+write("2026-11-02", "beta", [dish(*KAESE, (300, 450, 600), ["vegetarisch"])])
 write("2026-11-03", "alpha", [dish(*LINSEN, (290, 440, 590), ["vegan"])], source="fallback")
 write("2026-11-03", "fest", [dish("Festes Testgericht", "Fixed test dish", (420, 590, 730)),
                              dish("Zwei Preise Teller", "Two prices plate", None, unassignedPrices=[420, 590])], fixed=True)

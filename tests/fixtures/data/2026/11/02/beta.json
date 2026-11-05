@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "date": "2026-11-02",
+  "mensa": {
+    "id": "beta",
+    "name": {
+      "de": "Beta-Mensa",
+      "en": "Beta canteen"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "käsespätzle",
+      "name": {
+        "de": "Käsespätzle",
+        "en": "Cheese spaetzle"
+      },
+      "labels": [],
+      "prices": {
+        "students": 300,
+        "staff": 450,
+        "guests": 600
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

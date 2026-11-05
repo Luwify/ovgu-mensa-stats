@@ -16,11 +16,13 @@ Not affiliated with OvGU or Studentenwerk Magdeburg. The data starts with the fi
    Until a release contains the CLI, the workflow uses the commit in `SCRAPER_FALLBACK_REF`.
 2. After a commit with new data, the same run calls `.github/workflows/pages.yml`: aggregation tests, build, deploy to
    GitHub Pages. The call is needed because a push made with the job's token starts no other workflow. The Playwright
-   smoke test runs on every push of code, not on the daily data commit.
+   browser tests run on every push of code, not on the daily data commit.
 
 A run is idempotent. The files hold no time of the fetch, so an unchanged menu gives identical bytes and no commit. A
 Mensa that fails is retried once and then shows as a warning on the run page; the others go through. The run only fails
-when no Mensa gave any dishes (site down, or its HTML changed; in a closure of all canteens too).
+when no Mensa could be fetched from any host (network or server errors, maintenance pages). Pages that load without
+dishes (all closed, holidays) are a normal run with nothing to commit. This also means a change of the site's HTML that
+leaves the pages empty does not fail the run: it shows on the site as weekdays without a menu.
 
 ### Keeping the schedule alive
 
@@ -35,6 +37,20 @@ commits anyway. So the workflow doesn't rely on them:
 
 If it still gets disabled, GitHub shows a banner on the Actions tab: enable it there and the next run continues. Menus of
 the days in between are lost, apart from the ones still on the site.
+
+## Filters on the site
+
+Every statistic follows the same two filters, computed in the browser (`site/stats.js`) from `stats/data.json`, which
+holds one small record per dish, day and Mensa:
+
+- **Mensen:** any combination, or all.
+- **Count the same dish on the same day only once** (default on): a dish in several selected Mensen on one day is one
+  occurrence. "Same dish" is the `key`, the normalization of the app's favorites (`Favorites.normalize` in `:core`). When
+  such a dish is tagged vegan or vegetarian in only some of them, the most plant-based tag counts.
+- **Price history** shows one point per day. If the selected Mensen differ on a day, the lowest price per group counts.
+
+The state is in the URL (`?m=unicampus-unten,unicampus-oben&once=0&kind=vegan&month=2026-11&q=suppe`, defaults left out) and
+remembered in the browser.
 
 ## Data
 
@@ -85,9 +101,9 @@ Python 3 only; the build uses the standard library.
 ```bash
 python3 scripts/build_site.py                 # data/ -> _site/
 python3 -m http.server -d _site               # http://localhost:8000
-python3 -m unittest tests.test_build_site     # aggregation
+python3 -m unittest tests.test_build_site     # packing the data
 pip install -r tests/requirements.txt && python3 -m playwright install chromium
-python3 -m unittest tests.smoke_test          # the page in a real browser
+python3 -m unittest tests.smoke_test tests.filters_test   # the page and its filters in a real browser
 python3 tests/make_fixtures.py                # rewrite the made-up test data
 ```
 
