@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "date": "2026-11-03",
+  "mensa": {
+    "id": "fest",
+    "name": {
+      "de": "Festmensa",
+      "en": "Festmensa"
+    }
+  },
+  "fixed": true,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "festes testgericht",
+      "name": {
+        "de": "Festes Testgericht",
+        "en": "Fixed test dish"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "zwei preise teller",
+      "name": {
+        "de": "Zwei Preise Teller",
+        "en": "Two prices plate"
+      },
+      "labels": [],
+      "prices": {},
+      "unassignedPrices": [
+        420,
+        590
+      ],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

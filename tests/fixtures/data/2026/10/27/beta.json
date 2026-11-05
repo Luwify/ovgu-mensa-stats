@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "date": "2026-10-27",
+  "mensa": {
+    "id": "beta",
+    "name": {
+      "de": "Beta-Mensa",
+      "en": "Beta canteen"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "linsen-dal mit reis",
+      "name": {
+        "de": "Linsen-Dal mit Reis",
+        "en": "Lentil dal with rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 400,
+        "guests": 550
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tomatensuppe",
+      "name": {
+        "de": "Tomatensuppe",
+        "en": "Tomato soup"
+      },
+      "labels": [],
+      "prices": {
+        "students": 180,
+        "staff": 300,
+        "guests": 420
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        },
+        {
+          "key": "neuertag",
+          "label": "neuertag"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

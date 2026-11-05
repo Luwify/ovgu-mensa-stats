@@ -1,0 +1,61 @@
+name: Build site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      # main, not the commit that started the run: when called after a scrape, that commit lacks the new data.
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Aggregation tests
+        run: python -m unittest tests.test_build_site
+
+      - name: Install Playwright
+        run: |
+          pip install --quiet --requirement tests/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Smoke test
+        run: python -m unittest tests.smoke_test
+
+      - name: Build
+        run: python scripts/build_site.py
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

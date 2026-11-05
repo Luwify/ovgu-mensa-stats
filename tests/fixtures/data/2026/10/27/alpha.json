@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "date": "2026-10-27",
+  "mensa": {
+    "id": "alpha",
+    "name": {
+      "de": "Alpha-Mensa",
+      "en": "Alpha canteen"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "linsen-dal mit reis",
+      "name": {
+        "de": "Linsen-Dal mit Reis",
+        "en": "Lentil dal with rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 400,
+        "guests": 550
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsespätzle",
+      "name": {
+        "de": "Käsespätzle",
+        "en": "Cheese spaetzle"
+      },
+      "labels": [],
+      "prices": {
+        "students": 300,
+        "staff": 450,
+        "guests": 600
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

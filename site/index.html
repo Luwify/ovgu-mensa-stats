@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mensa-Statistik Magdeburg</title>
+  <meta name="description" content="Wie oft welches Gericht in den Mensen in Magdeburg, Stendal, Halberstadt und Wernigerode auf dem Speiseplan steht.">
+  <meta name="theme-color" content="#F7F1E6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0D0B09" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2343654A'/%3E%3Cpath d='M9 22V14M16 22V9M23 22v-5' stroke='%23F7F1E6' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Before the first paint, so a chosen theme doesn't flash.
+    try { document.documentElement.dataset.theme = localStorage.getItem("theme") || ""; } catch (e) {}
+  </script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <h1 data-i18n="title">Mensa-Statistik Magdeburg</h1>
+      <div class="top-actions">
+        <button type="button" class="pill" id="lang" aria-label="Switch to English">EN</button>
+        <button type="button" class="pill icon" id="theme" data-i18n-aria="themeToggle" aria-label="Hell oder dunkel">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 16V5a7 7 0 0 1 0 14Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="lead" data-i18n="lead">Was in den Mensen des Studentenwerks Magdeburg auf dem Speiseplan steht: jeden Tag erfasst, ausgezählt und durchsuchbar.</p>
+    <p class="note" id="since" role="note"></p>
+    <noscript><p class="note">Diese Seite braucht JavaScript. / This page needs JavaScript.</p></noscript>
+
+    <section class="tiles" id="tiles" aria-label="Überblick"></section>
+
+    <section class="card" aria-labelledby="dishes-h">
+      <h2 id="dishes-h" data-i18n="dishes">Gerichte</h2>
+      <div class="controls">
+        <label class="field grow">
+          <span data-i18n="search">Suche</span>
+          <input type="search" id="q" autocomplete="off" data-i18n-placeholder="searchHint" placeholder="z. B. Currywurst">
+        </label>
+        <label class="field">
+          <span data-i18n="mensa">Mensa</span>
+          <select id="mensa"></select>
+        </label>
+      </div>
+      <div class="chips" id="kinds" role="group" data-i18n-aria="kindFilter" aria-label="Art"></div>
+      <h3 id="list-title"></h3>
+      <ol class="dishes" id="list"></ol>
+      <button type="button" class="more" id="more" hidden></button>
+    </section>
+
+    <section class="card" aria-labelledby="share-h">
+      <div class="head-row">
+        <h2 id="share-h" data-i18n="shareTitle">Vegan und vegetarisch je Mensa</h2>
+        <label class="field compact">
+          <span data-i18n="month">Monat</span>
+          <select id="month"></select>
+        </label>
+      </div>
+      <p class="hint" data-i18n="shareHint">Anteil an allen Gerichten des Speiseplans. Vegan zählt nicht zusätzlich als vegetarisch.</p>
+      <ul class="legend" id="share-legend"></ul>
+      <ul class="shares" id="shares"></ul>
+    </section>
+
+    <section class="card" aria-labelledby="mensen-h">
+      <h2 id="mensen-h" data-i18n="mensenTitle">Mensen</h2>
+      <div class="table-scroll"><table id="mensen"></table></div>
+    </section>
+
+    <section class="card about" aria-labelledby="about-h">
+      <h2 id="about-h" data-i18n="aboutTitle">So wird gezählt</h2>
+      <p data-i18n="about1">Gezählt wird, wie oft ein Gericht im veröffentlichten Speiseplan steht: einmal je Tag und Mensa, auch für die kommenden Tage. Ein Eintrag im Plan heißt nicht, dass das Gericht wirklich ausgegeben wurde.</p>
+      <p data-i18n="about2">Gerichte gelten als gleich, wenn ihr Name bis auf Groß- und Kleinschreibung und Leerzeichen übereinstimmt. Kleine Änderungen im Namen ergeben ein neues Gericht.</p>
+      <p data-i18n="about3">PIER 16 hat einen festen Plan ohne Tage. Diese Gerichte stehen als „Festes Angebot“ in der Liste und zählen nicht zur Häufigkeit.</p>
+      <p data-i18n="about4">Diese Seite ist keine Allergen-Auskunft.</p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p><span data-i18n="source">Quelle:</span> <a href="https://www.studentenwerk-magdeburg.de/" rel="noopener">Studentenwerk Magdeburg</a>. <span data-i18n="facts">Hier stehen nur Fakten (Namen, Preise, Kennzeichen), keine übernommenen Texte oder Bilder.</span></p>
+    <p data-i18n="affiliation">Keine Verbindung zur OvGU oder zum Studentenwerk Magdeburg.</p>
+    <p><a href="https://github.com/Luwify/ovgu-mensa-stats" rel="noopener" data-i18n="code">Quellcode und Daten</a> · GPL-3.0 · <a href="https://github.com/Luwify/ovgu-mensa" rel="noopener">Mensa MD</a> · <span id="built"></span></p>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="detail-name">
+    <div class="sheet">
+      <div class="sheet-head">
+        <h2 id="detail-name"></h2>
+        <button type="button" class="pill icon" id="detail-close" data-i18n-aria="close" aria-label="Schließen">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div id="detail-body"></div>
+    </div>
+  </dialog>
+  <div id="tip" role="status" hidden></div>
+</body>
+</html>
