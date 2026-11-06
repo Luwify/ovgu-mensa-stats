@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "date": "2026-11-13",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "5 kartoffelrösti, kräuterquark, marinierte blattsalate",
+      "name": {
+        "de": "5 Kartoffelrösti, Kräuterquark, marinierte Blattsalate",
+        "en": "5 hash browns, herb quark, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

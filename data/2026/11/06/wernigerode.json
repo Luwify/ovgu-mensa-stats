@@ -12,10 +12,56 @@
   "source": "main",
   "dishes": [
     {
-      "key": "kasslerbraten, grünkohl, semmelknödel oder salzkartoffeln",
+      "key": "caesars chicken-burger mit bacon, pommes frites, gemüse-remoulade",
       "name": {
-        "de": "Kasslerbraten, Grünkohl, Semmelknödel oder Salzkartoffeln",
-        "en": "smoked pork roast, kale, bread dumplings or salt potatoes"
+        "de": "Caesars Chicken-Burger mit Bacon, Pommes Frites, Gemüse-Remoulade",
+        "en": "Caesars Chicken Burger with bacon, french fries, vegetable remoulade"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kasslerbraten, grünkohl oder rosenkohl, semmelknödel oder salzkartoffeln",
+      "name": {
+        "de": "Kasslerbraten, Grünkohl oder Rosenkohl, Semmelknödel oder Salzkartoffeln",
+        "en": "smoked pork roast, kale or brussel sprouts, bread dumplings or salt potatoes"
       },
       "labels": [],
       "prices": {
@@ -82,10 +128,10 @@
       "section": null
     },
     {
-      "key": "tofugulasch mit wald- und wiesenpilzen, langkornreis",
+      "key": "tofugulasch mit wald- und wiesenpilzen, langkornreis oder nudeln",
       "name": {
-        "de": "Tofugulasch mit Wald- und Wiesenpilzen, Langkornreis",
-        "en": "tofu stew with forest and meadow mushrooms, long grain rice"
+        "de": "Tofugulasch mit Wald- und Wiesenpilzen, Langkornreis oder Nudeln",
+        "en": "tofu stew with forest and meadow mushrooms, long grain rice or noodles"
       },
       "labels": [],
       "prices": {
@@ -101,8 +147,33 @@
         }
       ],
       "codes": [
+        "a1",
         "f"
       ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kräuterquark, marinierte blattsalate, salzkartoffeln",
+      "name": {
+        "de": "Kräuterquark, marinierte Blattsalate, Salzkartoffeln",
+        "en": "herb quark, marinated leaf salads, salt potatoes"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
       "dinner": false,
       "cake": false,
       "section": null
@@ -138,6 +209,34 @@
       ],
       "dinner": false,
       "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
       "section": null
     }
   ]

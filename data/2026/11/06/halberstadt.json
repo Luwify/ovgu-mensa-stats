@@ -67,6 +67,36 @@
       "section": null
     },
     {
+      "key": "geflügel-hackbraten, thymiansauce, gemüseallerlei, kartoffelstampf oder salzkartoffeln",
+      "name": {
+        "de": "Geflügel-Hackbraten, Thymiansauce, Gemüseallerlei, Kartoffelstampf oder Salzkartoffeln",
+        "en": "Chicken Meatloaf, thyme sauce, mixed vegetables, mashed potatoes or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "a3",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "gebackene frühlingsrolle, süß-saure sauce, chinagemüse, langkornreis",
       "name": {
         "de": "Gebackene Frühlingsrolle, süß-saure Sauce, Chinagemüse, Langkornreis",
@@ -97,34 +127,36 @@
       "section": null
     },
     {
-      "key": "6 seelachs-kibbelinge, süß-saure sauce, chinagemüse, langkornreis",
+      "key": "saftiger kokos-buttermilch-kuchen vom blech",
       "name": {
-        "de": "6 Seelachs-Kibbelinge, süß-saure Sauce, Chinagemüse, Langkornreis",
-        "en": "6 deep fried pollacks, sweet sour sauce, Chinese vegetables, long grain rice"
+        "de": "Saftiger Kokos-Buttermilch-Kuchen vom Blech",
+        "en": "juicy coconut buttermilk cake from the baking tray"
       },
-      "labels": [],
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
       "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
+        "students": 150,
+        "staff": 180,
+        "guests": 210
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "fisch",
-          "label": "Fisch"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "2",
-        "9",
         "a1",
-        "d",
-        "f",
+        "c",
         "g"
       ],
       "dinner": false,
-      "cake": false,
+      "cake": true,
       "section": null
     }
   ]

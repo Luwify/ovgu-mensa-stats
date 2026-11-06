@@ -112,10 +112,10 @@
       "section": null
     },
     {
-      "key": "wildbratwurst mit tunke, lehm und stroh - wacholdersauce, erbspüree, sauerkraut",
+      "key": "rindsbratwurst mit tunke, lehm und stroh - wacholdersauce, erbspüree, sauerkraut",
       "name": {
-        "de": "Wildbratwurst mit Tunke, Lehm und Stroh - Wacholdersauce, Erbspüree, Sauerkraut",
-        "en": "venison sausage with Tunke, Lehm and Stroh - juniper sauce, pea purée, sauerkraut"
+        "de": "Rindsbratwurst mit Tunke, Lehm und Stroh - Wacholdersauce, Erbspüree, Sauerkraut",
+        "en": "beef sausage with Tunke, Lehm and Stroh - juniper sauce, pea purée, sauerkraut"
       },
       "labels": [
         {
@@ -131,6 +131,14 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
           "key": "schwein",
           "label": "Schwein"
         },
@@ -142,7 +150,9 @@
       "codes": [
         "3",
         "8",
-        "g"
+        "f",
+        "g",
+        "S"
       ],
       "dinner": false,
       "cake": false,

@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "erbseneintopf",
+      "key": "kartoffeleintopf",
       "name": {
-        "de": "Erbseneintopf",
-        "en": "pea stew"
+        "de": "Kartoffeleintopf",
+        "en": "potato stew"
       },
       "labels": [],
       "prices": {

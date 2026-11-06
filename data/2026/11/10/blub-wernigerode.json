@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "orientalische kürbissuppe mit kichererbsen und koriander",
+      "name": {
+        "de": "Orientalische Kürbissuppe mit Kichererbsen und Koriander",
+        "en": "oriental pumpkin soup with chickpeas and coriander"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

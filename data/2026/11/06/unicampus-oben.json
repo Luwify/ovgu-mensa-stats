@@ -135,10 +135,10 @@
       "section": null
     },
     {
-      "key": "farfalle, tomaten-basilikumsauce",
+      "key": "farfalle sojageschnetzeltes mit ananas, paprika, karotte, bambus und lauch in süß-saurer sauce",
       "name": {
-        "de": "Farfalle, Tomaten-Basilikumsauce",
-        "en": "farfalle, tomato basil sauce"
+        "de": "Farfalle Sojageschnetzeltes mit Ananas, Paprika, Karotte, Bambus und Lauch in süß-saurer Sauce",
+        "en": "farfalle sliced soya in cream sauce with pineapple, bell pepper, carrot, bamboo and leek in sweet and sour sauce"
       },
       "labels": [
         {
@@ -159,7 +159,10 @@
         }
       ],
       "codes": [
-        "a1"
+        "2",
+        "9",
+        "a1",
+        "f"
       ],
       "dinner": false,
       "cake": false,

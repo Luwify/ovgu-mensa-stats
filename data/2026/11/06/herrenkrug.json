@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "7 chicken nuggets, süß-saure sauce, chinagemüse oder brokkoli, langkornreis oder pommes frites",
+      "key": "7 chicken nuggets, süß-saure sauce, chinagemüse oder erbsen, langkornreis oder pommes frites",
       "name": {
-        "de": "7 Chicken Nuggets, süß-saure Sauce, Chinagemüse oder Brokkoli, Langkornreis oder Pommes Frites",
-        "en": "7 Chicken Nuggets, sweet sour sauce, Chinese vegetables or broccoli, long grain rice or French fries"
+        "de": "7 Chicken Nuggets, süß-saure Sauce, Chinagemüse oder Erbsen, Langkornreis oder Pommes Frites",
+        "en": "7 Chicken Nuggets, sweet sour sauce, Chinese vegetables or peas, long grain rice or French fries"
       },
       "labels": [],
       "prices": {
@@ -35,17 +35,18 @@
         "9",
         "a1",
         "f",
-        "g"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "kasslerbraten, grünkohl, kartoffelklöße",
+      "key": "kasslerbraten, grünkohl, kartoffelklöße oder schwenkkartoffeln",
       "name": {
-        "de": "Kasslerbraten, Grünkohl, Kartoffelklöße",
-        "en": "smoked pork roast, kale, potato dumplings"
+        "de": "Kasslerbraten, Grünkohl, Kartoffelklöße oder Schwenkkartoffeln",
+        "en": "smoked pork roast, kale, potato dumplings or pan-fried potatoes"
       },
       "labels": [],
       "prices": {
@@ -112,10 +113,10 @@
       "section": null
     },
     {
-      "key": "chili sin carne aus bio-sonnenblumenhack, langkornreis",
+      "key": "chili sin carne aus bio-sonnenblumenhack, zartweizen mit pastinake, möhre, fenchel und wirsing",
       "name": {
-        "de": "Chili sin carne aus BIO-Sonnenblumenhack, Langkornreis",
-        "en": "Chilli sin carne made from organic sunflower mince, long grain rice"
+        "de": "Chili sin carne aus BIO-Sonnenblumenhack, Zartweizen mit Pastinake, Möhre, Fenchel und Wirsing",
+        "en": "Chilli sin carne made from organic sunflower mince, soft wheat with parsnip, carrot, fennel and savoy cabbage"
       },
       "labels": [
         {
@@ -140,7 +141,8 @@
         }
       ],
       "codes": [
-        "2"
+        "2",
+        "a1"
       ],
       "dinner": false,
       "cake": false,

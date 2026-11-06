@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "date": "2026-11-11",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "4 kartoffel-frischkäsetaschen, tomatendip, marinierte blattsalate",
+      "name": {
+        "de": "4 Kartoffel-Frischkäsetaschen, Tomatendip, marinierte Blattsalate",
+        "en": "4 potato cream cheese pockets, tomato dip, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
