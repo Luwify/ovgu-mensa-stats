@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "königsberger klopse vom kalb, kapernsoße, salzkartoffeln oder langkornreis, rote beete-salat",
+      "name": {
+        "de": "Königsberger Klopse vom Kalb, Kapernsoße, Salzkartoffeln oder Langkornreis, Rote Beete-Salat",
+        "en": "'Königsberger style' veal meatballs, caper sauce, salt potatoes or long grain rice, beetroot salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsetortellini, tomaten-basilikumsauce",
+      "name": {
+        "de": "Käsetortellini, Tomaten-Basilikumsauce",
+        "en": "cheese tortellini, tomato basil sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Veganes Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "vegan pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "fruchtiger aprikosen-quark-kuchen vom blech",
+      "name": {
+        "de": "Fruchtiger Aprikosen-Quark-Kuchen vom Blech",
+        "en": "fruity apricot quark cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

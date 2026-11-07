@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "sudenburger currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Vegane Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "vegan curry sausage, french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "weiße bohneneintopf",
+      "name": {
+        "de": "Weiße Bohneneintopf",
+        "en": "white bean stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "ein paar geflügel-wiener würstchen zum eintopf",
+      "name": {
+        "de": "Ein Paar Geflügel-Wiener Würstchen zum Eintopf",
+        "en": "A pair of poultry 'Vienna style' sausages to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 170,
+        "guests": 190
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "S"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "fruchtiger aprikosen-quark-kuchen vom blech",
+      "name": {
+        "de": "Fruchtiger Aprikosen-Quark-Kuchen vom Blech",
+        "en": "fruity apricot quark cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al pomodoro mit fruchtigem tomaten-zwiebel-basilikumsugo",
+      "name": {
+        "de": "Gabelspaghetti al Pomodoro mit fruchtigem Tomaten-Zwiebel-Basilikumsugo",
+        "en": "cut up shortened spaghetti al Pomodoro with fruity tomato-onion-basil sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al formaggio mit kräuter-käsesauce",
+      "name": {
+        "de": "Gabelspaghetti al Formaggio mit Kräuter-Käsesauce",
+        "en": "cut up shortened spaghetti al Formaggio with herb cheese sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käseschnitzel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Käseschnitzel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bunte schupfnudel-gemüsepfanne, veganer kräuterdip",
+      "name": {
+        "de": "Bunte Schupfnudel-Gemüsepfanne, veganer Kräuterdip",
+        "en": "colourful potato noodles vegetable pan, vegan herb dip"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 280,
+        "staff": 450,
+        "guests": 590
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "j"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchenbrust formaggio mit kräuter-frischkäsefüllung, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchenbrust Formaggio mit Kräuter-Frischkäsefüllung, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken breast Formaggio with herb and cream cheese filling, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

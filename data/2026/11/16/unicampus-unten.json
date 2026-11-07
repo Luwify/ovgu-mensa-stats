@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "königsberger klopse vom kalb, kapernsoße, salzkartoffeln oder langkornreis, rote beete-salat",
+      "name": {
+        "de": "Königsberger Klopse vom Kalb, Kapernsoße, Salzkartoffeln oder Langkornreis, Rote Beete-Salat",
+        "en": "'Königsberger style' veal meatballs, caper sauce, salt potatoes or long grain rice, beetroot salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel hubertus art mit wald- und wiesenpilzen in schnittlauchrahm, salzkartoffeln oder pommes frites",
+      "name": {
+        "de": "Schweineschnitzel Hubertus Art mit Wald- und Wiesenpilzen in Schnittlauchrahm, Salzkartoffeln oder Pommes Frites",
+        "en": "pork escalope with breading 'Hubertus style' with mixed mushrooms and chives cream, salt potatoes or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "brokkoli-nuss-ecke, tomatensauce, blumenkohl oder balkangemüse, bio vollkorn-penne rigate",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Blumenkohl oder Balkangemüse, BIO Vollkorn-Penne Rigate",
+        "en": "broccoli nut steak, tomato sauce, cauliflower or Balkan vegetables, organic wholemeal Penne Rigate"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "h1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "brokkoli-nuss-ecke, tomatensauce, blumenkohl, bio vollkorn-penne rigate",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Blumenkohl, BIO Vollkorn-Penne Rigate",
+        "en": "broccoli nut steak, tomato sauce, cauliflower, organic wholemeal Penne Rigate"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "h1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "fruchtiger aprikosen-quark-kuchen vom blech",
+      "name": {
+        "de": "Fruchtiger Aprikosen-Quark-Kuchen vom Blech",
+        "en": "fruity apricot quark cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

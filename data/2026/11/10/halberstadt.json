@@ -75,10 +75,10 @@
       "section": null
     },
     {
-      "key": "mini-schweinegrillhaxe, majoransauce, sauerkraut, bratkartoffeln",
+      "key": "mini-schweinegrillhaxe, majoransauce, sauerkraut, semmelknödel",
       "name": {
-        "de": "Mini-Schweinegrillhaxe, Majoransauce, Sauerkraut, Bratkartoffeln",
-        "en": "small grilled pork leg, marjoram sauce, sauerkraut, fried potatoes"
+        "de": "Mini-Schweinegrillhaxe, Majoransauce, Sauerkraut, Semmelknödel",
+        "en": "small grilled pork leg, marjoram sauce, sauerkraut, bread dumplings"
       },
       "labels": [],
       "prices": {
@@ -94,6 +94,7 @@
         }
       ],
       "codes": [
+        "a1",
         "c",
         "g"
       ],

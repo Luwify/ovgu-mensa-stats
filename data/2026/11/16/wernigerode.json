@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "käse-spinat-rostbratwurst, senfsaatsauce, apfel-speck-sauerkraut, kartoffelstampf, röstzwiebeln",
+      "name": {
+        "de": "Käse-Spinat-Rostbratwurst, Senfsaatsauce, Apfel-Speck-Sauerkraut, Kartoffelstampf, Röstzwiebeln",
+        "en": "roasted cheese spinach sausage, mustard seed sauce, apple-bacon-sauerkraut, mashed potatoes, fried onions"
+      },
+      "labels": [
+        {
+          "de": "Aktion",
+          "en": "Special offer"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel hubertus art mit wald- und wiesenpilzen in schnittlauchrahm, salzkartoffeln oder pommes frites",
+      "name": {
+        "de": "Schweineschnitzel Hubertus Art mit Wald- und Wiesenpilzen in Schnittlauchrahm, Salzkartoffeln oder Pommes Frites",
+        "en": "pork escalope with breading 'Hubertus style' with mixed mushrooms and chives cream, salt potatoes or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "brokkoli-nuss-ecke, tomatensauce, blumenkohl oder balkangemüse, bio vollkorn-penne rigate",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Blumenkohl oder Balkangemüse, BIO Vollkorn-Penne Rigate",
+        "en": "broccoli nut steak, tomato sauce, cauliflower or Balkan vegetables, organic wholemeal Penne Rigate"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "h1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "name": {
+        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
+        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f",
+        "h1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
