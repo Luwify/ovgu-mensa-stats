@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "date": "2026-11-14",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, salzkartoffeln oder pommes frites",
+      "name": {
+        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Salzkartoffeln oder Pommes Frites",
+        "en": "chicken slices Diana with broccoli cheese filling, Dutch sauce, mixed vegetables 'Leipzig style', salt potatoes or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "name": {
+        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
+        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f",
+        "h1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
