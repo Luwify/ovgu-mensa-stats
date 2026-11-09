@@ -216,12 +216,17 @@
       "section": null
     },
     {
-      "key": "alla norma mit pikantem auberginen-tomatensugo chili sin carne aus bio-sonnenblumenhack",
+      "key": "rigatoni chili sin carne aus bio-sonnenblumenhack",
       "name": {
-        "de": "alla Norma mit pikantem Auberginen-Tomatensugo Chili sin carne aus BIO-Sonnenblumenhack",
-        "en": "alla Norma with spicy eggplant tomato sauce Chilli sin carne made from organic sunflower mince"
+        "de": "Rigatoni Chili sin carne aus BIO-Sonnenblumenhack",
+        "en": "rigatoni Chilli sin carne made from organic sunflower mince"
       },
-      "labels": [],
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
       "prices": {
         "students": 50,
         "staff": 80,
@@ -239,7 +244,8 @@
         }
       ],
       "codes": [
-        "2"
+        "2",
+        "a1"
       ],
       "dinner": false,
       "cake": false,

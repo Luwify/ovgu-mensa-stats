@@ -93,10 +93,10 @@
       "section": null
     },
     {
-      "key": "tagliatelle mit wildlachs, blattpinat und kirschtomaten in gorgonzolasoße",
+      "key": "spätzle mit wildlachs, blattpinat und kirschtomaten in gorgonzolasoße",
       "name": {
-        "de": "Tagliatelle mit Wildlachs, Blattpinat und Kirschtomaten in Gorgonzolasoße",
-        "en": "tagliatelle with wild salmon, leaf spinach and cherry tomatoes in Gorgonzola cheese sauce"
+        "de": "Spätzle mit Wildlachs, Blattpinat und Kirschtomaten in Gorgonzolasoße",
+        "en": "spaetzle with wild salmon, leaf spinach and cherry tomatoes in Gorgonzola cheese sauce"
       },
       "labels": [],
       "prices": {
@@ -117,6 +117,7 @@
       ],
       "codes": [
         "a1",
+        "c",
         "d",
         "g",
         "T"

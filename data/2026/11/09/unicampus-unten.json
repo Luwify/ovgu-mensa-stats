@@ -112,10 +112,10 @@
       "section": null
     },
     {
-      "key": "rindsbratwurst mit tunke, lehm und stroh - wacholdersauce, erbspüree, sauerkraut",
+      "key": "käse-spinat-rostbratwurst - wacholdersauce, erbspüree, sauerkraut oder grünkohl",
       "name": {
-        "de": "Rindsbratwurst mit Tunke, Lehm und Stroh - Wacholdersauce, Erbspüree, Sauerkraut",
-        "en": "beef sausage with Tunke, Lehm and Stroh - juniper sauce, pea purée, sauerkraut"
+        "de": "Käse-Spinat-Rostbratwurst - Wacholdersauce, Erbspüree, Sauerkraut oder Grünkohl",
+        "en": "roasted cheese spinach sausage - juniper sauce, pea purée, sauerkraut or kale"
       },
       "labels": [
         {
@@ -131,28 +131,15 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "rind",
-          "label": "Rind"
-        },
-        {
           "key": "schwein",
           "label": "Schwein"
-        },
-        {
-          "key": "wild",
-          "label": "Wild"
         }
       ],
       "codes": [
         "3",
         "8",
-        "f",
         "g",
-        "S"
+        "j"
       ],
       "dinner": false,
       "cake": false,

@@ -206,10 +206,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla norma mit pikantem auberginen-tomatensugo",
+      "key": "penne rigate champignon-ragout mit porree",
       "name": {
-        "de": "Penne Rigate alla Norma mit pikantem Auberginen-Tomatensugo",
-        "en": "penne rigate alla Norma with spicy eggplant tomato sauce"
+        "de": "Penne Rigate Champignon-Ragout mit Porree",
+        "en": "penne rigate champignon ragout with leek"
       },
       "labels": [
         {
@@ -230,8 +230,8 @@
         }
       ],
       "codes": [
-        "2",
-        "a1"
+        "a1",
+        "f"
       ],
       "dinner": false,
       "cake": false,

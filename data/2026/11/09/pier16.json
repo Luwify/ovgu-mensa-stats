@@ -1,0 +1,302 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mensa": {
+    "id": "pier16",
+    "name": {
+      "de": "PIER 16",
+      "en": "PIER 16"
+    }
+  },
+  "fixed": true,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "magde-burger – bbq beef style mit pommes frites und coleslaw",
+      "name": {
+        "de": "Magde-Burger – BBQ Beef Style mit Pommes frites und Coleslaw",
+        "en": "Magde-Burger – BBQ Beef Style mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "9",
+        "a1",
+        "i",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "magde-burger – cheesy beef style mit pommes frites und coleslaw",
+      "name": {
+        "de": "Magde-Burger – Cheesy Beef Style mit Pommes frites und Coleslaw",
+        "en": "Magde-Burger – Cheesy Beef Style mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "9",
+        "a1",
+        "g",
+        "i",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pier 16-burger – veggie style mit pommes frites und coleslaw",
+      "name": {
+        "de": "Pier 16-Burger – Veggie Style mit Pommes frites und Coleslaw",
+        "en": "Pier 16-Burger – Veggie Style mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 470,
+        "staff": 640,
+        "guests": 770
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "Vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "9",
+        "a1",
+        "a4",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pier 16-burger – cheesy veggie style mit pommes frites und coleslaw",
+      "name": {
+        "de": "Pier 16-Burger – Cheesy Veggie Style mit Pommes frites und Coleslaw",
+        "en": "Pier 16-Burger – Cheesy Veggie Style mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 490,
+        "staff": 660,
+        "guests": 790
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "Vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "9",
+        "a1",
+        "a4",
+        "g",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "curry-bratwurst mit pommes frites und coleslaw",
+      "name": {
+        "de": "Curry-Bratwurst mit Pommes frites und Coleslaw",
+        "en": "Curry-Bratwurst mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "3",
+        "8",
+        "9",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane curry-gemüsebratwurst mit pommes frites und coleslaw",
+      "name": {
+        "de": "Vegane Curry-Gemüsebratwurst mit Pommes frites und Coleslaw",
+        "en": "Vegane Curry-Gemüsebratwurst mit Pommes frites und Coleslaw"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "Vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "f",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bbq-chicken-wrap mit blattsalat, paprika, zwiebel und mais",
+      "name": {
+        "de": "BBQ-Chicken-Wrap mit Blattsalat, Paprika, Zwiebel und Mais",
+        "en": "with lettuce, peppers, onions and corn"
+      },
+      "labels": [],
+      "prices": {},
+      "unassignedPrices": [
+        250,
+        350
+      ],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "caprese-wrap mit tomate, mozzarella, rucola und basilikumpesto",
+      "name": {
+        "de": "Caprese-Wrap mit Tomate, Mozzarella, Rucola und Basilikumpesto",
+        "en": "with tomato, mozzarella, rocket and basil pesto"
+      },
+      "labels": [],
+      "prices": {},
+      "unassignedPrices": [
+        300,
+        400
+      ],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "Vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "g",
+        "1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mediterraner gemüse-wrap mit avocadocreme",
+      "name": {
+        "de": "Mediterraner Gemüse-Wrap mit Avocadocreme",
+        "en": "with mediterranean vegetables and avocado cream"
+      },
+      "labels": [],
+      "prices": {},
+      "unassignedPrices": [
+        200,
+        300
+      ],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "Vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
