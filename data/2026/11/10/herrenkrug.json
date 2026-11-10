@@ -40,6 +40,11 @@
         "3",
         "9",
         "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
         "c",
         "g",
         "j",
@@ -50,10 +55,38 @@
       "section": null
     },
     {
-      "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten",
+      "key": "erbseneintopf",
       "name": {
-        "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten",
-        "en": "turkey escalope Hamburg style with fried egg, cream sauce, carrot-courgette-parsnip vegetables, potato croquettes"
+        "de": "Erbseneintopf",
+        "en": "Pea Stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten oder nudel-gemüsepfanne",
+      "name": {
+        "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten oder Nudel-Gemüsepfanne",
+        "en": "turkey escalope Hamburg style with fried egg, cream sauce, carrot-courgette-parsnip vegetables, potato croquettes or noodle vegetable pan"
       },
       "labels": [],
       "prices": {
@@ -69,9 +102,12 @@
         }
       ],
       "codes": [
+        "1",
+        "5",
         "a1",
         "c",
-        "g"
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -136,6 +172,35 @@
         "a1",
         "a3",
         "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "ein paar geflügel-wiener würstchen zum eintopf",
+      "name": {
+        "de": "Ein Paar Geflügel-Wiener Würstchen zum Eintopf",
+        "en": "A pair of poultry 'Vienna style' sausages to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 170,
+        "guests": 190
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "S"
       ],
       "dinner": false,
       "cake": false,

@@ -127,15 +127,15 @@
       "section": null
     },
     {
-      "key": "veganer schokoladen-kirschkuchen",
+      "key": "zupfkuchen vom blech",
       "name": {
-        "de": "Veganer Schokoladen-Kirschkuchen",
-        "en": "vegan chocolate cherry cake"
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favourite cake of our Mensa-Team"
+          "en": "Today's favorite cake of the Mensa team"
         }
       ],
       "prices": {
@@ -146,13 +146,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
         "a1",
-        "f"
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": true,

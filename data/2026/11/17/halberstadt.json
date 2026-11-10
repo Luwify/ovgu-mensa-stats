@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bunte gemüse-paella mit gebratenem räuchertofu",
+      "name": {
+        "de": "Bunte Gemüse-Paella mit gebratenem Räuchertofu",
+        "en": "colourful vegetable paella with fried smoked tofu"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
+      "name": {
+        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
+        "en": ", french fries, vegetable remoulade"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a4",
+        "g",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

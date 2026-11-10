@@ -12,6 +12,40 @@
   "source": "main",
   "dishes": [
     {
+      "key": "apfel-pfannkuchen und apfelmus",
+      "name": {
+        "de": "Apfel-Pfannkuchen und Apfelmus",
+        "en": "apple pancakes apple sauce"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, salzkartoffeln oder pommes frites",
       "name": {
         "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Salzkartoffeln oder Pommes Frites",
@@ -96,6 +130,39 @@
       ],
       "dinner": false,
       "cake": false,
+      "section": null
+    },
+    {
+      "key": "mandarinen-schmand-kuchen",
+      "name": {
+        "de": "Mandarinen-Schmand-Kuchen",
+        "en": "tangerine sour cream cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "canteen crew's favourite cake today"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
       "section": null
     },
     {

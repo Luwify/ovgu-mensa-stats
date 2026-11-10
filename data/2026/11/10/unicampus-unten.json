@@ -111,10 +111,10 @@
       "section": null
     },
     {
-      "key": "gebackener goudakäse, preiselbeeren, blumenkohl à la dubbary in bechamelsauce, kräuter-gerste",
+      "key": "käseschnitzel, preiselbeeren, blumenkohl à la dubbary in bechamelsauce, kräuter-gerste",
       "name": {
-        "de": "Gebackener Goudakäse, Preiselbeeren, Blumenkohl à la Dubbary in Bechamelsauce, Kräuter-Gerste",
-        "en": "baked Gouda cheese, European cranberries, cauliflower à la Dubbary in Béchamel sauce, herbs barley"
+        "de": "Käseschnitzel, Preiselbeeren, Blumenkohl à la Dubbary in Bechamelsauce, Kräuter-Gerste",
+        "en": "cheese escalope, European cranberries, cauliflower à la Dubbary in Béchamel sauce, herbs barley"
       },
       "labels": [
         {
@@ -136,7 +136,6 @@
       ],
       "codes": [
         "a1",
-        "a2",
         "a3",
         "g"
       ],

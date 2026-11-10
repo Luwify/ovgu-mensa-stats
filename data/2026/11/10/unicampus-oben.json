@@ -226,10 +226,10 @@
       "section": null
     },
     {
-      "key": "2 quinoa-erbsen-frikadellen, zwiebelsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "key": "gemüse-knusperschnitzel, zwiebelsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "2 Quinoa-Erbsen-Frikadellen, Zwiebelsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
-        "en": "2 fried quinoa pea patties, onion sauce, mashed potatoes or French fries, marinated leaf salads"
+        "de": "Gemüse-Knusperschnitzel, Zwiebelsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "crispy vegetables escalope, onion sauce, mashed potatoes or French fries, marinated leaf salads"
       },
       "labels": [
         {
@@ -250,7 +250,9 @@
         }
       ],
       "codes": [
+        "a1",
         "a4",
+        "a5",
         "f"
       ],
       "dinner": true,
@@ -258,10 +260,10 @@
       "section": null
     },
     {
-      "key": "2 rinderhacksteaks bifteki mit weißkäsewürfel, zwiebelsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "key": "rinderhacksteak mit frischkäsefüllung, zwiebelsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "2 Rinderhacksteaks Bifteki mit Weißkäsewürfel, Zwiebelsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
-        "en": "2 minced beef steaks Bifteki with white cheese cubes, onion sauce, mashed potatoes or French fries, marinated leaf salads"
+        "de": "Rinderhacksteak mit Frischkäsefüllung, Zwiebelsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "minced beef steak with cream cheese filling, onion sauce, mashed potatoes or French fries, marinated leaf salads"
       },
       "labels": [
         {
@@ -277,19 +279,20 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "rind",
           "label": "Rind"
         }
       ],
       "codes": [
         "a1",
-        "a3",
         "a4",
         "c",
         "f",
-        "g",
-        "i",
-        "j"
+        "g"
       ],
       "dinner": true,
       "cake": false,

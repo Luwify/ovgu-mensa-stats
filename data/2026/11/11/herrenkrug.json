@@ -195,28 +195,37 @@
       "section": null
     },
     {
-      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "key": "rindsbratwurst, rahmsauce, rotkohl, kartoffelklöße",
       "name": {
-        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
-        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+        "de": "Rindsbratwurst, Rahmsauce, Rotkohl, Kartoffelklöße",
+        "en": "roast beef sausage, cream sauce, red cabbage, potato dumplings"
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 390,
+        "staff": 560,
+        "guests": 700
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
         }
       ],
       "codes": [
+        "1",
         "3",
-        "c",
-        "j"
+        "5",
+        "9",
+        "f",
+        "g",
+        "l",
+        "S"
       ],
       "dinner": false,
       "cake": false,

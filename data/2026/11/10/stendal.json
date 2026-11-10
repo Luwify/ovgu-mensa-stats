@@ -78,10 +78,10 @@
       "section": null
     },
     {
-      "key": "orientalische kürbissuppe mit kichererbsen und koriander",
+      "key": "orientalische kürbissuppe mit koriander",
       "name": {
-        "de": "Orientalische Kürbissuppe mit Kichererbsen und Koriander",
-        "en": "oriental pumpkin soup with chickpeas and coriander"
+        "de": "Orientalische Kürbissuppe mit Koriander",
+        "en": "oriental pumpkin soup with coriander"
       },
       "labels": [],
       "prices": {
@@ -132,6 +132,43 @@
         "a1",
         "a3",
         "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "reispfanne nasi goreng mit asiagemüse, gerösteten zwiebeln und gebratenen sojastreifen",
+      "name": {
+        "de": "Reispfanne Nasi Goreng mit Asiagemüse, gerösteten Zwiebeln und gebratenen Sojastreifen",
+        "en": "rice pan Nasi Goreng with Asian vegetables, fried onions and fried soya strips"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "f"
       ],
       "dinner": false,
       "cake": false,
