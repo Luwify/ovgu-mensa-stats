@@ -121,6 +121,37 @@
       "section": null
     },
     {
+      "key": "orientalischer kichererbseneintopf",
+      "name": {
+        "de": "Orientalischer Kichererbseneintopf",
+        "en": "Oriental chickpea stew"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "rouladentopf - rindergeschnetzeltes mit schinkenspeck, gewürzgurke, zwiebel und senf, rotkohl, kartoffelklöße",
       "name": {
         "de": "Rouladentopf - Rindergeschnetzeltes mit Schinkenspeck, Gewürzgurke, Zwiebel und Senf, Rotkohl, Kartoffelklöße",

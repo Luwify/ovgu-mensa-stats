@@ -160,34 +160,6 @@
       "section": null
     },
     {
-      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
-      "name": {
-        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
-        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
-      },
-      "labels": [],
-      "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
-      "codes": [
-        "3",
-        "c",
-        "j"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
       "key": "penne rigate al sugo piccante mit rinderhack und chili in gemüsesugo",
       "name": {
         "de": "Penne Rigate al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",

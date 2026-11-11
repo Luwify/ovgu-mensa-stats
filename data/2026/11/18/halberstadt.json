@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweinerückensteak elsässer art mit schinkenspeck-zwiebelstippe und crème fraîche-sauce, karotten-wirsinggemüse, bratkartoffeln",
+      "name": {
+        "de": "Schweinerückensteak Elsässer Art mit Schinkenspeck-Zwiebelstippe und Crème fraîche-Sauce, Karotten-Wirsinggemüse, Bratkartoffeln",
+        "en": "pork loin steak Alsatian style with bacon onion mix and sour cream sauce, carrot savoy cabbage vegetables, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "name": {
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
+        "en": "potato cauliflower broccoli casserole"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

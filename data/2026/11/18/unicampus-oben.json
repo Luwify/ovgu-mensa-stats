@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "sudenburger currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "vegane currywurst, pommes frites, rotkrautsalat",
+      "name": {
+        "de": "Vegane Currywurst, Pommes Frites, Rotkrautsalat",
+        "en": "vegan curry sausage, french fries, red cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsetortellini, tomaten-basilikumsauce",
+      "name": {
+        "de": "Käsetortellini, Tomaten-Basilikumsauce",
+        "en": "cheese tortellini, tomato basil sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer karottenkuchen mit haselnüssen",
+      "name": {
+        "de": "Veganer Karottenkuchen mit Haselnüssen",
+        "en": "vegan carrot cake with hazelnuts"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
+      "name": {
+        "de": "Gabelspaghetti alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
+        "en": "cut up shortened spaghetti alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "a1",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al broccoli mit brokkoli-cremesauce",
+      "name": {
+        "de": "Gabelspaghetti al Broccoli mit Brokkoli-Cremesauce",
+        "en": "cut up shortened spaghetti al Broccoli with broccoli cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 back-hirtenkäse, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Back-Hirtenkäse, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 baked herder's cheese, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "a2",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "wok-gemüsepfanne in teriyaki-soße mit sojaschnetzel, basmatireis",
+      "name": {
+        "de": "Wok-Gemüsepfanne in Teriyaki-Soße mit Sojaschnetzel, Basmatireis",
+        "en": "Wok vegetable pan in teriyaki sauce with roasted soya, basmati rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "5",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchencrossies, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchencrossies, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken crossies, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

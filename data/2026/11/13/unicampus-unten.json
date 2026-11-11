@@ -117,6 +117,37 @@
       "section": null
     },
     {
+      "key": "pizza flammkuchen style mit schinkenspeck, zweierlei zwiebeln, porree und creme fraiche",
+      "name": {
+        "de": "Pizza Flammkuchen Style mit Schinkenspeck, zweierlei Zwiebeln, Porree und Creme fraiche",
+        "en": "Pizza 'tarte flambée' style with bacon, two different kinds of onions, leek and crème fraîche"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "braumeistersteak - paniertes schweinerückensteak mit kochschinken-käsefüllung, biersauce, butterbohnen, bratkartoffeln",
       "name": {
         "de": "Braumeistersteak - Paniertes Schweinerückensteak mit Kochschinken-Käsefüllung, Biersauce, Butterbohnen, Bratkartoffeln",
@@ -217,10 +248,10 @@
       "section": null
     },
     {
-      "key": "tagessuppe",
+      "key": "gemüsebouillon mit eierstich",
       "name": {
-        "de": "Tagessuppe",
-        "en": "soup of the day"
+        "de": "Gemüsebouillon mit Eierstich",
+        "en": "vegetable broth with eggs"
       },
       "labels": [],
       "prices": {
@@ -233,9 +264,16 @@
         {
           "key": "suppe",
           "label": "Suppe"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
-      "codes": [],
+      "codes": [
+        "c",
+        "i"
+      ],
       "dinner": false,
       "cake": false,
       "section": null

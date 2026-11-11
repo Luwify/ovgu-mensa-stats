@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bacon-burger, kartoffelspalten, buttermilch-ranch-dip",
+      "name": {
+        "de": "Bacon-Burger, Kartoffelspalten, Buttermilch-Ranch-Dip",
+        "en": "bacon burger, potato wedges, buttermilk ranch dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "9",
+        "a1",
+        "c",
+        "g",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "name": {
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
+        "en": "potato cauliflower broccoli casserole"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes pfannengyros, tzatziki, pommes frites oder langkornreis, bunter weißkrautsalat",
+      "name": {
+        "de": "Veganes Pfannengyros, Tzatziki, Pommes Frites oder Langkornreis, bunter Weißkrautsalat",
+        "en": "vegan pan-fried gyros, tzatziki, french fries or long grain rice, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer karottenkuchen mit haselnüssen",
+      "name": {
+        "de": "Veganer Karottenkuchen mit Haselnüssen",
+        "en": "vegan carrot cake with hazelnuts"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

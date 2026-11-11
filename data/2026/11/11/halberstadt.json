@@ -103,6 +103,40 @@
       "dinner": false,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "spätzle mit wildlachs, blattpinat und kirschtomaten in gorgonzolasoße",
+      "name": {
+        "de": "Spätzle mit Wildlachs, Blattpinat und Kirschtomaten in Gorgonzolasoße",
+        "en": "spaetzle with wild salmon, leaf spinach and cherry tomatoes in Gorgonzola cheese sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "d",
+        "g",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
     }
   ]
 }

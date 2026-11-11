@@ -39,6 +39,42 @@
       "section": null
     },
     {
+      "key": "kasslerbraten, grünkohl dazu kürbis-kartoffelstampf",
+      "name": {
+        "de": "Kasslerbraten, Grünkohl dazu Kürbis-Kartoffelstampf",
+        "en": "smoked pork roast, kale, pumpkin mashed potatoes"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "g",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "coq au vin - hähnchenbrust und hähnchenunterschenkel mit schmorgemüse in rotweinsauce, kürbis-kartoffelstampf",
       "name": {
         "de": "Coq au vin - Hähnchenbrust und Hähnchenunterschenkel mit Schmorgemüse in Rotweinsauce, Kürbis-Kartoffelstampf",
@@ -118,6 +154,71 @@
         "9",
         "j",
         "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "zupfkuchen vom blech",
+      "name": {
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "name": {
+        "de": "Penne Rigate Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "penne rigate Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
       ],
       "dinner": false,
       "cake": false,

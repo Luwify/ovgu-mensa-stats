@@ -39,6 +39,38 @@
       "section": null
     },
     {
+      "key": "paprikaschote mit bunter gemüsefüllung tomatensauce, mischgemüse, langkornreis",
+      "name": {
+        "de": "Paprikaschote mit bunter Gemüsefüllung Tomatensauce, Mischgemüse, Langkornreis",
+        "en": "bell pepper with colourful vegetable filling tomato sauce, mixed cream vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
       "name": {
         "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
@@ -131,10 +163,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla napoletana mit geschmortem rindfleisch und wurzelgemüse",
+      "key": "penne rigate,käsesauce",
       "name": {
-        "de": "Penne Rigate alla Napoletana mit geschmortem Rindfleisch und Wurzelgemüse",
-        "en": "penne rigate alla Napoletana with braised beef and root vegetables"
+        "de": "Penne Rigate,Käsesauce",
+        "en": "penne rigate,cheese sauce"
       },
       "labels": [
         {
@@ -150,13 +182,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
+        "1",
         "a1",
-        "i"
+        "g"
       ],
       "dinner": false,
       "cake": false,

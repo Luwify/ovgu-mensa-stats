@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "date": "2026-11-18",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "süßkartoffel-bowl - planted beef, brokkoli-linsen-bohnenmix, avocadocreme, amaranth, sweet chili",
+      "name": {
+        "de": "Süßkartoffel-Bowl - Planted Beef, Brokkoli-Linsen-Bohnenmix, Avocadocreme, Amaranth, Sweet Chili",
+        "en": "Sweet Potato Bowl - planted beef, broccoli lentil bean mix, avocado cream, amaranth, sweet chili"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "9",
+        "a1",
+        "a3",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "backhähnchenbrust im kürbiskernmantel, rahmsauce, schwarzwurzeln oder zuckerschoten, pommes frites oder zartweizen",
+      "name": {
+        "de": "Backhähnchenbrust im Kürbiskernmantel, Rahmsauce, Schwarzwurzeln oder Zuckerschoten, Pommes Frites oder Zartweizen",
+        "en": "fried chicken breast in pumpkin seed coating, cream sauce, black salsify or sugar snaps, french fries or soft wheat"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsetortellini, tomaten-basilikumsauce",
+      "name": {
+        "de": "Käsetortellini, Tomaten-Basilikumsauce",
+        "en": "cheese tortellini, tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
+      "name": {
+        "de": "Gabelspaghetti alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
+        "en": "cut up shortened spaghetti alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "a1",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al broccoli mit brokkoli-cremesauce",
+      "name": {
+        "de": "Gabelspaghetti al Broccoli mit Brokkoli-Cremesauce",
+        "en": "cut up shortened spaghetti al Broccoli with broccoli cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

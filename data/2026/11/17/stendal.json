@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "zwiebel-sahne-hähnchen, rosenkohl oder rustikales möhrengemüse, kartoffelkroketten oder kartoffelstampf",
+      "name": {
+        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl oder rustikales Möhrengemüse, Kartoffelkroketten oder Kartoffelstampf",
+        "en": "onion cream chicken, brussel sprouts or rustic carrot vegetables, potato croquettes or mashed potato"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
+      "name": {
+        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
+        "en": ", french fries, vegetable remoulade"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a4",
+        "g",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene kartoffel-gnocchi, linsen-grünkern-bolognese, sellerie-birnensalat",
+      "name": {
+        "de": "Gebratene Kartoffel-Gnocchi, Linsen-Grünkern-Bolognese, Sellerie-Birnensalat",
+        "en": "fried potato gnocchi, lentil green spelt bolognese, celery pear salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "a5",
+        "i",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti alla contadina mit champignons in tomaten-basilikumsauce",
+      "name": {
+        "de": "Gabelspaghetti alla Contadina mit Champignons in Tomaten-Basilikumsauce",
+        "en": "cut up shortened spaghetti alla Contadina with champignons in tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti alla saporita mit seelachswürfel und blattspinat in sahnesauce",
+      "name": {
+        "de": "Gabelspaghetti alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
+        "en": "cut up shortened spaghetti alla Saporita with pollock cubes and leaf spinach in cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "5",
+        "a1",
+        "d",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
