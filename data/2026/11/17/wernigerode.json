@@ -74,35 +74,29 @@
       "section": null
     },
     {
-      "key": "gebratene kartoffel-gnocchi, linsen-grünkern-bolognese, sellerie-birnensalat",
+      "key": "gnocchi mit räuchertofu, kürbis, rucola und geschmolzenen tomaten",
       "name": {
-        "de": "Gebratene Kartoffel-Gnocchi, Linsen-Grünkern-Bolognese, Sellerie-Birnensalat",
-        "en": "fried potato gnocchi, lentil green spelt bolognese, celery pear salad"
+        "de": "Gnocchi mit Räuchertofu, Kürbis, Rucola und geschmolzenen Tomaten",
+        "en": "gnocchi with smoked tofu, pumpkin, arugula and fried tomatoes"
       },
       "labels": [],
       "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
+        "students": 370,
+        "staff": 540,
+        "guests": 680
       },
       "unassignedPrices": [],
       "tags": [
-        {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
         {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "3",
+        "1",
         "5",
         "a1",
-        "a5",
-        "i",
-        "j",
+        "f",
         "l"
       ],
       "dinner": false,

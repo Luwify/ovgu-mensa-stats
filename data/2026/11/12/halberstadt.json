@@ -71,6 +71,42 @@
       "section": null
     },
     {
+      "key": "sudenburger currywurst, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Pommes Frites, Weißkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
       "name": {
         "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",

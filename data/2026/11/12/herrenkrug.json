@@ -39,10 +39,10 @@
       "section": null
     },
     {
-      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, salzkartoffeln oder pommes frites",
+      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, kürbis-kartoffelstampf oder pommes frites",
       "name": {
-        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Salzkartoffeln oder Pommes Frites",
-        "en": "chicken slices Diana with broccoli cheese filling, Dutch sauce, mixed vegetables 'Leipzig style', salt potatoes or French fries"
+        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Kürbis-Kartoffelstampf oder Pommes Frites",
+        "en": "chicken slices Diana with broccoli cheese filling, Dutch sauce, mixed vegetables 'Leipzig style', pumpkin mashed potatoes or French fries"
       },
       "labels": [],
       "prices": {
@@ -58,6 +58,7 @@
         }
       ],
       "codes": [
+        "3",
         "a1",
         "g"
       ],
@@ -66,10 +67,10 @@
       "section": null
     },
     {
-      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
+      "key": "schmorgemüse mit bio-sonnenblumenhack, curry-langkornreis oder kräuter-gerste",
       "name": {
-        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
-        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, tender wheat"
+        "de": "Schmorgemüse mit BIO-Sonnenblumenhack, Curry-Langkornreis oder Kräuter-Gerste",
+        "en": "Braised Vegetables with organic sunflower mince, curry long grain rice or herbs barley"
       },
       "labels": [
         {
@@ -85,13 +86,25 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "a1",
-        "j"
+        "2",
+        "5",
+        "a3",
+        "i",
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -126,6 +139,7 @@
         }
       ],
       "codes": [
+        "7",
         "a1",
         "d",
         "g"

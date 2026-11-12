@@ -35,7 +35,8 @@
         }
       ],
       "codes": [
-        "i"
+        "i",
+        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -64,7 +65,9 @@
           "label": "vegan"
         }
       ],
-      "codes": [],
+      "codes": [
+        "j"
+      ],
       "dinner": false,
       "cake": false,
       "section": null
@@ -130,10 +133,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla napoletana mit geschmortem rindfleisch und wurzelgemüse",
+      "key": "penne rigate al sugo piccante mit rinderhack und chili in gemüsesugo",
       "name": {
-        "de": "Penne Rigate alla Napoletana mit geschmortem Rindfleisch und Wurzelgemüse",
-        "en": "penne rigate alla Napoletana with braised beef and root vegetables"
+        "de": "Penne Rigate al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",
+        "en": "penne rigate al Sugo piccante with minced beef and chilli in vegetable sugo"
       },
       "labels": [
         {
@@ -154,18 +157,18 @@
         }
       ],
       "codes": [
-        "a1",
-        "i"
+        "2",
+        "a1"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "key": "penne rigate alla caponata mit mediterranem gemüse, oliven und kapern in tomatensugo",
       "name": {
-        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
-        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+        "de": "Penne Rigate alla Caponata mit mediterranem Gemüse, Oliven und Kapern in Tomatensugo",
+        "en": "penne rigate alla Caponata with mediterranean vegetables, olives and capers in tomato sugo"
       },
       "labels": [
         {
@@ -181,15 +184,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
+        "7",
         "a1"
       ],
       "dinner": false,
@@ -197,10 +197,10 @@
       "section": null
     },
     {
-      "key": "2 grill-käsesteaks, bördeländer letschosoße, langkornreis oder pommes frites und marinierte blattsalate",
+      "key": "2 grill-käsesteaks, bördeländer letschosoße, kürbis-kartoffelstampf oder pommes frites und marinierte blattsalate",
       "name": {
-        "de": "2 Grill-Käsesteaks, Bördeländer Letschosoße, Langkornreis oder Pommes Frites und marinierte Blattsalate",
-        "en": "2 grilled cheese steaks, Bördeländer lecho sauce, long grain rice or French fries and marinated leaf salads"
+        "de": "2 Grill-Käsesteaks, Bördeländer Letschosoße, Kürbis-Kartoffelstampf oder Pommes Frites und marinierte Blattsalate",
+        "en": "2 grilled cheese steaks, Bördeländer lecho sauce, pumpkin mashed potatoes or French fries and marinated leaf salads"
       },
       "labels": [
         {
@@ -209,9 +209,9 @@
         }
       ],
       "prices": {
-        "students": 380,
-        "staff": 550,
-        "guests": 690
+        "students": 390,
+        "staff": 560,
+        "guests": 700
       },
       "unassignedPrices": [],
       "tags": [
@@ -222,6 +222,7 @@
       ],
       "codes": [
         "2",
+        "3",
         "9",
         "g"
       ],
@@ -230,10 +231,10 @@
       "section": null
     },
     {
-      "key": "veganes schnitzel, bördeländer letschosauce, langkornreis oder pommes frites und marinierte blattsalate",
+      "key": "veganes schnitzel, bördeländer letschosauce, pommes frites und marinierte blattsalate",
       "name": {
-        "de": "Veganes Schnitzel, Bördeländer Letschosauce, Langkornreis oder Pommes Frites und marinierte Blattsalate",
-        "en": "Vegan escalope, Bördeländer bell pepper tomato stew, long grain rice or French fries and marinated leaf salads"
+        "de": "Veganes Schnitzel, Bördeländer Letschosauce, Pommes Frites und marinierte Blattsalate",
+        "en": "Vegan escalope, Bördeländer bell pepper tomato stew, French fries and marinated leaf salads"
       },
       "labels": [
         {
@@ -242,9 +243,9 @@
         }
       ],
       "prices": {
-        "students": 380,
-        "staff": 550,
-        "guests": 690
+        "students": 390,
+        "staff": 560,
+        "guests": 700
       },
       "unassignedPrices": [],
       "tags": [
@@ -263,10 +264,10 @@
       "section": null
     },
     {
-      "key": "rahmgeschnetzeltes vom rind, bunte gemüse-schupfnudeln, reibekäse",
+      "key": "2 lamm-hacksteaks mit bördeländer gemüseletscho, kürbis-kartoffelstampf oder pommes frites und marinierten blattsalaten",
       "name": {
-        "de": "Rahmgeschnetzeltes vom Rind, bunte Gemüse-Schupfnudeln, Reibekäse",
-        "en": "beef slices in cream sauce, colourful vegetable-potato noodles, grated cheese"
+        "de": "2 Lamm-Hacksteaks mit Bördeländer Gemüseletscho, Kürbis-Kartoffelstampf oder Pommes Frites und marinierten Blattsalaten",
+        "en": "2 minced lamb steaks with Bördeländer vegetable letcho, pumpkin mashed potatoes or French fries and marinated leaf salads"
       },
       "labels": [
         {
@@ -286,12 +287,20 @@
           "label": "Knoblauch"
         },
         {
+          "key": "lamm",
+          "label": "Lamm"
+        },
+        {
           "key": "rind",
           "label": "Rind"
         }
       ],
       "codes": [
+        "2",
+        "3",
+        "9",
         "a1",
+        "c",
         "g"
       ],
       "dinner": true,

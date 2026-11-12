@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, holländische sauce, leipziger allerlei, salzkartoffeln oder pommes frites",
+      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, majoransauce, leipziger allerlei, salzkartoffeln",
       "name": {
-        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, holländische Sauce, Leipziger Allerlei, Salzkartoffeln oder Pommes Frites",
-        "en": "chicken slices Diana with broccoli cheese filling, Dutch sauce, mixed vegetables 'Leipzig style', salt potatoes or French fries"
+        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, Majoransauce, Leipziger Allerlei, Salzkartoffeln",
+        "en": "chicken slices Diana with broccoli cheese filling, marjoram sauce, mixed vegetables 'Leipzig style', salt potatoes"
       },
       "labels": [],
       "prices": {
@@ -26,23 +26,29 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
           "key": "gefluegel",
           "label": "Geflügel"
         }
       ],
       "codes": [
+        "5",
         "a1",
-        "g"
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "key": "indisches tofucurry, langkornreis",
       "name": {
-        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
-        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+        "de": "Indisches Tofucurry, Langkornreis",
+        "en": "Indian tofu curry, long grain rice"
       },
       "labels": [],
       "prices": {
@@ -58,8 +64,7 @@
         }
       ],
       "codes": [
-        "f",
-        "h1"
+        "f"
       ],
       "dinner": false,
       "cake": false,

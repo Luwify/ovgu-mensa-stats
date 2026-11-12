@@ -12,6 +12,41 @@
   "source": "main",
   "dishes": [
     {
+      "key": "spirelli-nudeln, bolognese aus geflügelhack und mediterranem gemüse",
+      "name": {
+        "de": "Spirelli-Nudeln, Bolognese aus Geflügelhack und mediterranem Gemüse",
+        "en": "spirelli pasta, bolognese made from minced poultry and mediterranean vegetables"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "sojageschnetzeltes puszta art mit paprika, zwiebel, gewürzgurke und chili, langkornreis",
       "name": {
         "de": "Sojageschnetzeltes Puszta Art mit Paprika, Zwiebel, Gewürzgurke und Chili, Langkornreis",

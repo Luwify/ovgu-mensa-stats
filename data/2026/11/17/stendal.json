@@ -110,6 +110,40 @@
       "section": null
     },
     {
+      "key": "2 matjesfilets save the meal:, remouladensoße, salzkartoffeln",
+      "name": {
+        "de": "2 Matjesfilets Save the meal:, Remouladensoße, Salzkartoffeln",
+        "en": "2 matjes fillets Save the meal:, remoulade sauce, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "9",
+        "a1",
+        "c",
+        "d",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
       "name": {
         "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",

@@ -47,10 +47,10 @@
       "section": null
     },
     {
-      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, salzkartoffeln oder böhmische knödel",
       "name": {
-        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
-        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, salt potatoes"
+        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Salzkartoffeln oder Böhmische Knödel",
+        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, salt potatoes or bohemian dumplings"
       },
       "labels": [],
       "prices": {
@@ -61,11 +61,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
+        "a1",
+        "c",
+        "g",
         "j"
       ],
       "dinner": false,

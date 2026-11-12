@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "date": "2026-11-19",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "crunchy kimchi-burger mit chinakohl, sesamgurken und koriander-aioli, kartoffel-dippers, wasabidip",
+      "name": {
+        "de": "Crunchy Kimchi-Burger mit Chinakohl, Sesamgurken und Koriander-Aioli, Kartoffel-Dippers, Wasabidip",
+        "en": "Crunchy Kimchi Burger with Chinese cabbage, sesame cucumbers and cilantro aioli, potato dippers, wasabi dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 450,
+        "staff": 620,
+        "guests": 760
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "a3",
+        "f",
+        "i",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schwedische hackbällchen köttbullar, champignon-rahmsauce, preiselbeeren, buttererbsen, kartoffelstampf",
+      "name": {
+        "de": "Schwedische Hackbällchen Köttbullar, Champignon-Rahmsauce, Preiselbeeren, Buttererbsen, Kartoffelstampf",
+        "en": "'Swedish style' meatballs Köttbullar, champignon cream sauce, European cranberries, butter peas, mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "3",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "zwiebel-sahne-hähnchen, rosenkohl oder rustikales möhrengemüse, kartoffelkroketten oder kartoffelstampf",
+      "name": {
+        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl oder rustikales Möhrengemüse, Kartoffelkroketten oder Kartoffelstampf",
+        "en": "onion cream chicken, brussel sprouts or rustic carrot vegetables, potato croquettes or mashed potato"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
+      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, kräuter-gerste",
       "name": {
-        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
-        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, tender wheat"
+        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Kräuter-Gerste",
+        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, herbs barley"
       },
       "labels": [],
       "prices": {
@@ -31,7 +31,7 @@
         }
       ],
       "codes": [
-        "a1",
+        "a3",
         "j"
       ],
       "dinner": false,

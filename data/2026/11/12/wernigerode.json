@@ -12,6 +12,37 @@
   "source": "main",
   "dishes": [
     {
+      "key": "vegetarisch gefüllte zucchini, kräutersauce, zartweizen-gemüsesalat oder couscoussalat mit cranberries",
+      "name": {
+        "de": "Vegetarisch gefüllte Zucchini, Kräutersauce, Zartweizen-Gemüsesalat oder Couscoussalat mit Cranberries",
+        "en": "vegetarian filled courgette, herb sauce, tender wheat vegetable salad oder couscous salad with cranberries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "putenschnitzel hamburger art mit spiegelei, rahmsauce, möhren-zucchini-pastinakengemüse, kartoffelkroketten",
       "name": {
         "de": "Putenschnitzel Hamburger Art mit Spiegelei, Rahmsauce, Möhren-Zucchini-Pastinakengemüse, Kartoffelkroketten",
@@ -40,10 +71,10 @@
       "section": null
     },
     {
-      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, zartweizen",
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, kräuter-gerste",
       "name": {
-        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Zartweizen",
-        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, tender wheat"
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Kräuter-Gerste",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, herbs barley"
       },
       "labels": [],
       "prices": {
@@ -59,7 +90,7 @@
         }
       ],
       "codes": [
-        "a1",
+        "a3",
         "j"
       ],
       "dinner": false,
@@ -104,10 +135,87 @@
       "section": null
     },
     {
-      "key": "penne rigate alla casalinga mit kochschinken und erbsen in sahnesauce",
+      "key": "käsekuchen",
       "name": {
-        "de": "Penne Rigate alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
-        "en": "penne rigate alla Casalinga with cooked ham and peas in cream sauce"
+        "de": "Käsekuchen",
+        "en": "cheesecake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate verdure al vino rosso mit schmorgemüse in rotweinsauce",
+      "name": {
+        "de": "Penne Rigate Verdure al vino rosso mit Schmorgemüse in Rotweinsauce",
+        "en": "penne rigate verudre al vino rosso with braised vegetables in red wine sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "5",
+        "a1",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´amatriciana mit kochschinken und chili in tomaten-sahnesauce",
+      "name": {
+        "de": "Penne Rigate all´Amatriciana mit Kochschinken und Chili in Tomaten-Sahnesauce",
+        "en": "penne rigate all´Amatriciana with cooked ham and chilli in tomato cream sauce"
       },
       "labels": [
         {
@@ -139,10 +247,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "key": "penne rigate alla montanara mit mischpilzen in chili-tomaten-basilikumsauce",
       "name": {
-        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
-        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Chili-Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in chili tomato basil sauce"
       },
       "labels": [
         {
@@ -167,6 +275,7 @@
         }
       ],
       "codes": [
+        "2",
         "a1"
       ],
       "dinner": false,
