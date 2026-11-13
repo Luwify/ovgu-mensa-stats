@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hähnchenschnitte diana mit brokkoli-käsefüllung, majoransauce, leipziger allerlei, salzkartoffeln",
+      "key": "hähnchenkeule, majoransauce, champignon-spinat-gemüse oder leipziger allerlei, salzkartoffeln",
       "name": {
-        "de": "Hähnchenschnitte Diana mit Brokkoli-Käsefüllung, Majoransauce, Leipziger Allerlei, Salzkartoffeln",
-        "en": "chicken slices Diana with broccoli cheese filling, marjoram sauce, mixed vegetables 'Leipzig style', salt potatoes"
+        "de": "Hähnchenkeule, Majoransauce, Champignon-Spinat-Gemüse oder Leipziger Allerlei, Salzkartoffeln",
+        "en": "chicken leg, marjoram sauce, mushroom spinach vegetables or mixed vegetables 'Leipzig style', salt potatoes"
       },
       "labels": [],
       "prices": {
@@ -32,11 +32,14 @@
         {
           "key": "gefluegel",
           "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
         }
       ],
       "codes": [
         "5",
-        "a1",
         "g",
         "l"
       ],

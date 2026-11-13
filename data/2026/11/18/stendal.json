@@ -100,6 +100,39 @@
       "section": null
     },
     {
+      "key": "veganer zitronenkuchen mit glasur",
+      "name": {
+        "de": "Veganer Zitronenkuchen mit Glasur",
+        "en": "vegan lemon cake with glaze"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
       "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
       "name": {
         "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",

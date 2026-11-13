@@ -40,6 +40,34 @@
       "section": null
     },
     {
+      "key": "gebratenes seehechtfilet, schnittlauchsauce, möhren-steckrübengemüse, bratkartoffeln",
+      "name": {
+        "de": "Gebratenes Seehechtfilet, Schnittlauchsauce, Möhren-Steckrübengemüse, Bratkartoffeln",
+        "en": "fried hake fillet, chive sauce, carrot turnip vegetables, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "sellerieschnitzel, schnittlauchsauce, möhren-steckrübengemüse, süß-saure linsen mit backpflaumen",
       "name": {
         "de": "Sellerieschnitzel, Schnittlauchsauce, Möhren-Steckrübengemüse, süß-saure Linsen mit Backpflaumen",
@@ -133,11 +161,15 @@
         }
       ],
       "codes": [
+        "1",
         "2",
         "3",
+        "5",
         "a1",
         "a3",
-        "g"
+        "g",
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -174,34 +206,6 @@
       ],
       "dinner": false,
       "cake": true,
-      "section": null
-    },
-    {
-      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
-      "name": {
-        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
-        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
-      },
-      "labels": [],
-      "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
-      "codes": [
-        "3",
-        "c",
-        "j"
-      ],
-      "dinner": false,
-      "cake": false,
       "section": null
     }
   ]

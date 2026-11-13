@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "date": "2026-11-20",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "spirelli-nudeln, tomatensauce, marinierte blattsalate",
+      "name": {
+        "de": "Spirelli-Nudeln, Tomatensauce, marinierte Blattsalate",
+        "en": "spirelli pasta, tomato sauce, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

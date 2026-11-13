@@ -136,30 +136,6 @@
       "dinner": false,
       "cake": false,
       "section": null
-    },
-    {
-      "key": "bananen-schokokuchen vom blech",
-      "name": {
-        "de": "Bananen-Schokokuchen vom Blech",
-        "en": "banana chocolate cake from the baking tray"
-      },
-      "labels": [
-        {
-          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favourite cake of our Mensa-Team"
-        }
-      ],
-      "prices": {
-        "students": 150,
-        "staff": 180,
-        "guests": 210
-      },
-      "unassignedPrices": [],
-      "tags": [],
-      "codes": [],
-      "dinner": false,
-      "cake": true,
-      "section": null
     }
   ]
 }

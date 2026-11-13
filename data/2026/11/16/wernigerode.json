@@ -40,10 +40,83 @@
       "section": null
     },
     {
-      "key": "schweineschnitzel hubertus art mit wald- und wiesenpilzen in schnittlauchrahm, salzkartoffeln oder pommes frites",
+      "key": "rindspaprikasch - rinderragout in paprika-sauerrahm, rosenkohl, kartoffelklöße mit kürbiskernschmelz",
       "name": {
-        "de": "Schweineschnitzel Hubertus Art mit Wald- und Wiesenpilzen in Schnittlauchrahm, Salzkartoffeln oder Pommes Frites",
-        "en": "pork escalope with breading 'Hubertus style' with mixed mushrooms and chives cream, salt potatoes or French fries"
+        "de": "Rindspaprikasch - Rinderragout in Paprika-Sauerrahm, Rosenkohl, Kartoffelklöße mit Kürbiskernschmelz",
+        "en": "Beef Paprikasch - beef strips in bell pepper sour cream, brussel sprouts, potato dumplings with vegan pumpkin seed butter"
+      },
+      "labels": [],
+      "prices": {
+        "students": 410,
+        "staff": 580,
+        "guests": 720
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "g",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "coq au vin - hähnchenbrust und hähnchenunterschenkel mit schmorgemüse in rotweinsauce, kürbis-kartoffelstampf",
+      "name": {
+        "de": "Coq au vin - Hähnchenbrust und Hähnchenunterschenkel mit Schmorgemüse in Rotweinsauce, Kürbis-Kartoffelstampf",
+        "en": "Coq au vin - chicken breast and chicken drumstick with braised vegetables in red wine sauce, pumpkin mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "brauhausgulasch mit plantbased-chunks und herbstgemüse in biersauce, wildkräuterdip, kartoffelklöße mit kürbiskernschmelz",
+      "name": {
+        "de": "Brauhausgulasch mit Plantbased-Chunks und Herbstgemüse in Biersauce, Wildkräuterdip, Kartoffelklöße mit Kürbiskernschmelz",
+        "en": "beer goulash with plant-based chunks and autumn vegetables, wild herb dip, potato dumplings with vegan pumpkin seed butter"
       },
       "labels": [],
       "prices": {
@@ -54,71 +127,22 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "schwein",
-          "label": "Schwein"
-        }
-      ],
-      "codes": [
-        "a1",
-        "c",
-        "g"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "brokkoli-nuss-ecke, tomatensauce, balkangemüse, bio vollkorn-penne rigate",
-      "name": {
-        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Balkangemüse, BIO Vollkorn-Penne Rigate",
-        "en": "broccoli nut steak, tomato sauce, Balkan vegetables, organic wholemeal Penne Rigate"
-      },
-      "labels": [],
-      "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
-      },
-      "unassignedPrices": [],
-      "tags": [
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
         {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "a1",
-        "a4",
-        "h1",
-        "h2"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
-      "name": {
-        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
-        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
-      },
-      "labels": [],
-      "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
-      "codes": [
         "3",
-        "c",
-        "j"
+        "5",
+        "a1",
+        "a3",
+        "a4",
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,

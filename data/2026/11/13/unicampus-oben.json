@@ -35,7 +35,8 @@
         }
       ],
       "codes": [
-        "i"
+        "i",
+        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -64,7 +65,9 @@
           "label": "vegan"
         }
       ],
-      "codes": [],
+      "codes": [
+        "j"
+      ],
       "dinner": false,
       "cake": false,
       "section": null
@@ -148,13 +151,13 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
         "a1",
-        "f"
+        "g"
       ],
       "dinner": false,
       "cake": false,
@@ -258,7 +261,8 @@
       "codes": [
         "2",
         "a1",
-        "g"
+        "g",
+        "i"
       ],
       "dinner": true,
       "cake": false,
@@ -292,7 +296,8 @@
         "2",
         "3",
         "8",
-        "a1"
+        "a1",
+        "i"
       ],
       "dinner": true,
       "cake": false,

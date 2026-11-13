@@ -12,6 +12,43 @@
   "source": "main",
   "dishes": [
     {
+      "key": "gebratenes seehechtfilet, champignon-spinat-gemüse oder marinierte blattsalate, tomatenreis",
+      "name": {
+        "de": "Gebratenes Seehechtfilet, Champignon-Spinat-Gemüse oder marinierte Blattsalate, Tomatenreis",
+        "en": "fried hake fillet, mushroom spinach vegetables or marinated leaf salads, tomato rice"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "sellerieschnitzel, schnittlauchsauce, möhren-steckrübengemüse, süß-saure linsen mit backpflaumen",
       "name": {
         "de": "Sellerieschnitzel, Schnittlauchsauce, Möhren-Steckrübengemüse, süß-saure Linsen mit Backpflaumen",
@@ -100,14 +137,50 @@
         }
       ],
       "codes": [
+        "1",
         "2",
         "3",
+        "5",
         "a1",
         "a3",
-        "g"
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfelkuchen mit zimtstreusel",
+      "name": {
+        "de": "Apfelkuchen mit Zimtstreusel",
+        "en": "apple cake with cinnamon crumble"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
       "section": null
     }
   ]

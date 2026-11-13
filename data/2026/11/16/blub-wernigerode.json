@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "orientalischer süßkartoffel-one pot mit buntem gemüse und gerösteten erdnusskernen",
+      "name": {
+        "de": "Orientalischer Süßkartoffel-One Pot mit buntem Gemüse und gerösteten Erdnusskernen",
+        "en": "oriantal sweet potato one pot with colourful vegetables and roasted peanuts"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "e",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

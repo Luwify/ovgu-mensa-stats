@@ -203,10 +203,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla saporita mit seelachswürfel und blattspinat in sahnesauce",
+      "key": "gabelspaghetti al sugo piccante mit rinderhack und chili in gemüsesugo",
       "name": {
-        "de": "Gabelspaghetti alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
-        "en": "cut up shortened spaghetti alla Saporita with pollock cubes and leaf spinach in cream sauce"
+        "de": "Gabelspaghetti al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",
+        "en": "cut up shortened spaghetti al Sugo piccante with minced beef and chilli in vegetable sugo"
       },
       "labels": [
         {
@@ -222,21 +222,13 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "alkohol",
-          "label": "enth lt Alkohol"
-        },
-        {
-          "key": "fisch",
-          "label": "Fisch"
+          "key": "rind",
+          "label": "Rind"
         }
       ],
       "codes": [
         "2",
-        "5",
-        "a1",
-        "d",
-        "g",
-        "l"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

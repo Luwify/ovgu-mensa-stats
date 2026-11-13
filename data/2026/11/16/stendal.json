@@ -128,10 +128,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al pomodoro mit fruchtigem tomaten-zwiebel-basilikumsugo",
+      "key": "gabelspaghetti alla montanara mit mischpilzen in tomaten-basilikumsauce",
       "name": {
-        "de": "Gabelspaghetti al Pomodoro mit fruchtigem Tomaten-Zwiebel-Basilikumsugo",
-        "en": "cut up shortened spaghetti al Pomodoro with fruity tomato-onion-basil sugo"
+        "de": "Gabelspaghetti alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
+        "en": "cut up shortened spaghetti alla Montanara with mixed mushrooms in tomato basil sauce"
       },
       "labels": [
         {
@@ -147,16 +147,16 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "1",
-        "2",
-        "5",
-        "a1",
-        "l"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

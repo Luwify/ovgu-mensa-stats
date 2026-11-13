@@ -49,31 +49,33 @@
       "section": null
     },
     {
-      "key": "käse-spinat-rostbratwurst, senfsaatsauce, apfel-speck-sauerkraut, kartoffelstampf, röstzwiebeln",
+      "key": "vegetarisch gefüllte zucchini, weißweinsauce, ratatouille oder rahm-blattspinat, bio-langkornreis",
       "name": {
-        "de": "Käse-Spinat-Rostbratwurst, Senfsaatsauce, Apfel-Speck-Sauerkraut, Kartoffelstampf, Röstzwiebeln",
-        "en": "roasted cheese spinach sausage, mustard seed sauce, apple-bacon-sauerkraut, mashed potatoes, fried onions"
+        "de": "Vegetarisch gefüllte Zucchini, Weißweinsauce, Ratatouille oder Rahm-Blattspinat, BIO-Langkornreis",
+        "en": "vegetarian filled courgette, white wine sauce, ratatouille or creamed leaf spinach, organic long grain rice"
       },
       "labels": [],
       "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
+        "students": 370,
+        "staff": 540,
+        "guests": 680
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "schwein",
-          "label": "Schwein"
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
         "2",
-        "3",
-        "8",
-        "a1",
+        "5",
         "g",
-        "j"
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -115,27 +117,31 @@
       "section": null
     },
     {
-      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "key": "käse-spinat-rostbratwurst, senfsaatsauce, apfel-speck-sauerkraut, kartoffelstampf, röstzwiebeln",
       "name": {
-        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
-        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+        "de": "Käse-Spinat-Rostbratwurst, Senfsaatsauce, Apfel-Speck-Sauerkraut, Kartoffelstampf, Röstzwiebeln",
+        "en": "roasted cheese spinach sausage, mustard seed sauce, apple-bacon-sauerkraut, mashed potatoes, fried onions"
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 340,
+        "staff": 510,
+        "guests": 650
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
-        "f",
-        "h1"
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "j"
       ],
       "dinner": false,
       "cake": false,

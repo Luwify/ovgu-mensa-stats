@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "zwiebel-sahne-hähnchen, rosenkohl oder rustikales möhrengemüse, kartoffelkroketten oder kartoffelstampf",
+      "key": "zwiebel-sahne-hähnchen, rosenkohl, kartoffelkroketten oder kartoffelstampf",
       "name": {
-        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl oder rustikales Möhrengemüse, Kartoffelkroketten oder Kartoffelstampf",
-        "en": "onion cream chicken, brussel sprouts or rustic carrot vegetables, potato croquettes or mashed potato"
+        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl, Kartoffelkroketten oder Kartoffelstampf",
+        "en": "onion cream chicken, brussel sprouts, potato croquettes or mashed potato"
       },
       "labels": [],
       "prices": {
@@ -64,6 +64,7 @@
         "9",
         "a1",
         "a4",
+        "c",
         "g",
         "j",
         "k",
@@ -104,6 +105,33 @@
       "section": null
     },
     {
+      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "name": {
+        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
+        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f",
+        "h1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
       "name": {
         "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
@@ -132,10 +160,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla contadina mit champignons in tomaten-basilikumsauce",
+      "key": "gabelspaghetti al´asciutta mit schweinehack und wurzelgemüse in tomaten-sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Contadina mit Champignons in Tomaten-Basilikumsauce",
-        "en": "cut up shortened spaghetti alla Contadina with champignons in tomato basil sauce"
+        "de": "Gabelspaghetti al´Asciutta mit Schweinehack und Wurzelgemüse in Tomaten-Sahnesauce",
+        "en": "cut up shortened spaghetti al´Asciutta with minced pork and root vegetables in tomato cream sauce"
       },
       "labels": [
         {
@@ -150,6 +178,47 @@
       },
       "unassignedPrices": [],
       "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla montanara mit mischpilzen in chili-tomaten-basilikumsauce",
+      "name": {
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Chili-Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in chili tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
         {
           "key": "vegan",
           "label": "vegan"
@@ -157,46 +226,6 @@
       ],
       "codes": [
         "a1"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "gabelspaghetti alla saporita mit seelachswürfel und blattspinat in sahnesauce",
-      "name": {
-        "de": "Gabelspaghetti alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
-        "en": "cut up shortened spaghetti alla Saporita with pollock cubes and leaf spinach in cream sauce"
-      },
-      "labels": [
-        {
-          "de": "Pastabuffet",
-          "en": "pasta buffet"
-        }
-      ],
-      "prices": {
-        "students": 50,
-        "staff": 80,
-        "guests": 110
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "alkohol",
-          "label": "enth lt Alkohol"
-        },
-        {
-          "key": "fisch",
-          "label": "Fisch"
-        }
-      ],
-      "codes": [
-        "2",
-        "5",
-        "a1",
-        "d",
-        "g",
-        "l"
       ],
       "dinner": false,
       "cake": false,
