@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenkebab mit türkischem joghurtdip und scharfer soße, bunte gemüse-rohkost, pita-fladenbrot",
+      "name": {
+        "de": "Hähnchenkebab mit türkischem Joghurtdip und scharfer Soße, bunte Gemüse-Rohkost, Pita-Fladenbrot",
+        "en": "chicken kebab 'döner style' with turkish yoghurt dip and spicy sauce, colourful raw vegetables, pita flatbread"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "3 quarkkäulchen, zimtzucker, apfel-birnenkompott",
+      "name": {
+        "de": "3 Quarkkäulchen, Zimtzucker, Apfel-Birnenkompott",
+        "en": "3 hash browns with quark, cinnamon sugar, apple pear compote"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

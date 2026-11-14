@@ -1,0 +1,225 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bombay bowl - tandoori chicken, raita, kichererbsen-blumenkohlsalat, sesam-spinat, cashewkerne",
+      "name": {
+        "de": "Bombay Bowl - Tandoori Chicken, Raita, Kichererbsen-Blumenkohlsalat, Sesam-Spinat, Cashewkerne",
+        "en": "Bombay bowl - Tandoori chicken, raita, chickpea cauliflower salad, sesame spinach and cashews"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "g",
+        "h4",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rinderhacksteak mit frischkäsefüllung, thymiansauce, wachsbohnen, pommes frites oder bratkartoffeln",
+      "name": {
+        "de": "Rinderhacksteak mit Frischkäsefüllung, Thymiansauce, Wachsbohnen, Pommes Frites oder Bratkartoffeln",
+        "en": "minced beef steak with cream cheese filling, thyme sauce, wax beans, french fries or fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 gemüse-maultaschen, käsesauce, kürbis-linsengemüse mit apfel und lauch",
+      "name": {
+        "de": "5 Gemüse-Maultaschen, Käsesauce, Kürbis-Linsengemüse mit Apfel und Lauch",
+        "en": "5 vegetable pasta bags, cheese sauce, pumpkin lentil vegetables with apple and leek"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 gemüse-maultaschen, käsesauce, kürbis-linsengemüse mit apfel und lauch",
+      "name": {
+        "de": "5 Gemüse-Maultaschen, Käsesauce, Kürbis-Linsengemüse mit Apfel und Lauch",
+        "en": "5 vegetable pasta bags, cheese sauce, pumpkin lentil vegetables with apple and leek"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "saftiger mohn-schmand-kuchen vom blech",
+      "name": {
+        "de": "Saftiger Mohn-Schmand-Kuchen vom Blech",
+        "en": "juicy poppy seed sour cream cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bombay bowl - tandoori chicken, raita, kichererbsen-blumenkohlsalat, sesam-spinat, cashewkerne",
+      "name": {
+        "de": "Bombay Bowl - Tandoori Chicken, Raita, Kichererbsen-Blumenkohlsalat, Sesam-Spinat, Cashewkerne",
+        "en": "Bombay bowl - Tandoori chicken, raita, chickpea cauliflower salad, sesame spinach and cashews"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "g",
+        "h4",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 gemüse-maultaschen, käsesauce, kürbis-linsengemüse mit apfel und lauch",
+      "name": {
+        "de": "5 Gemüse-Maultaschen, Käsesauce, Kürbis-Linsengemüse mit Apfel und Lauch",
+        "en": "5 vegetable pasta bags, cheese sauce, pumpkin lentil vegetables with apple and leek"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sojafrikassee mit spargel, champignons und kapern, möhren-erbsengemüse, langkornreis",
+      "name": {
+        "de": "Sojafrikassee mit Spargel, Champignons und Kapern, Möhren-Erbsengemüse, Langkornreis",
+        "en": "soya fricassee with asparagus, champignons and capers, carrot pea vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "f",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

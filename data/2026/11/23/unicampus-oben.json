@@ -1,0 +1,310 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweineschnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "pork escalope with breading, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "Vegan escalope, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sojafrikassee mit spargel, champignons und kapern, möhren-erbsengemüse, langkornreis",
+      "name": {
+        "de": "Sojafrikassee mit Spargel, Champignons und Kapern, Möhren-Erbsengemüse, Langkornreis",
+        "en": "soya fricassee with asparagus, champignons and capers, carrot pea vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "f",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "saftiger mohn-schmand-kuchen vom blech",
+      "name": {
+        "de": "Saftiger Mohn-Schmand-Kuchen vom Blech",
+        "en": "juicy poppy seed sour cream cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "makkaroni al pesto mit basilikum-pestocreme",
+      "name": {
+        "de": "Makkaroni al Pesto mit Basilikum-Pestocreme",
+        "en": "macaroni al Pesto with basil pesto cream"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla boscaiola mit mischpilzen und schinkenspeck in tomaten-sahnesauce",
+      "name": {
+        "de": "Makkaroni alla Boscaiola mit Mischpilzen und Schinkenspeck in Tomaten-Sahnesauce",
+        "en": "macaroni alla Boscaiola with mixed mushrooms and bacon in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käseschnitzel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Käseschnitzel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chili con quinoa mit pita-fladenbrot und coleslaw-salat",
+      "name": {
+        "de": "Chili con Quinoa mit Pita-Fladenbrot und Coleslaw-Salat",
+        "en": "Chilli con quinoa with pita flatbread and coleslaw salad"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 280,
+        "staff": 450,
+        "guests": 590
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "j"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene hähnchenbrust im cornflakes-knuspermantel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Gebratene Hähnchenbrust im Cornflakes-Knuspermantel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "fried chicken breast in crispy cornflakes coating, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

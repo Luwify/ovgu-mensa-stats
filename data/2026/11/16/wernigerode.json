@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "key": "bunter kartoffel-gemüseauflauf",
       "name": {
-        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
-        "en": "potato cauliflower broccoli casserole"
+        "de": "Bunter Kartoffel-Gemüseauflauf",
+        "en": "colourful potato vegetable casserole"
       },
       "labels": [],
       "prices": {
@@ -32,7 +32,6 @@
       ],
       "codes": [
         "a1",
-        "c",
         "g"
       ],
       "dinner": false,

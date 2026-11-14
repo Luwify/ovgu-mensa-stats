@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "date": "2026-11-20",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bunte gemüse-paella mit gebratenem räuchertofu",
+      "name": {
+        "de": "Bunte Gemüse-Paella mit gebratenem Räuchertofu",
+        "en": "colourful vegetable paella with fried smoked tofu"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

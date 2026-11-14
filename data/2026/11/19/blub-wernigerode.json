@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "date": "2026-11-19",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "name": {
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

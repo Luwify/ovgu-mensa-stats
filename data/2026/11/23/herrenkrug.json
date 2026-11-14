@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bombay bowl - tandoori chicken, raita, kichererbsen-blumenkohlsalat, sesam-spinat, cashewkerne",
+      "name": {
+        "de": "Bombay Bowl - Tandoori Chicken, Raita, Kichererbsen-Blumenkohlsalat, Sesam-Spinat, Cashewkerne",
+        "en": "Bombay bowl - Tandoori chicken, raita, chickpea cauliflower salad, sesame spinach and cashews"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "g",
+        "h4",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rinderhacksteak mit frischkäsefüllung, thymiansauce, wachsbohnen, pommes frites oder bratkartoffeln",
+      "name": {
+        "de": "Rinderhacksteak mit Frischkäsefüllung, Thymiansauce, Wachsbohnen, Pommes Frites oder Bratkartoffeln",
+        "en": "minced beef steak with cream cheese filling, thyme sauce, wax beans, french fries or fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 gemüse-maultaschen, käsesauce, kürbis-linsengemüse mit apfel und lauch",
+      "name": {
+        "de": "5 Gemüse-Maultaschen, Käsesauce, Kürbis-Linsengemüse mit Apfel und Lauch",
+        "en": "5 vegetable pasta bags, cheese sauce, pumpkin lentil vegetables with apple and leek"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sojafrikassee mit spargel, champignons und kapern, möhren-erbsengemüse, langkornreis",
+      "name": {
+        "de": "Sojafrikassee mit Spargel, Champignons und Kapern, Möhren-Erbsengemüse, Langkornreis",
+        "en": "soya fricassee with asparagus, champignons and capers, carrot pea vegetables, long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "f",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

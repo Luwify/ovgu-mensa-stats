@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "schweinerückensteak elsässer art mit schinkenspeck-zwiebelstippe und crème fraîche-sauce, karotten-wirsinggemüse, bratkartoffeln",
+      "key": "schweinerückensteak elsässer art mit schinkenspeck-zwiebelstippe und crème fraîche-sauce, grüne bohnen, bratkartoffeln",
       "name": {
-        "de": "Schweinerückensteak Elsässer Art mit Schinkenspeck-Zwiebelstippe und Crème fraîche-Sauce, Karotten-Wirsinggemüse, Bratkartoffeln",
-        "en": "pork loin steak Alsatian style with bacon onion mix and sour cream sauce, carrot savoy cabbage vegetables, fried potatoes"
+        "de": "Schweinerückensteak Elsässer Art mit Schinkenspeck-Zwiebelstippe und Crème fraîche-Sauce, grüne Bohnen, Bratkartoffeln",
+        "en": "pork loin steak Alsatian style with bacon onion mix and sour cream sauce, green beans, fried potatoes"
       },
       "labels": [],
       "prices": {
@@ -42,10 +42,10 @@
       "section": null
     },
     {
-      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "key": "milchreis, zimtzucker, apfel-birnenkompott",
       "name": {
-        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
-        "en": "potato cauliflower broccoli casserole"
+        "de": "Milchreis, Zimtzucker, Apfel-Birnenkompott",
+        "en": "rice pudding, cinnamon sugar, apple pear compote"
       },
       "labels": [],
       "prices": {
@@ -61,8 +61,35 @@
         }
       ],
       "codes": [
-        "c",
+        "3",
         "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mariniertes schweinenackensteak, westernsauce, grüne bohnen, bratkartoffeln",
+      "name": {
+        "de": "Mariniertes Schweinenackensteak, Westernsauce, grüne Bohnen, Bratkartoffeln",
+        "en": "marinated pork neck steak, Western style sauce, green beans, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "i"
       ],
       "dinner": false,
       "cake": false,
