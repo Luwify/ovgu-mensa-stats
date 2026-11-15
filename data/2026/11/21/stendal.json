@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "date": "2026-11-21",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "sojafrikassee mit spargel, champignons und kapern, möhren-erbsengemüse, langkornreis",
+      "name": {
+        "de": "Sojafrikassee mit Spargel, Champignons und Kapern, Möhren-Erbsengemüse, Langkornreis",
+        "en": "soya fricassee with asparagus, champignons and capers, carrot pea vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "f",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
