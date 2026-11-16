@@ -32,7 +32,8 @@
       ],
       "codes": [
         "a1",
-        "g"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,
@@ -145,6 +146,40 @@
       ],
       "dinner": false,
       "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsekuchen",
+      "name": {
+        "de": "Käsekuchen",
+        "en": "cheesecake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
       "section": null
     }
   ]

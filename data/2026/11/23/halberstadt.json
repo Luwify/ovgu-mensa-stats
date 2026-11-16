@@ -40,29 +40,29 @@
       "section": null
     },
     {
-      "key": "3 quarkkäulchen, zimtzucker, apfel-birnenkompott",
+      "key": "sellerieschnitzel, schnittlauchsauce, möhren-steckrübengemüse, süß-saure linsen mit backpflaumen",
       "name": {
-        "de": "3 Quarkkäulchen, Zimtzucker, Apfel-Birnenkompott",
-        "en": "3 hash browns with quark, cinnamon sugar, apple pear compote"
+        "de": "Sellerieschnitzel, Schnittlauchsauce, Möhren-Steckrübengemüse, süß-saure Linsen mit Backpflaumen",
+        "en": "celery schnitzel, chive sauce, carrot turnip vegetables, sweet and sour lentils with pruns"
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 310,
+        "staff": 480,
+        "guests": 620
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "vegan",
+          "label": "vegan"
         }
       ],
       "codes": [
-        "3",
+        "2",
         "a1",
-        "c",
-        "g"
+        "f",
+        "i"
       ],
       "dinner": false,
       "cake": false,

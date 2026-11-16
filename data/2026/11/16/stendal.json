@@ -128,10 +128,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "key": "gabelspaghetti al sugo piccante mit rinderhack und chili in gemüsesugo",
       "name": {
-        "de": "Gabelspaghetti alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
-        "en": "cut up shortened spaghetti alla Montanara with mixed mushrooms in tomato basil sauce"
+        "de": "Gabelspaghetti al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",
+        "en": "cut up shortened spaghetti al Sugo piccante with minced beef and chilli in vegetable sugo"
       },
       "labels": [
         {
@@ -147,15 +147,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "rind",
+          "label": "Rind"
         }
       ],
       "codes": [
+        "2",
         "a1"
       ],
       "dinner": false,

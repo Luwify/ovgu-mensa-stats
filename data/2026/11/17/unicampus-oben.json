@@ -215,10 +215,10 @@
       "section": null
     },
     {
-      "key": "2 vegetarische schnitzel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "key": "sellerieschnitzel, schnittlauchsauce, pasta oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "2 vegetarische Schnitzel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
-        "en": "2 vegetarian escalopes, tomato basil sauce, pasta or French fries, marinated leaf salads"
+        "de": "Sellerieschnitzel, Schnittlauchsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "celery schnitzel, chive sauce, pasta or French fries, marinated leaf salads"
       },
       "labels": [
         {
@@ -234,16 +234,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "vegan",
+          "label": "vegan"
         }
       ],
       "codes": [
-        "1",
         "a1",
-        "a4",
-        "c",
-        "g"
+        "f",
+        "i"
       ],
       "dinner": true,
       "cake": false,
