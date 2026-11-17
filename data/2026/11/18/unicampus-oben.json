@@ -104,15 +104,15 @@
       "section": null
     },
     {
-      "key": "veganer karottenkuchen mit haselnüssen",
+      "key": "zupfkuchen vom blech",
       "name": {
-        "de": "Veganer Karottenkuchen mit Haselnüssen",
-        "en": "vegan carrot cake with hazelnuts"
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favourite cake of our Mensa-Team"
+          "en": "Today's favorite cake of the Mensa team"
         }
       ],
       "prices": {
@@ -123,24 +123,24 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "3",
         "a1",
-        "h2"
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": true,
       "section": null
     },
     {
-      "key": "gabelspaghetti alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
+      "key": "fusilli tricolore alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
       "name": {
-        "de": "Gabelspaghetti alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
-        "en": "cut up shortened spaghetti alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
+        "de": "Fusilli Tricolore alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
+        "en": "fusilli tricolore alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
       },
       "labels": [
         {
@@ -172,10 +172,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al broccoli mit brokkoli-cremesauce",
+      "key": "fusilli tricolore al broccoli mit brokkoli-cremesauce",
       "name": {
-        "de": "Gabelspaghetti al Broccoli mit Brokkoli-Cremesauce",
-        "en": "cut up shortened spaghetti al Broccoli with broccoli cream sauce"
+        "de": "Fusilli Tricolore al Broccoli mit Brokkoli-Cremesauce",
+        "en": "fusilli tricolore al Broccoli with broccoli cream sauce"
       },
       "labels": [
         {

@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweineschnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "pork escalope with breading, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "Vegan escalope, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hackfleisch-käse-lauchsuppe mit kartoffeln",
+      "name": {
+        "de": "Hackfleisch-Käse-Lauchsuppe mit Kartoffeln",
+        "en": "minced meat-cheese-leek soup with potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "himbeer-streusel-kuchen vom blech",
+      "name": {
+        "de": "Himbeer-Streusel-Kuchen vom Blech",
+        "en": "raspberry crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla siciliana mit zucchini und aubergine in tomatensugo",
+      "name": {
+        "de": "Makkaroni alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
+        "en": "macaroni alla Siciliana with courgette and eggplant in tomato sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "name": {
+        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
+        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "one pot mac and cheese - makkaroni, cremige käsesauce, röstzwiebeln",
+      "name": {
+        "de": "One Pot Mac and Cheese - Makkaroni, cremige Käsesauce, Röstzwiebeln",
+        "en": "One Pot Mac and Chese - macaroni, creamy cheese sauce, fried onions"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 220,
+        "staff": 390,
+        "guests": 530
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "backed cauli wings, champignon-cremesauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Backed Cauli Wings, Champignon-Cremesauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "Baked Cauli Wings, champignon cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "a4",
+        "f",
+        "l"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchen-cordon bleu mit putenkochschinken-goudafüllung, champignon-cremesauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchen-Cordon bleu mit Putenkochschinken-Goudafüllung, Champignon-Cremesauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken cordon bleu with cooked turkey ham Gouda cheese filling, champignon cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "8",
+        "a1",
+        "a4",
+        "f",
+        "g",
+        "l"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

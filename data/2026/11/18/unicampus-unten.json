@@ -33,10 +33,8 @@
       "codes": [
         "2",
         "3",
-        "9",
         "a1",
-        "a3",
-        "i"
+        "a3"
       ],
       "dinner": false,
       "cake": false,
@@ -136,15 +134,15 @@
       "section": null
     },
     {
-      "key": "veganer karottenkuchen mit haselnüssen",
+      "key": "zupfkuchen vom blech",
       "name": {
-        "de": "Veganer Karottenkuchen mit Haselnüssen",
-        "en": "vegan carrot cake with hazelnuts"
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favourite cake of our Mensa-Team"
+          "en": "Today's favorite cake of the Mensa team"
         }
       ],
       "prices": {
@@ -155,14 +153,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "3",
         "a1",
-        "h2"
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": true,

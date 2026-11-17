@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "brokkoli-nuss-ecke, tomatensauce, marinierte blattsalate, bio vollkorn-penne rigate",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, marinierte Blattsalate, BIO Vollkorn-Penne Rigate",
+        "en": "broccoli nut steak, tomato sauce, marinated leaf salads, organic wholemeal Penne Rigate"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "h1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, cola-zwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream",
+      "name": {
+        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Cola-Zwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream",
+        "en": "Chicken ranch burger - soft bun, miced poultry steak, Cola onions, pickles and barbeque sauce, potato wedges, sour cream"
+      },
+      "labels": [],
+      "prices": {
+        "students": 430,
+        "staff": 600,
+        "guests": 740
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bunte spätzle-gemüsepfanne, ajvardip",
+      "name": {
+        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
+        "en": "colourful spaetzle vegetable pan, Ajvardip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni al pesto mit basilikum-pestocreme",
+      "name": {
+        "de": "Makkaroni al Pesto mit Basilikum-Pestocreme",
+        "en": "macaroni al Pesto with basil pesto cream"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "name": {
+        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
+        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hokifilet meuniere mit zitronen-petersilien-mehlierung, weißweinsauce, ratatouille oder rahm-blattspinat, bio-langkornreis",
+      "key": "hokifilet meuniere mit zitronen-petersilien-mehlierung, weißweinsauce, blumenkohl oder rahm-blattspinat, bio-langkornreis",
       "name": {
-        "de": "Hokifilet Meuniere mit Zitronen-Petersilien-Mehlierung, Weißweinsauce, Ratatouille oder Rahm-Blattspinat, BIO-Langkornreis",
-        "en": "hoki fillet 'miller style' with lemon parseley flour coating, white wine sauce, ratatouille or creamed leaf spinach, organic long grain rice"
+        "de": "Hokifilet Meuniere mit Zitronen-Petersilien-Mehlierung, Weißweinsauce, Blumenkohl oder Rahm-Blattspinat, BIO-Langkornreis",
+        "en": "hoki fillet 'miller style' with lemon parseley flour coating, white wine sauce, cauliflower or creamed leaf spinach, organic long grain rice"
       },
       "labels": [],
       "prices": {
@@ -47,10 +47,10 @@
       "section": null
     },
     {
-      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
+      "key": "gyros chicken-burger, pommes frites, gemüse-remoulade",
       "name": {
-        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
-        "en": ", french fries, vegetable remoulade"
+        "de": "Gyros Chicken-Burger, Pommes Frites, Gemüse-Remoulade",
+        "en": "Gyros Chicken Burger, french fries, vegetable remoulade"
       },
       "labels": [],
       "prices": {
@@ -61,8 +61,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
         }
       ],
       "codes": [
@@ -71,6 +75,7 @@
         "9",
         "a1",
         "a4",
+        "c",
         "g",
         "j",
         "k",
@@ -158,10 +163,10 @@
       "section": null
     },
     {
-      "key": "seelachsfilet im backteig, weißweinsauce, ratatouille oder rahm-blattspinat, bio-langkornreis",
+      "key": "brokkoli-nuss-ecke, tomatensauce, blumenkohl oder rahm-blattspinat, bio-langkornreis",
       "name": {
-        "de": "Seelachsfilet im Backteig, Weißweinsauce, Ratatouille oder Rahm-Blattspinat, BIO-Langkornreis",
-        "en": "pollock fillets in a baked coat, white wine sauce, ratatouille or creamed leaf spinach, organic long grain rice"
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Blumenkohl oder Rahm-Blattspinat, BIO-Langkornreis",
+        "en": "broccoli nut steak, tomato sauce, cauliflower or creamed leaf spinach, organic long grain rice"
       },
       "labels": [
         {
@@ -177,21 +182,16 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "alkohol",
-          "label": "enth lt Alkohol"
-        },
-        {
-          "key": "fisch",
-          "label": "Fisch"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "2",
-        "5",
         "a1",
-        "d",
+        "a4",
         "g",
-        "l"
+        "h1",
+        "h2"
       ],
       "dinner": false,
       "cake": false,

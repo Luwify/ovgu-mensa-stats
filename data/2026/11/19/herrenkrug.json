@@ -73,7 +73,11 @@
       ],
       "codes": [
         "3",
-        "g"
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
       ],
       "dinner": false,
       "cake": false,

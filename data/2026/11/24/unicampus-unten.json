@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "barbecue-jackfruit-burger, kartoffelspalten, avocadodip",
+      "name": {
+        "de": "Barbecue-Jackfruit-Burger, Kartoffelspalten, Avocadodip",
+        "en": "barbecue jackfruit burger, potato wedges, avocado dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9",
+        "a1",
+        "a4",
+        "f",
+        "i",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse oder kaisergemüse, wildreismischung oder kartoffel-gnocchi",
+      "name": {
+        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse oder Kaisergemüse, Wildreismischung oder Kartoffel-Gnocchi",
+        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce, courgette vegetables or mixed vegetables, wild rice mix or potato gnocchi"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "h4",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce kaisergemüse, wildreismischung",
+      "name": {
+        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce Kaisergemüse, Wildreismischung",
+        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce mixed vegetables, wild rice mix"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "g",
+        "h4",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bunte spätzle-gemüsepfanne, ajvardip",
+      "name": {
+        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
+        "en": "colourful spaetzle vegetable pan, Ajvardip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "himbeer-streusel-kuchen vom blech",
+      "name": {
+        "de": "Himbeer-Streusel-Kuchen vom Blech",
+        "en": "raspberry crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

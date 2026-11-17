@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce rahmwirsing, kartoffelkroketten",
+      "name": {
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce Rahmwirsing, Kartoffelkroketten",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce creamed savoy cabbage, potato croquettes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 460,
+        "staff": 630,
+        "guests": 770
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "name": {
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "pork escalope with breading, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "Vegan escalope, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "himbeer-streusel-kuchen vom blech",
+      "name": {
+        "de": "Himbeer-Streusel-Kuchen vom Blech",
+        "en": "raspberry crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

@@ -144,15 +144,19 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla contadina mit champignons in tomaten-basilikumsauce",
+      "key": "hubertus art mit wald- und wiesenpilzen in schnittlauchrahm",
       "name": {
-        "de": "Gabelspaghetti alla Contadina mit Champignons in Tomaten-Basilikumsauce",
-        "en": "cut up shortened spaghetti alla Contadina with champignons in tomato basil sauce"
+        "de": "Hubertus Art mit Wald- und Wiesenpilzen in Schnittlauchrahm",
+        "en": "'Hubertus style' with mixed mushrooms and chives cream"
       },
       "labels": [
         {
           "de": "Pastabuffet",
           "en": "pasta buffet"
+        },
+        {
+          "de": "Fusilli Tricolore Save the meal",
+          "en": "fusilli tricolore Save the meal"
         }
       ],
       "prices": {
@@ -163,22 +167,23 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "a1"
+        "a1",
+        "g"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "gabelspaghetti alla saporita mit seelachswürfel und blattspinat in sahnesauce",
+      "key": "fusilli tricolore alla saporita mit seelachswürfel und blattspinat in sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
-        "en": "cut up shortened spaghetti alla Saporita with pollock cubes and leaf spinach in cream sauce"
+        "de": "Fusilli Tricolore alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
+        "en": "fusilli tricolore alla Saporita with pollock cubes and leaf spinach in cream sauce"
       },
       "labels": [
         {
@@ -248,10 +253,10 @@
       "section": null
     },
     {
-      "key": "bunte gemüse-tajine mit dörrobst und gerösteten mandeln, couscous",
+      "key": "bunte gemüse-tajine mit dörrobst und gerösteten mandeln, bulgur",
       "name": {
-        "de": "Bunte Gemüse-Tajine mit Dörrobst und gerösteten Mandeln, Couscous",
-        "en": "Colorful vegetable tajine with dried fruits and roasted almonds, couscous"
+        "de": "Bunte Gemüse-Tajine mit Dörrobst und gerösteten Mandeln, Bulgur",
+        "en": "Colorful vegetable tajine with dried fruits and roasted almonds, bulgur"
       },
       "labels": [
         {

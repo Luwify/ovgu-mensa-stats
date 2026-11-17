@@ -12,16 +12,16 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hähnchenkebab mit türkischem joghurtdip und scharfer soße, bunte gemüse-rohkost, pita-fladenbrot",
+      "key": "hähnchenkebab mit türkischem joghurtdip und scharfer soße, bunte gemüse-rohkost, pommes frites",
       "name": {
-        "de": "Hähnchenkebab mit türkischem Joghurtdip und scharfer Soße, bunte Gemüse-Rohkost, Pita-Fladenbrot",
-        "en": "chicken kebab 'döner style' with turkish yoghurt dip and spicy sauce, colourful raw vegetables, pita flatbread"
+        "de": "Hähnchenkebab mit türkischem Joghurtdip und scharfer Soße, bunte Gemüse-Rohkost, Pommes Frites",
+        "en": "chicken kebab 'döner style' with turkish yoghurt dip and spicy sauce, colourful raw vegetables, french fries"
       },
       "labels": [],
       "prices": {
-        "students": 420,
-        "staff": 590,
-        "guests": 730
+        "students": 460,
+        "staff": 630,
+        "guests": 770
       },
       "unassignedPrices": [],
       "tags": [
@@ -32,7 +32,6 @@
       ],
       "codes": [
         "2",
-        "a1",
         "g"
       ],
       "dinner": false,

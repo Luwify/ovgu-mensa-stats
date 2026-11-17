@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "2 mini chicken-haxen, majoransauce, apfel-speck-sauerkraut, kartoffelstampf",
+      "name": {
+        "de": "2 Mini Chicken-Haxen, Majoransauce, Apfel-Speck-Sauerkraut, Kartoffelstampf",
+        "en": "2 mini chicken legs, marjoram sauce, apple-bacon-sauerkraut, mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bunte spätzle-gemüsepfanne, ajvardip",
+      "name": {
+        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
+        "en": "colourful spaetzle vegetable pan, Ajvardip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

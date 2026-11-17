@@ -40,9 +40,9 @@
       "section": null
     },
     {
-      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
+      "key": "hähnchengyros-burger mit rotkraut und rucola, pommes frites, gemüse-remoulade",
       "name": {
-        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
+        "de": "Hähnchengyros-Burger mit Rotkraut und Rucola, Pommes Frites, Gemüse-Remoulade",
         "en": ", french fries, vegetable remoulade"
       },
       "labels": [],
@@ -54,8 +54,8 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "gefluegel",
+          "label": "Geflügel"
         }
       ],
       "codes": [
@@ -64,7 +64,7 @@
         "9",
         "a1",
         "a4",
-        "g",
+        "f",
         "j",
         "k",
         "l"
@@ -85,7 +85,11 @@
           "en": "Grab the prep"
         }
       ],
-      "prices": {},
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
       "unassignedPrices": [],
       "tags": [
         {

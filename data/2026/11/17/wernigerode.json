@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "zwiebel-sahne-hähnchen, rosenkohl, kartoffelkroketten oder kartoffelstampf",
+      "key": "zwiebel-sahne-hähnchen, brokkoli oder kaisergemüse, kartoffelkroketten oder kartoffelstampf",
       "name": {
-        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl, Kartoffelkroketten oder Kartoffelstampf",
-        "en": "onion cream chicken, brussel sprouts, potato croquettes or mashed potato"
+        "de": "Zwiebel-Sahne-Hähnchen, Brokkoli oder Kaisergemüse, Kartoffelkroketten oder Kartoffelstampf",
+        "en": "onion cream chicken, broccoli or mixed vegetables, potato croquettes or mashed potato"
       },
       "labels": [],
       "prices": {
@@ -40,22 +40,22 @@
       "section": null
     },
     {
-      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
+      "key": "camembert-burger vom schwein mit rotkraut, rucola und preiselbeeren, pommes frites, gemüse-remoulade",
       "name": {
-        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
-        "en": ", french fries, vegetable remoulade"
+        "de": "Camembert-Burger vom Schwein mit Rotkraut, Rucola und Preiselbeeren, Pommes Frites, Gemüse-Remoulade",
+        "en": "Camembert Burger from pork with red cabbage, arugula and linongberries, french fries, vegetable remoulade"
       },
       "labels": [],
       "prices": {
-        "students": 440,
-        "staff": 610,
-        "guests": 750
+        "students": 400,
+        "staff": 570,
+        "guests": 710
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
@@ -63,6 +63,7 @@
         "5",
         "9",
         "a1",
+        "a3",
         "a4",
         "c",
         "g",
@@ -129,6 +130,71 @@
       ],
       "dinner": false,
       "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "name": {
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
+        "en": "potato cauliflower broccoli casserole"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "zupfkuchen vom blech",
+      "name": {
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
       "section": null
     },
     {
@@ -225,6 +291,7 @@
         }
       ],
       "codes": [
+        "2",
         "a1"
       ],
       "dinner": false,

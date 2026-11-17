@@ -65,15 +65,15 @@
         {
           "key": "rind",
           "label": "Rind"
-        },
-        {
-          "key": "schwein",
-          "label": "Schwein"
         }
       ],
       "codes": [
         "3",
-        "g"
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -151,15 +151,15 @@
       "section": null
     },
     {
-      "key": "zupfkuchen vom blech",
+      "key": "veganer karottenkuchen mit haselnüssen",
       "name": {
-        "de": "Zupfkuchen vom Blech",
-        "en": "Russian plucked cake from the baking tray"
+        "de": "Veganer Karottenkuchen mit Haselnüssen",
+        "en": "vegan carrot cake with hazelnuts"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favorite cake of the Mensa team"
+          "en": "Today's favourite cake of our Mensa-Team"
         }
       ],
       "prices": {
@@ -170,14 +170,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "vegan",
+          "label": "vegan"
         }
       ],
       "codes": [
+        "3",
         "a1",
-        "c",
-        "g"
+        "h2"
       ],
       "dinner": false,
       "cake": true,
