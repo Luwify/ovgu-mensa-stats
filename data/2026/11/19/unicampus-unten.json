@@ -65,6 +65,10 @@
         {
           "key": "rind",
           "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
@@ -151,6 +155,37 @@
       "section": null
     },
     {
+      "key": "weiße bohneneintopf",
+      "name": {
+        "de": "Weiße Bohneneintopf",
+        "en": "white bean stew"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "veganer karottenkuchen mit haselnüssen",
       "name": {
         "de": "Veganer Karottenkuchen mit Haselnüssen",
@@ -181,6 +216,35 @@
       ],
       "dinner": false,
       "cake": true,
+      "section": null
+    },
+    {
+      "key": "ein paar geflügel-wiener würstchen zum eintopf",
+      "name": {
+        "de": "Ein Paar Geflügel-Wiener Würstchen zum Eintopf",
+        "en": "A pair of poultry 'Vienna style' sausages to the stew"
+      },
+      "labels": [],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "S"
+      ],
+      "dinner": false,
+      "cake": false,
       "section": null
     }
   ]

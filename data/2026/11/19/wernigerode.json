@@ -148,10 +148,49 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al peperoni mit paprika-chili-cremesauce",
+      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, kartoffel-dippers, gemüse-remoulade",
       "name": {
-        "de": "Gabelspaghetti al Peperoni mit Paprika-Chili-Cremesauce",
-        "en": "cut up shortened spaghetti al Peperoni with paprika chili cream sauce"
+        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Kartoffel-Dippers, Gemüse-Remoulade",
+        "en": "Save the meal:, potato dippers, vegetable remoulade"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a4",
+        "g",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti mit räuchertofu, kürbis und tomaten",
+      "name": {
+        "de": "Gabelspaghetti mit Räuchertofu, Kürbis und Tomaten",
+        "en": "cut up shortened spaghetti with smoked tofu, pumpkin and tomatoes"
       },
       "labels": [
         {
@@ -172,19 +211,21 @@
         }
       ],
       "codes": [
-        "2",
+        "1",
+        "5",
         "a1",
-        "f"
+        "f",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "gabelspaghetti alla cesare mit geflügelhackfleisch in käse-sahnesauce",
+      "key": "gabelspaghetti alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Cesare mit Geflügelhackfleisch in Käse-Sahnesauce",
-        "en": "cut up shortened spaghetti alla Cesare with minced poultry in cheese cream sauce"
+        "de": "Gabelspaghetti alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
+        "en": "cut up shortened spaghetti alla Cipolla with chicken breast strips in onion cream sauce"
       },
       "labels": [
         {
@@ -205,7 +246,6 @@
         }
       ],
       "codes": [
-        "1",
         "a1",
         "g"
       ],

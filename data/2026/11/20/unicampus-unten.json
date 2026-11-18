@@ -192,10 +192,10 @@
       "section": null
     },
     {
-      "key": "tagessuppe",
+      "key": "kürbiscremesuppe",
       "name": {
-        "de": "Tagessuppe",
-        "en": "soup of the day"
+        "de": "Kürbiscremesuppe",
+        "en": "pumpkin cream soup"
       },
       "labels": [],
       "prices": {
@@ -208,9 +208,15 @@
         {
           "key": "suppe",
           "label": "Suppe"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
-      "codes": [],
+      "codes": [
+        "g"
+      ],
       "dinner": false,
       "cake": false,
       "section": null

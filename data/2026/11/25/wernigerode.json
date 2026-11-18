@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "date": "2026-11-25",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse oder kaisergemüse, couscous oder kartoffel-gnocchi",
+      "name": {
+        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse oder Kaisergemüse, Couscous oder Kartoffel-Gnocchi",
+        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce, courgette vegetables or mixed vegetables, couscous or potato gnocchi"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "h4",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, bio-langkornreis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, BIO-Langkornreis",
+        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, organic long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "name": {
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni al spinaci mit spinat-cremesauce",
+      "name": {
+        "de": "Makkaroni al Spinaci mit Spinat-Cremesauce",
+        "en": "macaroni al Spinaci with spinach cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla boscaiola mit mischpilzen und schinkenspeck in tomaten-sahnesauce",
+      "name": {
+        "de": "Makkaroni alla Boscaiola mit Mischpilzen und Schinkenspeck in Tomaten-Sahnesauce",
+        "en": "macaroni alla Boscaiola with mixed mushrooms and bacon in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

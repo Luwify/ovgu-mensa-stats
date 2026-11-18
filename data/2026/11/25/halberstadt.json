@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "date": "2026-11-25",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "2 spinat-dinkelmedaillons, paprikasauce, balkangemüse, schupfnudeln",
+      "name": {
+        "de": "2 Spinat-Dinkelmedaillons, Paprikasauce, Balkangemüse, Schupfnudeln",
+        "en": "2 spinach spelt medallions, bell pepper sauce, Balkan vegetables, potato noodles"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a5",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce, balkangemüse, langkornreis",
+      "name": {
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce, Balkangemüse, Langkornreis",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce, Balkan vegetables, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 460,
+        "staff": 630,
+        "guests": 770
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

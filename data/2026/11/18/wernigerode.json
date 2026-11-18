@@ -12,6 +12,38 @@
   "source": "main",
   "dishes": [
     {
+      "key": "indisches tofucurry mit ananas und gerösteten mandeln, langkornreis",
+      "name": {
+        "de": "Indisches Tofucurry mit Ananas und gerösteten Mandeln, Langkornreis",
+        "en": "Indian tofu curry with pineapple and roasted almonds, long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f",
+        "h1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "backhähnchenbrust im kürbiskernmantel, rahmsauce, rustikales möhrengemüse, pommes frites",
       "name": {
         "de": "Backhähnchenbrust im Kürbiskernmantel, Rahmsauce, rustikales Möhrengemüse, Pommes Frites",
@@ -95,6 +127,39 @@
       "section": null
     },
     {
+      "key": "zupfkuchen vom blech",
+      "name": {
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
       "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
       "name": {
         "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
@@ -123,10 +188,47 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al pomodoro mit fruchtigem tomaten-zwiebel-basilikumsugo",
+      "key": "gabelspaghetti al´asciutta mit schweinehack und wurzelgemüse in tomaten-sahnesauce",
       "name": {
-        "de": "Gabelspaghetti al Pomodoro mit fruchtigem Tomaten-Zwiebel-Basilikumsugo",
-        "en": "cut up shortened spaghetti al Pomodoro with fruity tomato-onion-basil sugo"
+        "de": "Gabelspaghetti al´Asciutta mit Schweinehack und Wurzelgemüse in Tomaten-Sahnesauce",
+        "en": "cut up shortened spaghetti al´Asciutta with minced pork and root vegetables in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al broccoli mit brokkoli-cremesauce",
+      "name": {
+        "de": "Gabelspaghetti al Broccoli mit Brokkoli-Cremesauce",
+        "en": "cut up shortened spaghetti al Broccoli with broccoli cream sauce"
       },
       "labels": [
         {
@@ -147,11 +249,8 @@
         }
       ],
       "codes": [
-        "1",
-        "2",
-        "5",
         "a1",
-        "l"
+        "f"
       ],
       "dinner": false,
       "cake": false,

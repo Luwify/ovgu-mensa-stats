@@ -33,20 +33,23 @@
       "codes": [
         "2",
         "3",
+        "5",
         "9",
         "a1",
         "a3",
-        "i"
+        "i",
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "backhähnchenbrust im kürbiskernmantel, rahmsauce, schwarzwurzeln oder zuckerschoten, pommes frites oder zartweizen",
+      "key": "backhähnchenbrust im kürbiskernmantel, rahmsauce, schwarzwurzeln oder prinzessbohnen, pommes frites oder langkornreis",
       "name": {
-        "de": "Backhähnchenbrust im Kürbiskernmantel, Rahmsauce, Schwarzwurzeln oder Zuckerschoten, Pommes Frites oder Zartweizen",
-        "en": "fried chicken breast in pumpkin seed coating, cream sauce, black salsify or sugar snaps, french fries or soft wheat"
+        "de": "Backhähnchenbrust im Kürbiskernmantel, Rahmsauce, Schwarzwurzeln oder Prinzessbohnen, Pommes Frites oder Langkornreis",
+        "en": "fried chicken breast in pumpkin seed coating, cream sauce, black salsify or needle beans, french fries or long grain rice"
       },
       "labels": [],
       "prices": {
@@ -64,6 +67,39 @@
       "codes": [
         "a1",
         "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hokifilet meuniere mit zitronen-petersilien-mehlierung, tomatensauce, schwarzwurzeln oder prinzessbohnen, pommes frites oder langkornreis",
+      "name": {
+        "de": "Hokifilet Meuniere mit Zitronen-Petersilien-Mehlierung, Tomatensauce, Schwarzwurzeln oder Prinzessbohnen, Pommes Frites oder Langkornreis",
+        "en": "hoki fillet 'miller style' with lemon parseley flour coating, tomato sauce, black salsify or needle beans, french fries or long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
         "g"
       ],
       "dinner": false,
@@ -133,10 +169,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
+      "key": "vollkorn-penne rigate alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
       "name": {
-        "de": "Gabelspaghetti alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
-        "en": "cut up shortened spaghetti alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
+        "de": "Vollkorn-Penne Rigate alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
+        "en": "wholemeal penne rigate alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
       },
       "labels": [
         {
@@ -168,10 +204,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al broccoli mit brokkoli-cremesauce",
+      "key": "vollkorn-penne rigate, linsen-grünkern-bolognese",
       "name": {
-        "de": "Gabelspaghetti al Broccoli mit Brokkoli-Cremesauce",
-        "en": "cut up shortened spaghetti al Broccoli with broccoli cream sauce"
+        "de": "Vollkorn-Penne Rigate, Linsen-Grünkern-Bolognese",
+        "en": "wholemeal penne rigate, lentil green spelt bolognese"
       },
       "labels": [
         {
@@ -187,13 +223,18 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
         "a1",
-        "f"
+        "a5",
+        "i"
       ],
       "dinner": false,
       "cake": false,

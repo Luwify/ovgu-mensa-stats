@@ -104,39 +104,6 @@
       "section": null
     },
     {
-      "key": "zupfkuchen vom blech",
-      "name": {
-        "de": "Zupfkuchen vom Blech",
-        "en": "Russian plucked cake from the baking tray"
-      },
-      "labels": [
-        {
-          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favorite cake of the Mensa team"
-        }
-      ],
-      "prices": {
-        "students": 150,
-        "staff": 180,
-        "guests": 210
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
-      "codes": [
-        "a1",
-        "c",
-        "g"
-      ],
-      "dinner": false,
-      "cake": true,
-      "section": null
-    },
-    {
       "key": "fusilli tricolore alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
       "name": {
         "de": "Fusilli Tricolore alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
@@ -306,6 +273,36 @@
         "g"
       ],
       "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pizza-special 14:00 bis 16:00 uhr: brokkoli-pizza mit paprika und veganer sauce hollandaise",
+      "name": {
+        "de": "Pizza-Special 14:00 bis 16:00 Uhr: Brokkoli-Pizza mit Paprika und veganer Sauce Hollandaise",
+        "en": "pizza special 2:00 pm - 4:00 pm broccoli pizza with bell peper and vegan Sauce Hollandaise"
+      },
+      "labels": [],
+      "prices": {
+        "students": 550,
+        "staff": 720,
+        "guests": 860
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
       "cake": false,
       "section": null
     }

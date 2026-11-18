@@ -135,10 +135,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti al peperoni mit paprika-chili-cremesauce",
+      "key": "fusilli tricolore al peperoni mit paprika-chili-cremesauce",
       "name": {
-        "de": "Gabelspaghetti al Peperoni mit Paprika-Chili-Cremesauce",
-        "en": "cut up shortened spaghetti al Peperoni with paprika chili cream sauce"
+        "de": "Fusilli Tricolore al Peperoni mit Paprika-Chili-Cremesauce",
+        "en": "fusilli tricolore al Peperoni with paprika chili cream sauce"
       },
       "labels": [
         {
@@ -168,12 +168,17 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla casalinga mit kochschinken und erbsen in sahnesauce",
+      "key": "fusilli tricolore alla casalinga mit kochschinken und erbsen in sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
-        "en": "cut up shortened spaghetti alla Casalinga with cooked ham and peas in cream sauce"
+        "de": "Fusilli Tricolore alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
+        "en": "fusilli tricolore alla Casalinga with cooked ham and peas in cream sauce"
       },
-      "labels": [],
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
       "prices": {
         "students": 50,
         "staff": 80,
