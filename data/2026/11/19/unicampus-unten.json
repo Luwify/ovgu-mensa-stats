@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "crunchy kimchi-burger mit chinakohl, sesamgurken und koriander-aioli, kartoffel-dippers, wasabidip",
+      "key": "crunchy kimchi-burger mit chinakohl, sesamgurken und koriander-aioli, kartoffel-dippers, ingwerdip",
       "name": {
-        "de": "Crunchy Kimchi-Burger mit Chinakohl, Sesamgurken und Koriander-Aioli, Kartoffel-Dippers, Wasabidip",
-        "en": "Crunchy Kimchi Burger with Chinese cabbage, sesame cucumbers and cilantro aioli, potato dippers, wasabi dip"
+        "de": "Crunchy Kimchi-Burger mit Chinakohl, Sesamgurken und Koriander-Aioli, Kartoffel-Dippers, Ingwerdip",
+        "en": "Crunchy Kimchi Burger with Chinese cabbage, sesame cucumbers and cilantro aioli, potato dippers, ginger dip"
       },
       "labels": [],
       "prices": {
@@ -35,7 +35,6 @@
         }
       ],
       "codes": [
-        "1",
         "2",
         "a1",
         "a3",
@@ -43,41 +42,6 @@
         "i",
         "j",
         "k"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "schwedische hackbällchen köttbullar, champignon-rahmsauce, preiselbeeren, buttererbsen, kartoffelstampf",
-      "name": {
-        "de": "Schwedische Hackbällchen Köttbullar, Champignon-Rahmsauce, Preiselbeeren, Buttererbsen, Kartoffelstampf",
-        "en": "'Swedish style' meatballs Köttbullar, champignon cream sauce, European cranberries, butter peas, mashed potatoes"
-      },
-      "labels": [],
-      "prices": {
-        "students": 370,
-        "staff": 540,
-        "guests": 680
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "rind",
-          "label": "Rind"
-        },
-        {
-          "key": "schwein",
-          "label": "Schwein"
-        }
-      ],
-      "codes": [
-        "3",
-        "a1",
-        "a3",
-        "c",
-        "g",
-        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -242,6 +206,39 @@
         "3",
         "8",
         "S"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "königsberger klopse, champignon-rahmsauce, buttererbsen, preiselbeeren, kartoffelstampf",
+      "name": {
+        "de": "Königsberger Klopse, Champignon-Rahmsauce, Buttererbsen, Preiselbeeren, Kartoffelstampf",
+        "en": "'Königsberger style' veal meatballs, champignon cream sauce, butter peas, European cranberries, mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": false,

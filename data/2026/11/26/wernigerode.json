@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "barbecue-jackfruit-burger, kartoffelspalten, avocadodip",
+      "name": {
+        "de": "Barbecue-Jackfruit-Burger, Kartoffelspalten, Avocadodip",
+        "en": "barbecue jackfruit burger, potato wedges, avocado dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "9",
+        "a1",
+        "a4",
+        "f",
+        "i",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "geflügel-hackbraten, majoransauce, buttererbsen oder rahmporree, kartoffelstampf oder bratkartoffeln",
+      "name": {
+        "de": "Geflügel-Hackbraten, Majoransauce, Buttererbsen oder Rahmporree, Kartoffelstampf oder Bratkartoffeln",
+        "en": "Chicken Meatloaf, marjoram sauce, butter peas or creamed leek, mashed potatoes or fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "a3",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "6 seelachs-kibbelinge, zitronen-dillsauce, buttererbsen oder rahmporree, kartoffelpüree oder bratkartoffeln",
+      "name": {
+        "de": "6 Seelachs-Kibbelinge, Zitronen-Dillsauce, Buttererbsen oder Rahmporree, Kartoffelpüree oder Bratkartoffeln",
+        "en": "6 deep fried pollacks, lemon dill sauce, butter peas or creamed leek, mashed potatoes or fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla napoli mit fruchtiger tomaten-basilikumsauce",
+      "name": {
+        "de": "Makkaroni alla Napoli mit fruchtiger Tomaten-Basilikumsauce",
+        "en": "macaroni alla Napoli with fruity tomato-basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
+      "name": {
+        "de": "Makkaroni alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
+        "en": "macaroni alla Cipolla with chicken breast strips in onion cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

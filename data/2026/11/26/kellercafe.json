@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "mensa": {
+    "id": "kellercafe",
+    "name": {
+      "de": "Kellercafé",
+      "en": "Kellercafé"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "5 gemüse-maultaschen, käsesauce, kürbis-linsengemüse mit apfel und lauch",
+      "name": {
+        "de": "5 Gemüse-Maultaschen, Käsesauce, Kürbis-Linsengemüse mit Apfel und Lauch",
+        "en": "5 vegetable pasta bags, cheese sauce, pumpkin lentil vegetables with apple and leek"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 fischfrikadellen, zitronen-dillsauce, balkangemüse, salzkartoffeln oder langkornreis",
+      "name": {
+        "de": "2 Fischfrikadellen, Zitronen-Dillsauce, Balkangemüse, Salzkartoffeln oder Langkornreis",
+        "en": "2 fishcakes, lemon dill sauce, Balkan vegetables, salt potatoes or long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "d",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "pork escalope with breading, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce, pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce, Pommes Frites, marinierte Blattsalate",
+        "en": "Vegan escalope, champignon cream sauce, french fries, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "5",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsekuchen",
+      "name": {
+        "de": "Käsekuchen",
+        "en": "cheesecake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

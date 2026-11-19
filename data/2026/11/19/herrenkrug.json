@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "crunchy kimchi-burger mit chinakohl, sesamgurken und koriander-aioli, kartoffel-dippers, wasabidip",
+      "key": "crunchy kimchi-burger mit chinakohl, sesamgurken und koriander-aioli, kartoffel-dippers, avocadodip",
       "name": {
-        "de": "Crunchy Kimchi-Burger mit Chinakohl, Sesamgurken und Koriander-Aioli, Kartoffel-Dippers, Wasabidip",
-        "en": "Crunchy Kimchi Burger with Chinese cabbage, sesame cucumbers and cilantro aioli, potato dippers, wasabi dip"
+        "de": "Crunchy Kimchi-Burger mit Chinakohl, Sesamgurken und Koriander-Aioli, Kartoffel-Dippers, Avocadodip",
+        "en": "Crunchy Kimchi Burger with Chinese cabbage, sesame cucumbers and cilantro aioli, potato dippers, avocado dip"
       },
       "labels": [],
       "prices": {
@@ -35,10 +35,11 @@
         }
       ],
       "codes": [
-        "1",
         "2",
+        "3",
         "a1",
         "a3",
+        "a4",
         "f",
         "i",
         "j",
@@ -49,10 +50,10 @@
       "section": null
     },
     {
-      "key": "schwedische hackbällchen köttbullar, champignon-rahmsauce, preiselbeeren, buttererbsen, kartoffelstampf",
+      "key": "hackbällchen, pilzrahmsauce, preiselbeeren, buttererbsen, kartoffelstampf",
       "name": {
-        "de": "Schwedische Hackbällchen Köttbullar, Champignon-Rahmsauce, Preiselbeeren, Buttererbsen, Kartoffelstampf",
-        "en": "'Swedish style' meatballs Köttbullar, champignon cream sauce, European cranberries, butter peas, mashed potatoes"
+        "de": "Hackbällchen, Pilzrahmsauce, Preiselbeeren, Buttererbsen, Kartoffelstampf",
+        "en": "meatballs, Mushroom Cream Sauce, European cranberries, butter peas, mashed potatoes"
       },
       "labels": [],
       "prices": {
@@ -84,10 +85,10 @@
       "section": null
     },
     {
-      "key": "zwiebel-sahne-hähnchen, rosenkohl oder rustikales möhrengemüse, kartoffelkroketten oder kartoffelstampf",
+      "key": "zwiebel-sahne-hähnchen, rosenkohl, kartoffelkroketten oder kartoffelstampf",
       "name": {
-        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl oder rustikales Möhrengemüse, Kartoffelkroketten oder Kartoffelstampf",
-        "en": "onion cream chicken, brussel sprouts or rustic carrot vegetables, potato croquettes or mashed potato"
+        "de": "Zwiebel-Sahne-Hähnchen, Rosenkohl, Kartoffelkroketten oder Kartoffelstampf",
+        "en": "onion cream chicken, brussel sprouts, potato croquettes or mashed potato"
       },
       "labels": [],
       "prices": {
@@ -105,6 +106,38 @@
       "codes": [
         "3",
         "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "name": {
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
+        "en": "potato cauliflower broccoli casserole"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "c",
         "g"
       ],
       "dinner": false,

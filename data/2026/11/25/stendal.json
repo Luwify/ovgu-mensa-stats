@@ -1,0 +1,199 @@
+{
+  "schema": 1,
+  "date": "2026-11-25",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "kaiserschmarrn, zwetschgenröster, vanillesauce",
+      "name": {
+        "de": "Kaiserschmarrn, Zwetschgenröster, Vanillesauce",
+        "en": "sweet cut up Austrian pancake, plum compote, vanilla sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce, schwarzwurzeln oder rahmwirsing, schupfnudeln oder kartoffelkroketten",
+      "name": {
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce, Schwarzwurzeln oder Rahmwirsing, Schupfnudeln oder Kartoffelkroketten",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce, black salsify additional creamed savoy cabbage, potato noodles and potato croquettes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 460,
+        "staff": 630,
+        "guests": 770
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kohlrabi-hackfleisch-pfanne, bio vollkorn-penne rigate",
+      "name": {
+        "de": "Kohlrabi-Hackfleisch-Pfanne, BIO Vollkorn-Penne Rigate",
+        "en": "kohlrabi minced meat pan, organic wholemeal Penne Rigate"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "magdeburger butter-zucker-kuchen vom blech",
+      "name": {
+        "de": "Magdeburger Butter-Zucker-Kuchen vom Blech",
+        "en": "butter sugar cake 'Magdeburg Style' from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "makkaroni al spinaci mit spinat-cremesauce",
+      "name": {
+        "de": "Makkaroni al Spinaci mit Spinat-Cremesauce",
+        "en": "macaroni al Spinaci with spinach cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla capricciosa mit kochschinken, salami, champignons und brokkoli in tomaten-sahnesauce",
+      "name": {
+        "de": "Makkaroni alla Capricciosa mit Kochschinken, Salami, Champignons und Brokkoli in Tomaten-Sahnesauce",
+        "en": "macaroni alla Capricciosa with cooked ham, salami, champignons and broccoli in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -303,6 +303,36 @@
       "dinner": true,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "pizza-special 14:00 bis 16:00 uhr: brokkoli-pizza mit paprika und veganer sauce hollandaise",
+      "name": {
+        "de": "Pizza-Special 14:00 bis 16:00 Uhr: Brokkoli-Pizza mit Paprika und veganer Sauce Hollandaise",
+        "en": "pizza special 2:00 pm - 4:00 pm: broccoli pizza with bell peper and vegan Sauce Hollandaise"
+      },
+      "labels": [],
+      "prices": {
+        "students": 550,
+        "staff": 720,
+        "guests": 860
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
     }
   ]
 }

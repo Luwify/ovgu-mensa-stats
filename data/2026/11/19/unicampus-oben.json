@@ -168,15 +168,19 @@
       "section": null
     },
     {
-      "key": "fusilli tricolore alla casalinga mit kochschinken und erbsen in sahnesauce",
+      "key": "elsässer art mit schinkenspeck-zwiebelstippe und crème fraîche-sauce",
       "name": {
-        "de": "Fusilli Tricolore alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
-        "en": "fusilli tricolore alla Casalinga with cooked ham and peas in cream sauce"
+        "de": "Elsässer Art mit Schinkenspeck-Zwiebelstippe und Crème fraîche-Sauce",
+        "en": "Alsatian style with bacon onion mix and sour cream sauce"
       },
       "labels": [
         {
           "de": "Pastabuffet",
           "en": "pasta buffet"
+        },
+        {
+          "de": "Fusilli Tricolore Save the meal",
+          "en": "fusilli tricolore Save the meal"
         }
       ],
       "prices": {
@@ -196,7 +200,8 @@
         "3",
         "8",
         "a1",
-        "g"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,
@@ -234,10 +239,10 @@
       "section": null
     },
     {
-      "key": "vegan gefüllte kohlroulade, paprika-cremesauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
+      "key": "paprikaschote mit bunter gemüsefüllung, paprika-cremesauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "Vegan gefüllte Kohlroulade, Paprika-Cremesauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
-        "en": "Vegan stuffed cabbage roulade, bell pepper cream sauce, salt potatoes or French fries, marinated leaf salads"
+        "de": "Paprikaschote mit bunter Gemüsefüllung, Paprika-Cremesauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
+        "en": "bell pepper with colourful vegetable filling, bell pepper cream sauce, salt potatoes or French fries, marinated leaf salads"
       },
       "labels": [
         {
@@ -253,12 +258,18 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
+        "a1",
         "f",
+        "i",
         "j"
       ],
       "dinner": true,
@@ -266,9 +277,9 @@
       "section": null
     },
     {
-      "key": "gebratene hähnchenbrust, paprika-cremesauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
+      "key": "gebratene hähnchenbrust im kürbismantel, paprika-cremesauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "Gebratene Hähnchenbrust, Paprika-Cremesauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
+        "de": "Gebratene Hähnchenbrust im Kürbismantel, Paprika-Cremesauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
         "en": "fried chicken breast, bell pepper cream sauce, salt potatoes or French fries, marinated leaf salads"
       },
       "labels": [
@@ -290,6 +301,7 @@
         }
       ],
       "codes": [
+        "a1",
         "f"
       ],
       "dinner": true,

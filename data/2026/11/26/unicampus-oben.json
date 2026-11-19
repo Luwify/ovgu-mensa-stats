@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweineschnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "pork escalope with breading, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "Vegan escalope, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "nudel-gemüse-eintopf mit hühnerfleisch",
+      "name": {
+        "de": "Nudel-Gemüse-Eintopf mit Hühnerfleisch",
+        "en": "noodle vegetable stew with chicken meat"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "nudel-gemüse-eintopf mit gebratenen sojastreifen",
+      "name": {
+        "de": "Nudel-Gemüse-Eintopf mit gebratenen Sojastreifen",
+        "en": "noodle vegetable stew with fried soya strips"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "f",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käsekuchen",
+      "name": {
+        "de": "Käsekuchen",
+        "en": "cheesecake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "makkaroni al´asciutta mit schweinehack und wurzelgemüse in tomaten-sahnesauce",
+      "name": {
+        "de": "Makkaroni al´Asciutta mit Schweinehack und Wurzelgemüse in Tomaten-Sahnesauce",
+        "en": "macaroni al´Asciutta with minced pork and root vegetables in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla caponata mit mediterranem gemüse, oliven und kapern in tomatensugo",
+      "name": {
+        "de": "Makkaroni alla Caponata mit mediterranem Gemüse, Oliven und Kapern in Tomatensugo",
+        "en": "macaroni alla Caponata with mediterranean vegetables, olives and capers in tomato sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "7",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "7 brokkoli-käse-nuggets, bördeländer letschosoße, langkornreis oder pommes frites und marinierte blattsalate",
+      "name": {
+        "de": "7 Brokkoli-Käse-Nuggets, Bördeländer Letschosoße, Langkornreis oder Pommes Frites und marinierte Blattsalate",
+        "en": "7 broccoli cheese nuggets, Bördeländer lecho sauce, long grain rice or French fries and marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "f",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene kartoffel-gnocchi, mediterranes gemüseragout",
+      "name": {
+        "de": "Gebratene Kartoffel-Gnocchi, mediterranes Gemüseragout",
+        "en": "fried potato gnocchi, mediterranean vegetable ragout"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rinderhacksteak mit frischkäsefüllung, bördeländer letschosauce, langkornreis oder pommes frites und marinierte blattsalate",
+      "name": {
+        "de": "Rinderhacksteak mit Frischkäsefüllung, Bördeländer Letschosauce, Langkornreis oder Pommes Frites und marinierte Blattsalate",
+        "en": "minced beef steak with cream cheese filling, Bördeländer bell pepper tomato stew, long grain rice or French fries and marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

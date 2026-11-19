@@ -39,10 +39,43 @@
       "section": null
     },
     {
-      "key": "bunte gemüse-paella mit gebratenem räuchertofu",
+      "key": "backhähnchenbrust im kürbiskernmantel, brokkoli-cremesauce, rotkrautsalat, spirelli-nudeln",
       "name": {
-        "de": "Bunte Gemüse-Paella mit gebratenem Räuchertofu",
-        "en": "colourful vegetable paella with fried smoked tofu"
+        "de": "Backhähnchenbrust im Kürbiskernmantel, Brokkoli-Cremesauce, Rotkrautsalat, Spirelli-Nudeln",
+        "en": "fried chicken breast in pumpkin seed coating, broccoli cream sauce, red cabbage salad, spirelli noodles"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "name": {
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, salt potatoes"
       },
       "labels": [],
       "prices": {
@@ -58,8 +91,7 @@
         }
       ],
       "codes": [
-        "2",
-        "f"
+        "j"
       ],
       "dinner": false,
       "cake": false,

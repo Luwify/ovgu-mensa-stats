@@ -148,10 +148,10 @@
       "section": null
     },
     {
-      "key": "camembert-burger vom rind mit rotkraut, rucola und preiselbeeren, kartoffel-dippers, gemüse-remoulade",
+      "key": "camembert-burger vom schwein mit rotkraut, rucola und preiselbeeren, kartoffel-dippers, gemüse-remoulade",
       "name": {
-        "de": "Camembert-Burger vom Rind mit Rotkraut, Rucola und Preiselbeeren, Kartoffel-Dippers, Gemüse-Remoulade",
-        "en": "Save the meal:, potato dippers, vegetable remoulade"
+        "de": "Camembert-Burger vom Schwein mit Rotkraut, Rucola und Preiselbeeren, Kartoffel-Dippers, Gemüse-Remoulade",
+        "en": "Camembert Burger from pork with red cabbage, arugula and linongberries, potato dippers, vegetable remoulade"
       },
       "labels": [
         {
@@ -167,8 +167,8 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
@@ -176,11 +176,82 @@
         "5",
         "9",
         "a1",
+        "a3",
         "a4",
+        "c",
         "g",
         "j",
         "k",
         "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfelkuchen mit zimtstreusel",
+      "name": {
+        "de": "Apfelkuchen mit Zimtstreusel",
+        "en": "apple cake with cinnamon crumble"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti alla pesto rucola in raukepesto",
+      "name": {
+        "de": "Gabelspaghetti alla Pesto Rucola in Raukepesto",
+        "en": "cut up shortened spaghetti alla Pesto Arugula in arugula pesto"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "h1"
       ],
       "dinner": false,
       "cake": false,
@@ -222,10 +293,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
+      "key": "gabelspaghetti alla cesare mit geflügelfleisch in käse-sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
-        "en": "cut up shortened spaghetti alla Cipolla with chicken breast strips in onion cream sauce"
+        "de": "Gabelspaghetti alla Cesare mit Geflügelfleisch in Käse-Sahnesauce",
+        "en": "cut up shortened spaghetti alla Cesare with poultry in cheese cream sauce"
       },
       "labels": [
         {
@@ -246,6 +317,7 @@
         }
       ],
       "codes": [
+        "1",
         "a1",
         "g"
       ],

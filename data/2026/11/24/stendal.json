@@ -84,9 +84,9 @@
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 220,
+        "staff": 390,
+        "guests": 530
       },
       "unassignedPrices": [],
       "tags": [
@@ -100,6 +100,32 @@
         "a1",
         "c",
         "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "sauerkrauttopf mit räuchertofu, möhren, steckrüben, kartoffeln und schnittlauch",
+      "name": {
+        "de": "Sauerkrauttopf mit Räuchertofu, Möhren, Steckrüben, Kartoffeln und Schnittlauch",
+        "en": "sauerkraut pot with smoked tofu, carrots, turnips, potatoes and parsley"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f"
       ],
       "dinner": false,
       "cake": false,

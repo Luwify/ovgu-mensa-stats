@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "multi grain-burger mit vegetarischem schnitzel, pommes frites, mediterrane gemüsesalsa",
+      "name": {
+        "de": "Multi Grain-Burger mit vegetarischem Schnitzel, Pommes Frites, mediterrane Gemüsesalsa",
+        "en": "multigrain burger with vegetarian escalope, french fries, mediterranean vegetable salsa"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "c",
+        "f",
+        "g",
+        "j",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "rindergulasch, rotkohl, semmelknödel",
+      "name": {
+        "de": "Rindergulasch, Rotkohl, Semmelknödel",
+        "en": "beef goulash, red cabbage, bread dumplings"
+      },
+      "labels": [],
+      "prices": {
+        "students": 420,
+        "staff": 590,
+        "guests": 730
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "9",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 fischfrikadellen, zitronen-dillsauce, balkangemüse oder rahmporree, kartoffelpüree oder langkornreis",
+      "name": {
+        "de": "2 Fischfrikadellen, Zitronen-Dillsauce, Balkangemüse oder Rahmporree, Kartoffelpüree oder Langkornreis",
+        "en": "2 fishcakes, lemon dill sauce, Balkan vegetables or creamed leek, mashed potatoes or long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "d",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "nudel-gemüse-eintopf mit hühnerfleisch",
+      "name": {
+        "de": "Nudel-Gemüse-Eintopf mit Hühnerfleisch",
+        "en": "noodle vegetable stew with chicken meat"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "nudel-gemüse-eintopf mit gebratenen sojastreifen",
+      "name": {
+        "de": "Nudel-Gemüse-Eintopf mit gebratenen Sojastreifen",
+        "en": "noodle vegetable stew with fried soya strips"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "f",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

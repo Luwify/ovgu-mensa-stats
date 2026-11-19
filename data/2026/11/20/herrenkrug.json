@@ -132,15 +132,15 @@
       "section": null
     },
     {
-      "key": "veganer zitronenkuchen mit glasur",
+      "key": "zupfkuchen vom blech",
       "name": {
-        "de": "Veganer Zitronenkuchen mit Glasur",
-        "en": "vegan lemon cake with glaze"
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favourite cake of our Mensa-Team"
+          "en": "Today's favorite cake of the Mensa team"
         }
       ],
       "prices": {
@@ -151,14 +151,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "3",
         "a1",
-        "f"
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": true,
