@@ -166,10 +166,10 @@
       "section": null
     },
     {
-      "key": "makkaroni alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
+      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
       "name": {
-        "de": "Makkaroni alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
-        "en": "macaroni alla Cipolla with chicken breast strips in onion cream sauce"
+        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
+        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
       },
       "labels": [
         {
@@ -185,13 +185,17 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "gefluegel",
-          "label": "Geflügel"
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
         }
       ],
       "codes": [
         "a1",
-        "g"
+        "i"
       ],
       "dinner": false,
       "cake": false,

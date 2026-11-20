@@ -134,10 +134,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti alla cesare mit geflügelhackfleisch in käse-sahnesauce",
+      "key": "fusilli tricolore alla cesare mit geflügelhackfleisch in käse-sahnesauce",
       "name": {
-        "de": "Gabelspaghetti alla Cesare mit Geflügelhackfleisch in Käse-Sahnesauce",
-        "en": "cut up shortened spaghetti alla Cesare with minced poultry in cheese cream sauce"
+        "de": "Fusilli Tricolore alla Cesare mit Geflügelhackfleisch in Käse-Sahnesauce",
+        "en": "fusilli tricolore alla Cesare with minced poultry in cheese cream sauce"
       },
       "labels": [
         {
@@ -167,10 +167,10 @@
       "section": null
     },
     {
-      "key": "gabelspaghetti verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
+      "key": "fusilli tricolore verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
       "name": {
-        "de": "Gabelspaghetti Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
-        "en": "cut up shortened spaghetti Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
+        "de": "Fusilli Tricolore Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "fusilli tricolore Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
       },
       "labels": [
         {
@@ -199,21 +199,25 @@
       "section": null
     },
     {
-      "key": "2 kräutersaitling-schnitzel, tomatensauce, pasta oder pommes frites, marinierte blattsalate",
+      "key": "kartoffel-blumenkohl-brokkoliauflauf, tomatensauce und marinierte blattsalate",
       "name": {
-        "de": "2 Kräutersaitling-Schnitzel, Tomatensauce, Pasta oder Pommes Frites, marinierte Blattsalate",
-        "en": "2 king oyster mushroom schnitzel, tomato sauce, pasta or French fries, marinated leaf salads"
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf, Tomatensauce und marinierte Blattsalate",
+        "en": "potato cauliflower broccoli casserole, tomato sauce and marinated leaf salads"
       },
       "labels": [
         {
           "de": "Abendessen im oberen Speisesaal",
           "en": "Dinner in the upper dining room"
+        },
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
         }
       ],
       "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
+        "students": 280,
+        "staff": 450,
+        "guests": 590
       },
       "unassignedPrices": [],
       "tags": [
@@ -223,8 +227,8 @@
         }
       ],
       "codes": [
-        "a1",
-        "c"
+        "c",
+        "g"
       ],
       "dinner": true,
       "cake": false,
@@ -250,13 +254,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
         "a1",
         "a4",
+        "c",
         "h1",
         "h2"
       ],

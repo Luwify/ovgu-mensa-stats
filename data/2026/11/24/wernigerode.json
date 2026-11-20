@@ -103,10 +103,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al pesto mit basilikum-pestocreme",
+      "key": "makkaroni verdura mit paprika, zucchini, aubergine und oliven in tomaten-basilikumsugo",
       "name": {
-        "de": "Makkaroni al Pesto mit Basilikum-Pestocreme",
-        "en": "macaroni al Pesto with basil pesto cream"
+        "de": "Makkaroni Verdura mit Paprika, Zucchini, Aubergine und Oliven in Tomaten-Basilikumsugo",
+        "en": "macaroni Verdura with bell pepper, courgette, eggplant and olives in tomato basil sugo"
       },
       "labels": [
         {
@@ -121,28 +121,24 @@
       },
       "unassignedPrices": [],
       "tags": [
-        {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
         {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "a1",
-        "f"
+        "7",
+        "a1"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "key": "makkaroni carbonara mit schinkenspeck in käse-sahnesauce",
       "name": {
-        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
-        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+        "de": "Makkaroni Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "macaroni Carbonara with ham in cheese cream sauce"
       },
       "labels": [
         {
@@ -158,16 +154,17 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "rind",
-          "label": "Rind"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
         "a1",
+        "g",
         "i"
       ],
       "dinner": false,

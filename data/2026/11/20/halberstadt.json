@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, marinierte blattsalate",
+      "key": "käseschnitzel, tomatensauce, spirelli-nudeln, marinierte blattsalate",
       "name": {
-        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, marinierte Blattsalate",
-        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, marinated leaf salads"
+        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln, marinierte Blattsalate",
+        "en": "cheese escalope, tomato sauce, spirelli noodles, marinated leaf salads"
       },
       "labels": [],
       "prices": {
@@ -59,6 +59,64 @@
       ],
       "codes": [
         "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "königsberger klopse vom kalb, kapernsoße, langkornreis, rote beete-salat",
+      "name": {
+        "de": "Königsberger Klopse vom Kalb, Kapernsoße, Langkornreis, Rote Beete-Salat",
+        "en": "'Königsberger style' veal meatballs, caper sauce, long grain rice, beetroot salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "milchreis, zimtzucker, apfel-birnenkompott",
+      "name": {
+        "de": "Milchreis, Zimtzucker, Apfel-Birnenkompott",
+        "en": "rice pudding, cinnamon sugar, apple pear compote"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "g"
       ],
       "dinner": false,
       "cake": false,

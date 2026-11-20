@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, marinierte blattsalate",
+      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, beilagensalat",
       "name": {
-        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, marinierte Blattsalate",
-        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, marinated leaf salads"
+        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, Beilagensalat",
+        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, side salad"
       },
       "labels": [],
       "prices": {
@@ -31,18 +31,24 @@
         }
       ],
       "codes": [
+        "2",
+        "3",
+        "5",
         "a1",
-        "g"
+        "f",
+        "g",
+        "i",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "backhähnchenbrust im kürbiskernmantel, brokkoli-cremesauce, rotkrautsalat, spirelli-nudeln",
+      "key": "backhähnchenbrust im kürbiskernmantel, brokkoli-cremesauce, beilagensalat, spirelli-nudeln oder pommes frites",
       "name": {
-        "de": "Backhähnchenbrust im Kürbiskernmantel, Brokkoli-Cremesauce, Rotkrautsalat, Spirelli-Nudeln",
-        "en": "fried chicken breast in pumpkin seed coating, broccoli cream sauce, red cabbage salad, spirelli noodles"
+        "de": "Backhähnchenbrust im Kürbiskernmantel, Brokkoli-Cremesauce, Beilagensalat, Spirelli-Nudeln oder Pommes Frites",
+        "en": "fried chicken breast in pumpkin seed coating, broccoli cream sauce, side salad, spirelli noodles or French fries"
       },
       "labels": [
         {
@@ -63,19 +69,25 @@
         }
       ],
       "codes": [
+        "2",
+        "3",
+        "5",
         "a1",
         "c",
-        "f"
+        "f",
+        "i",
+        "k",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "key": "schmorwirsing mit bio-sonnenblumenhack und buntem gemüse, kartoffelstampf",
       "name": {
-        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
-        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, salt potatoes"
+        "de": "Schmorwirsing mit BIO-Sonnenblumenhack und buntem Gemüse, Kartoffelstampf",
+        "en": "braised savoy cabbage with organic sunflower mince and colourful vegetables, mashed potatoes"
       },
       "labels": [],
       "prices": {
@@ -91,7 +103,43 @@
         }
       ],
       "codes": [
+        "a4",
+        "f",
+        "i",
         "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "spirelli-nudeln, tomatensauce, beilagensalat",
+      "name": {
+        "de": "Spirelli-Nudeln, Tomatensauce, Beilagensalat",
+        "en": "spirelli pasta, tomato sauce, side salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "a1",
+        "f",
+        "i",
+        "k",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -117,9 +165,13 @@
         }
       ],
       "codes": [
+        "2",
         "3",
         "c",
-        "j"
+        "f",
+        "i",
+        "j",
+        "k"
       ],
       "dinner": false,
       "cake": false,

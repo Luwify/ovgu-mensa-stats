@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, marinierte blattsalate",
+      "key": "käseschnitzel, tomatensauce, nudeln oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, marinierte Blattsalate",
-        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, marinated leaf salads"
+        "de": "Käseschnitzel, Tomatensauce, Nudeln oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato sauce, noodles or French fries, marinated leaf salads"
       },
       "labels": [],
       "prices": {
@@ -32,17 +32,18 @@
       ],
       "codes": [
         "a1",
-        "g"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "gebratene hähnchenbrust im cornflakes-knuspermantel, curry-kokossauce, asiatisches pfannengemüse oder mais, pommes frites",
+      "key": "gebratene hähnchenbrust im cornflakes-knuspermantel, curry-kokossauce, pfannengemüse oder mais, pommes frites oder kartoffelkroketten",
       "name": {
-        "de": "Gebratene Hähnchenbrust im Cornflakes-Knuspermantel, Curry-Kokossauce, asiatisches Pfannengemüse oder Mais, Pommes Frites",
-        "en": "fried chicken breast in crispy cornflakes coating, curry coconut sauce, asian pan vegetables or corn, french fries"
+        "de": "Gebratene Hähnchenbrust im Cornflakes-Knuspermantel, Curry-Kokossauce, Pfannengemüse oder Mais, Pommes Frites oder Kartoffelkroketten",
+        "en": "fried chicken breast in crispy cornflakes coating, curry coconut sauce, pan-fried vegetables or corn, french fries and potato croquettes"
       },
       "labels": [],
       "prices": {
@@ -62,9 +63,7 @@
         }
       ],
       "codes": [
-        "2",
         "a1",
-        "f",
         "g"
       ],
       "dinner": false,
@@ -72,21 +71,21 @@
       "section": null
     },
     {
-      "key": "3 palatschinken mit quarkfüllung, vanille-mohnsauce",
+      "key": "apfel-pfannkuchen, vanille-mohnsauce",
       "name": {
-        "de": "3 Palatschinken mit Quarkfüllung, Vanille-Mohnsauce",
-        "en": "3 pancakes with quark filling, vanilla poppy sauce"
+        "de": "Apfel-Pfannkuchen, Vanille-Mohnsauce",
+        "en": "apple pancakes, vanilla poppy sauce"
       },
       "labels": [
         {
-          "de": "Save the meal",
-          "en": "Save the meal"
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
         }
       ],
       "prices": {
-        "students": 280,
-        "staff": 450,
-        "guests": 590
+        "students": 200,
+        "staff": 380,
+        "guests": 520
       },
       "unassignedPrices": [],
       "tags": [
@@ -96,6 +95,7 @@
         }
       ],
       "codes": [
+        "3",
         "a1",
         "c",
         "g"
@@ -126,6 +126,33 @@
       "codes": [
         "2",
         "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kartoffel-blumenkohl-brokkoliauflauf",
+      "name": {
+        "de": "Kartoffel-Blumenkohl-Brokkoliauflauf",
+        "en": "potato cauliflower broccoli casserole"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": false,
@@ -186,6 +213,7 @@
       "codes": [
         "3",
         "c",
+        "i",
         "j"
       ],
       "dinner": false,

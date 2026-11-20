@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "date": "2026-11-27",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweineschnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Schweineschnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "pork escalope with breading, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "c",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, champignon-cremesauce oder letschosauce, pommes frites, weißkrautsalat",
+      "name": {
+        "de": "Veganes Schnitzel, Champignon-Cremesauce oder Letschosauce, Pommes Frites, Weißkrautsalat",
+        "en": "Vegan escalope, champignon cream sauce or lechon sauce, french fries, white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "9",
+        "a1",
+        "f",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "name": {
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfelkuchen mit zimtstreusel",
+      "name": {
+        "de": "Apfelkuchen mit Zimtstreusel",
+        "en": "apple cake with cinnamon crumble"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla napoli mit fruchtiger tomaten-basilikumsauce",
+      "name": {
+        "de": "Makkaroni alla Napoli mit fruchtiger Tomaten-Basilikumsauce",
+        "en": "macaroni alla Napoli with fruity tomato-basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
+      "name": {
+        "de": "Makkaroni alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
+        "en": "macaroni alla Cipolla with chicken breast strips in onion cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "süßkartoffelcurry mit blumenkohl, belugalinsen, karotten, blattspinat und koriander",
+      "name": {
+        "de": "Süßkartoffelcurry mit Blumenkohl, Belugalinsen, Karotten, Blattspinat und Koriander",
+        "en": "sweet potato curry with cauliflower, beluga lentils, carrots, spinach leaves and coriander"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 220,
+        "staff": 390,
+        "guests": 530
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chinesischer eier-bratreis mit hähnchenbruststreifen und buntem gemüse, süß-saure sauce",
+      "name": {
+        "de": "Chinesischer Eier-Bratreis mit Hähnchenbruststreifen und buntem Gemüse, süß-saure Sauce",
+        "en": "Chinese egg fried rice with chicken breast strips and colorful vegetables, sweet sour sauce"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "c",
+        "f",
+        "k"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

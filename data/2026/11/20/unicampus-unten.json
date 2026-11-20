@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "käseschnitzel, tomatensauce, spirelli-nudeln oder pommes frites, marinierte blattsalate",
+      "key": "käseschnitzel, tomatensauce, rigatoni oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "Käseschnitzel, Tomatensauce, Spirelli-Nudeln oder Pommes Frites, marinierte Blattsalate",
-        "en": "cheese escalope, tomato sauce, spirelli noodles or French fries, marinated leaf salads"
+        "de": "Käseschnitzel, Tomatensauce, Rigatoni oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato sauce, rigatoni or French fries, marinated leaf salads"
       },
       "labels": [],
       "prices": {

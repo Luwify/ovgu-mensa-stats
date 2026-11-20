@@ -105,15 +105,15 @@
       "section": null
     },
     {
-      "key": "saftiger mohn-schmand-kuchen vom blech",
+      "key": "käsekuchen",
       "name": {
-        "de": "Saftiger Mohn-Schmand-Kuchen vom Blech",
-        "en": "juicy poppy seed sour cream cake from the baking tray"
+        "de": "Käsekuchen",
+        "en": "cheesecake"
       },
       "labels": [
         {
           "de": "Der heutige Lieblingskuchen vom Mensa-Team",
-          "en": "Today's favorite cake of the Mensa team"
+          "en": "Today's favourite cake of our Mensa-Team"
         }
       ],
       "prices": {
@@ -129,6 +129,7 @@
         }
       ],
       "codes": [
+        "1",
         "a1",
         "c",
         "g"

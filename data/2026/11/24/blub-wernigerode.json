@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "date": "2026-11-24",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bunte spätzle-gemüsepfanne, ajvardip",
+      "name": {
+        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
+        "en": "colourful spaetzle vegetable pan, Ajvardip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

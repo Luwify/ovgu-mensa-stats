@@ -12,27 +12,33 @@
   "source": "main",
   "dishes": [
     {
-      "key": "bunte gemüse-paella mit gebratenem räuchertofu",
+      "key": "backhähnchenbrust im kürbiskernmantel, tomatensauce, beilagensalat, kartoffelsalat",
       "name": {
-        "de": "Bunte Gemüse-Paella mit gebratenem Räuchertofu",
-        "en": "colourful vegetable paella with fried smoked tofu"
+        "de": "Backhähnchenbrust im Kürbiskernmantel, Tomatensauce, Beilagensalat, Kartoffelsalat",
+        "en": "fried chicken breast in pumpkin seed coating, tomato sauce, side salad, potato salad"
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 380,
+        "staff": 550,
+        "guests": 690
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "gefluegel",
+          "label": "Geflügel"
         }
       ],
       "codes": [
         "2",
-        "f"
+        "3",
+        "5",
+        "a1",
+        "c",
+        "i",
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,

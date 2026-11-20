@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "date": "2026-11-23",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "weiße bohnen-shakshuka mit paprika und tomaten, veganer dill-joghurt, pitabrot",
+      "name": {
+        "de": "Weiße Bohnen-Shakshuka mit Paprika und Tomaten, veganer Dill-Joghurt, Pitabrot",
+        "en": "Shakshuka with white beans, peppers and tomatoes, vegan dill yogurt, pita bread"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

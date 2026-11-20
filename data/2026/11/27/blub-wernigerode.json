@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "date": "2026-11-27",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "sudenburger currywurst, kartoffelsalat, bunter weißkrautsalat",
+      "name": {
+        "de": "Sudenburger Currywurst, Kartoffelsalat, bunter Weißkrautsalat",
+        "en": "currywurst 'Sudenburger style', potato salad, colourful white cabbage salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8",
+        "9",
+        "c",
+        "g",
+        "i",
+        "j",
+        "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

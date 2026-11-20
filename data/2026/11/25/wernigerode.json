@@ -12,6 +12,34 @@
   "source": "main",
   "dishes": [
     {
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "name": {
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse oder kaisergemüse, couscous oder kartoffel-gnocchi",
       "name": {
         "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse oder Kaisergemüse, Couscous oder Kartoffel-Gnocchi",
@@ -45,10 +73,10 @@
       "section": null
     },
     {
-      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, bio-langkornreis",
+      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, langkornreis",
       "name": {
-        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, BIO-Langkornreis",
-        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, organic long grain rice"
+        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, Langkornreis",
+        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, long grain rice"
       },
       "labels": [],
       "prices": {
@@ -72,34 +100,6 @@
         "2",
         "a1",
         "f"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
-      "name": {
-        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
-        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
-      },
-      "labels": [],
-      "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
-      "codes": [
-        "a1",
-        "c",
-        "g"
       ],
       "dinner": false,
       "cake": false,
