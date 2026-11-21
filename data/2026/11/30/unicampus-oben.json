@@ -1,0 +1,307 @@
+{
+  "schema": 1,
+  "date": "2026-11-30",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "loaded fries cinema style - pommes frites, käsesauce, tomaten-paprikasalsa, jalapenos",
+      "name": {
+        "de": "Loaded Fries Cinema Style - Pommes frites, Käsesauce, Tomaten-Paprikasalsa, Jalapenos",
+        "en": "loaded fries Cinema Style - french fries, cheese sauce, tomato bell pepper salsa, Jalapenos"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "loaded fries greek style - pommes frites, putengyros, tzatziki-salat, hirtenkäse",
+      "name": {
+        "de": "Loaded Fries Greek Style - Pommes frites, Putengyros, Tzatziki-Salat, Hirtenkäse",
+        "en": "loaded fries Greek Style - french fries, turkey gyros, tzatziki salad, herder's cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "mexican one-pot mit kartoffeln, bunten bohnen, paprika, erbsen, mais und tomaten",
+      "name": {
+        "de": "Mexican One-Pot mit Kartoffeln, bunten Bohnen, Paprika, Erbsen, Mais und Tomaten",
+        "en": "Mexican One-Pot with potatoes, mixed beans, bell pepper, peas, corn and tomatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "heidelbeer-streusel-kuchen vom blech",
+      "name": {
+        "de": "Heidelbeer-Streusel-Kuchen vom Blech",
+        "en": "blueberry crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla norma mit pikantem auberginen-tomatensugo",
+      "name": {
+        "de": "Penne Rigate alla Norma mit pikantem Auberginen-Tomatensugo",
+        "en": "penne rigate alla Norma with spicy eggplant tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "käseschnitzel, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Käseschnitzel, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "cheese escalope, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "arabische gemüsepfanne mit getrockneten früchten, pitabrot und geröstetem sesam",
+      "name": {
+        "de": "Arabische Gemüsepfanne mit getrockneten Früchten, Pitabrot und geröstetem Sesam",
+        "en": "Arabic vegetable pan with dried fruits, pita bread and roasted sesame seeds"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "a1",
+        "k",
+        "l"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebratene hähnchenbrust appenzeller art mit röstzwiebeln und reibekäse überbacken, tomaten-basilikumsauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Gebratene Hähnchenbrust Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Tomaten-Basilikumsauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "fried chicken breast 'Appenzeller style' baked with fried onions and grated cheese, tomato basil sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

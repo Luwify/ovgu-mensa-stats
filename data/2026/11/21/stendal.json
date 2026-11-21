@@ -39,6 +39,32 @@
       "section": null
     },
     {
+      "key": "nudelauflauf mit gemüse",
+      "name": {
+        "de": "Nudelauflauf mit Gemüse",
+        "en": "Italian pasta casserole with vegetables"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "veganes ragoût de poulet in estragon-senfsauce, möhren-zucchini-pastinakengemüse, langkornreis",
       "name": {
         "de": "Veganes Ragoût de poulet in Estragon-Senfsauce, Möhren-Zucchini-Pastinakengemüse, Langkornreis",

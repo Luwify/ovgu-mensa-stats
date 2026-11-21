@@ -50,10 +50,10 @@
       "section": null
     },
     {
-      "key": "rinderhacksteak mit frischkäsefüllung, thymiansauce, wachsbohnen, pommes frites oder bratkartoffeln",
+      "key": "hähnchengeschnetzeltes gyros art, wachsbohnen, pommes frites oder bratkartoffeln",
       "name": {
-        "de": "Rinderhacksteak mit Frischkäsefüllung, Thymiansauce, Wachsbohnen, Pommes Frites oder Bratkartoffeln",
-        "en": "minced beef steak with cream cheese filling, thyme sauce, wax beans, french fries or fried potatoes"
+        "de": "Hähnchengeschnetzeltes Gyros Art, Wachsbohnen, Pommes Frites oder Bratkartoffeln",
+        "en": "chicken gyros, wax beans, french fries or fried potatoes"
       },
       "labels": [],
       "prices": {
@@ -64,19 +64,15 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
+          "key": "gefluegel",
+          "label": "Geflügel"
         },
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "knoblauch",
+          "label": "Knoblauch"
         }
       ],
-      "codes": [
-        "a1",
-        "c",
-        "g"
-      ],
+      "codes": [],
       "dinner": false,
       "cake": false,
       "section": null
