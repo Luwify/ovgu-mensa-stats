@@ -12,6 +12,32 @@
   "source": "main",
   "dishes": [
     {
+      "key": "hühner-gemüse-frikassee, langkornreis",
+      "name": {
+        "de": "Hühner-Gemüse-Frikassee, Langkornreis",
+        "en": ", long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "sojageschnetzeltes mit ananas, paprika, karotte, bambus und lauch in süß-saurer sauce, langkornreis",
       "name": {
         "de": "Sojageschnetzeltes mit Ananas, Paprika, Karotte, Bambus und Lauch in süß-saurer Sauce, Langkornreis",
@@ -19,9 +45,9 @@
       },
       "labels": [],
       "prices": {
-        "students": 250,
-        "staff": 420,
-        "guests": 560
+        "students": 310,
+        "staff": 480,
+        "guests": 620
       },
       "unassignedPrices": [],
       "tags": [

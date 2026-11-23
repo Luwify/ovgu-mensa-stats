@@ -163,10 +163,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "key": "makkaroni mit tomatensauce",
       "name": {
-        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
-        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+        "de": "Makkaroni mit Tomatensauce",
+        "en": "macaroni with tomato sauce"
       },
       "labels": [
         {
@@ -182,17 +182,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "rind",
-          "label": "Rind"
+          "key": "vegan",
+          "label": "vegan"
         }
       ],
       "codes": [
-        "a1",
-        "i"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

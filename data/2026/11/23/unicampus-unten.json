@@ -72,7 +72,10 @@
           "label": "Knoblauch"
         }
       ],
-      "codes": [],
+      "codes": [
+        "g",
+        "i"
+      ],
       "dinner": false,
       "cake": false,
       "section": null

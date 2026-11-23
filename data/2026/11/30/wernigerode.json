@@ -39,16 +39,16 @@
       "section": null
     },
     {
-      "key": "paniertes jagdwurstschnitzel, tomatensauce, spirelli-nudeln, marinierte blattsalate",
+      "key": "schweinefrikadelle, zwiebelsauce, leipziger allerlei, salzkartoffeln",
       "name": {
-        "de": "Paniertes Jagdwurstschnitzel, Tomatensauce, Spirelli-Nudeln, marinierte Blattsalate",
-        "en": "escalope chasseur, tomato sauce, spirelli noodles, marinated leaf salads"
+        "de": "Schweinefrikadelle, Zwiebelsauce, Leipziger Allerlei, Salzkartoffeln",
+        "en": "fried pork meatball, onion sauce, mixed cream vegetables 'Leipzig style', salt potatoes"
       },
       "labels": [],
       "prices": {
-        "students": 340,
-        "staff": 510,
-        "guests": 650
+        "students": 250,
+        "staff": 420,
+        "guests": 560
       },
       "unassignedPrices": [],
       "tags": [
@@ -58,10 +58,11 @@
         }
       ],
       "codes": [
-        "2",
-        "3",
-        "8",
-        "a1"
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -98,10 +99,10 @@
       "section": null
     },
     {
-      "key": "kohlroulade mit hackfleischfüllung, rahmsauce, salzkartoffeln, marinierte blattsalate",
+      "key": "kohlroulade mit hackfleischfüllung, zwiebelsauce, salzkartoffeln, marinierte blattsalate",
       "name": {
-        "de": "Kohlroulade mit Hackfleischfüllung, Rahmsauce, Salzkartoffeln, marinierte Blattsalate",
-        "en": "stuffed cabbage with minced meat filling, cream sauce, salt potatoes, marinated leaf salads"
+        "de": "Kohlroulade mit Hackfleischfüllung, Zwiebelsauce, Salzkartoffeln, marinierte Blattsalate",
+        "en": "stuffed cabbage with minced meat filling, onion sauce, salt potatoes, marinated leaf salads"
       },
       "labels": [],
       "prices": {
@@ -117,8 +118,7 @@
         }
       ],
       "codes": [
-        "a1",
-        "g"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

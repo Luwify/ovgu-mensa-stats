@@ -110,10 +110,10 @@
       "section": null
     },
     {
-      "key": "bunte spätzle-gemüsepfanne, ajvardip",
+      "key": "bunte gemüse-paella mit gebratenem räuchertofu",
       "name": {
-        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
-        "en": "colourful spaetzle vegetable pan, Ajvardip"
+        "de": "Bunte Gemüse-Paella mit gebratenem Räuchertofu",
+        "en": "colourful vegetable paella with fried smoked tofu"
       },
       "labels": [
         {
@@ -129,15 +129,13 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "vegan",
+          "label": "vegan"
         }
       ],
       "codes": [
         "2",
-        "a1",
-        "c",
-        "g"
+        "f"
       ],
       "dinner": false,
       "cake": false,
