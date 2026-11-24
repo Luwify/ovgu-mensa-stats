@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "barbecue-jackfruit-burger, kartoffelspalten, avocadodip",
+      "key": "barbecue-jackfruit-burger, kartoffelspalten, pommes frites, avocadodip",
       "name": {
-        "de": "Barbecue-Jackfruit-Burger, Kartoffelspalten, Avocadodip",
-        "en": "barbecue jackfruit burger, potato wedges, avocado dip"
+        "de": "Barbecue-Jackfruit-Burger, Kartoffelspalten, Pommes Frites, Avocadodip",
+        "en": "barbecue jackfruit burger, potato wedges, french fries, avocado dip"
       },
       "labels": [],
       "prices": {
@@ -44,10 +44,10 @@
       "section": null
     },
     {
-      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse oder kaisergemüse, wildreismischung oder kartoffel-gnocchi",
+      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse, rustikales möhrengemüse oder kaisergemüse, wildreismischung oder kartoffel-gnocchi",
       "name": {
-        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse oder Kaisergemüse, Wildreismischung oder Kartoffel-Gnocchi",
-        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce, courgette vegetables or mixed vegetables, wild rice mix or potato gnocchi"
+        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse, rustikales Möhrengemüse oder Kaisergemüse, Wildreismischung oder Kartoffel-Gnocchi",
+        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce, courgette vegetables, rustic carrot vegetables or mixed vegetables, wild rice mix or potato gnocchi"
       },
       "labels": [],
       "prices": {

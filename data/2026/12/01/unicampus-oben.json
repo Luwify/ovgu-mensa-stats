@@ -1,0 +1,302 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "loaded fries toscana style - pommes frites, plantbased meatballs, tomatensugo, basilikumpesto",
+      "name": {
+        "de": "Loaded Fries Toscana Style - Pommes frites, plantbased Meatballs, Tomatensugo, Basilikumpesto",
+        "en": "loaded fries 'Toscana Style' - french fries, plant-based meatballs, tomato sugo, basil pesto"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "loaded fries virginia style - pommes frites, pulled pork, cola-barbecuesauce, farmersalat",
+      "name": {
+        "de": "Loaded Fries Virginia Style - Pommes frites, Pulled Pork, Cola-Barbecuesauce, Farmersalat",
+        "en": "loaded fries Virginia Style - french fries, pulled pork, Cola barbecue sauce, farmer's salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tandoori-blumenkohl, exotisches früchte-gemüsecurry, langkornreis",
+      "name": {
+        "de": "Tandoori-Blumenkohl, exotisches Früchte-Gemüsecurry, Langkornreis",
+        "en": "Tandoori cauliflower, exotic fruit vegetables curry, rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "zupfkuchen vom blech",
+      "name": {
+        "de": "Zupfkuchen vom Blech",
+        "en": "Russian plucked cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate al gorgonzola mit gorgonzola-sahnesauce",
+      "name": {
+        "de": "Penne Rigate al Gorgonzola mit Gorgonzola-Sahnesauce",
+        "en": "penne rigate al Gorgonzola with gorgonzola cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [
+        "a1",
+        "g",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´arrabiatta mit knoblauch und chili in tomatensauce",
+      "name": {
+        "de": "Penne Rigate all´Arrabiatta mit Knoblauch und Chili in Tomatensauce",
+        "en": "penne rigate all´Arrabiatta with garlic and chilli in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 kohlrabi-kräutermedaillons, paprika-rucolasauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Kohlrabi-Kräutermedaillons, Paprika-Rucolasauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 kohlrabi herb medallions, bell pepper arugula sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "yellow thai curry mit plantbased beef, möhren, zuckerschoten, paprika, sprossen und erdnüssen, basmatireis",
+      "name": {
+        "de": "Yellow Thai Curry mit Plantbased Beef, Möhren, Zuckerschoten, Paprika, Sprossen und Erdnüssen, Basmatireis",
+        "en": "Yellow Thai curry with plant-based beef, carrots, mangetout, bell pepper, sprouts and peanuts, basmati rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "e",
+        "f"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchenbrust milano mit tomaten-käsefüllung, paprika-rucolasauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchenbrust Milano mit Tomaten-Käsefüllung, Paprika-Rucolasauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken breast 'Milano' with tomato cheese filling, bell pepper arugula sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

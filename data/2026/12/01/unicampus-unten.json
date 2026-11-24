@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "tagliatelle chicken alfredo mit hähnchenbruststreifen in käse-sahnesauce",
+      "name": {
+        "de": "Tagliatelle Chicken Alfredo mit Hähnchenbruststreifen in Käse-Sahnesauce",
+        "en": "Tagliatelle Chicken Alfredo with chicken breast slices in cheese cream sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gebackenes schweinerückensteak in senf-zwiebel-eihülle, majoransauce, schwarzwurzel-karotten-bohnengemüse, bratkartoffeln oder spätzle",
+      "name": {
+        "de": "Gebackenes Schweinerückensteak in Senf-Zwiebel-Eihülle, Majoransauce, Schwarzwurzel-Karotten-Bohnengemüse, Bratkartoffeln oder Spätzle",
+        "en": "baked pork loin steak in a mustard-onion-egg coating, marjoram sauce, black salsify-carrot-bean vegetables, fried potatoes or spaetzle"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kürbis-chiasamen-burger mit orangen-preiselbeer-chutney, kartoffelspalten, veganer kräuterdip",
+      "name": {
+        "de": "Kürbis-Chiasamen-Burger mit Orangen-Preiselbeer-Chutney, Kartoffelspalten, veganer Kräuterdip",
+        "en": "pumpkin chia seed burger with orange and European cranberry chutney, potato wedges, vegan herb dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tagliatelle chicken alfredo mit hähnchenbruststreifen in käse-sahnesauce",
+      "name": {
+        "de": "Tagliatelle Chicken Alfredo mit Hähnchenbruststreifen in Käse-Sahnesauce",
+        "en": "Tagliatelle Chicken Alfredo with chicken breast slices in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "heidelbeer-streusel-kuchen vom blech",
+      "name": {
+        "de": "Heidelbeer-Streusel-Kuchen vom Blech",
+        "en": "blueberry crumble cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    }
+  ]
+}

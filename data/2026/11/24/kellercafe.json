@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce rahmwirsing, kartoffelkroketten",
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce rahmwirsing kartoffelrösti",
       "name": {
-        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce Rahmwirsing, Kartoffelkroketten",
-        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce creamed savoy cabbage, potato croquettes"
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce Rahmwirsing Kartoffelrösti",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce creamed savoy cabbage hash brown"
       },
       "labels": [],
       "prices": {
@@ -89,6 +89,7 @@
         "1",
         "5",
         "a1",
+        "a4",
         "c",
         "f",
         "l"
@@ -120,6 +121,7 @@
         "1",
         "5",
         "a1",
+        "a4",
         "f",
         "l"
       ],

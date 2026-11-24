@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchen-cordon bleu mit putenkochschinken-goudafüllung, pfeffer-rahmsauce, kaisergemüse, pommes frites oder salzkartoffeln",
+      "name": {
+        "de": "Hähnchen-Cordon bleu mit Putenkochschinken-Goudafüllung, Pfeffer-Rahmsauce, Kaisergemüse, Pommes Frites oder Salzkartoffeln",
+        "en": "chicken cordon bleu with cooked turkey ham Gouda cheese filling, pepper cream sauce, mixed creamed vegetables, french fries or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kürbis-chiasamen-burger mit orangen-preiselbeer-chutney, kartoffelspalten, veganer kräuterdip",
+      "name": {
+        "de": "Kürbis-Chiasamen-Burger mit Orangen-Preiselbeer-Chutney, Kartoffelspalten, veganer Kräuterdip",
+        "en": "pumpkin chia seed burger with orange and European cranberry chutney, potato wedges, vegan herb dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tandoori-blumenkohl, exotisches früchte-gemüsecurry, langkornreis",
+      "name": {
+        "de": "Tandoori-Blumenkohl, exotisches Früchte-Gemüsecurry, Langkornreis",
+        "en": "Tandoori cauliflower, exotic fruit vegetables curry, rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´arrabiatta mit knoblauch und chili in tomatensauce",
+      "name": {
+        "de": "Penne Rigate all´Arrabiatta mit Knoblauch und Chili in Tomatensauce",
+        "en": "penne rigate all´Arrabiatta with garlic and chilli in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

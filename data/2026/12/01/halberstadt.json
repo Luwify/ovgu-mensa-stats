@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schmorwirsing mit sonnenblumenhack und buntem gemüse, salzkartoffeln",
+      "name": {
+        "de": "Schmorwirsing mit Sonnenblumenhack und buntem Gemüse, Salzkartoffeln",
+        "en": "braised savoy cabbage with sunflower mince and colourful vegetables, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, cola-zwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream",
+      "name": {
+        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Cola-Zwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream",
+        "en": "Chicken ranch burger - soft bun, miced poultry steak, Cola onions, pickles and barbeque sauce, potato wedges, sour cream"
+      },
+      "labels": [],
+      "prices": {
+        "students": 430,
+        "staff": 600,
+        "guests": 740
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

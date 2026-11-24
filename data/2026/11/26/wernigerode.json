@@ -166,10 +166,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "key": "makkaroni alla saporita mit seelachswürfel und blattspinat in sahnesauce",
       "name": {
-        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
-        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+        "de": "Makkaroni alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
+        "en": "macaroni alla Saporita with pollock cubes and leaf spinach in cream sauce"
       },
       "labels": [
         {
@@ -185,17 +185,21 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
         },
         {
-          "key": "rind",
-          "label": "Rind"
+          "key": "fisch",
+          "label": "Fisch"
         }
       ],
       "codes": [
+        "2",
+        "5",
         "a1",
-        "i"
+        "d",
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,

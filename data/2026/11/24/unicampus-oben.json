@@ -137,15 +137,19 @@
       "section": null
     },
     {
-      "key": "makkaroni alla siciliana mit zucchini und aubergine in tomatensugo",
+      "key": "sojafrikassee mit spargel, champignons und kapern",
       "name": {
-        "de": "Makkaroni alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
-        "en": "macaroni alla Siciliana with courgette and eggplant in tomato sugo"
+        "de": "Sojafrikassee mit Spargel, Champignons und Kapern",
+        "en": "soya fricassee with asparagus, champignons and capers"
       },
       "labels": [
         {
           "de": "Pastabuffet",
           "en": "pasta buffet"
+        },
+        {
+          "de": "Penne Rigate Save the meal",
+          "en": "penne rigate Save the meal"
         }
       ],
       "prices": {
@@ -161,17 +165,20 @@
         }
       ],
       "codes": [
-        "a1"
+        "1",
+        "a1",
+        "f",
+        "j"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "makkaroni al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
+      "key": "penne rigate al ragù alla bolognese mit rinderhack und wurzelgemüse in tomatensauce",
       "name": {
-        "de": "Makkaroni al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
-        "en": "macaroni al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
+        "de": "Penne Rigate al Ragù alla Bolognese mit Rinderhack und Wurzelgemüse in Tomatensauce",
+        "en": "penne rigate al Ragù alla Bolognese with minced beef and root vegetables in tomato sauce"
       },
       "labels": [
         {
@@ -204,10 +211,10 @@
       "section": null
     },
     {
-      "key": "one pot mac and cheese - makkaroni, cremige käsesauce, röstzwiebeln",
+      "key": "one pot mac and cheese - penne, cremige käsesauce, röstzwiebeln",
       "name": {
-        "de": "One Pot Mac and Cheese - Makkaroni, cremige Käsesauce, Röstzwiebeln",
-        "en": "One Pot Mac and Chese - macaroni, creamy cheese sauce, fried onions"
+        "de": "One Pot Mac and Cheese - Penne, cremige Käsesauce, Röstzwiebeln",
+        "en": "One Pot Mac and Chese - penne, creamy cheese sauce, fried onions"
       },
       "labels": [
         {

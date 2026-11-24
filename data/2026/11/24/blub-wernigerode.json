@@ -39,6 +39,39 @@
       "dinner": false,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "hokifilet meuniere mit zitronen-petersilien-mehlierung, remoulade, weißkrautsalat, kartoffelsalat",
+      "name": {
+        "de": "Hokifilet Meuniere mit Zitronen-Petersilien-Mehlierung, Remoulade, Weißkrautsalat, Kartoffelsalat",
+        "en": "hoki fillet 'miller style' with lemon parseley flour coating, remoulade, potato salad"
+      },
+      "labels": [],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "c",
+        "d",
+        "f",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
     }
   ]
 }

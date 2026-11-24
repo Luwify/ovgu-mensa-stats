@@ -132,10 +132,10 @@
       "section": null
     },
     {
-      "key": "makkaroni alla siciliana mit zucchini und aubergine in tomatensugo",
+      "key": "makkaroni alla diavolo mit salami, paprika und zwiebel in tomaten-chilisauce",
       "name": {
-        "de": "Makkaroni alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
-        "en": "macaroni alla Siciliana with courgette and eggplant in tomato sugo"
+        "de": "Makkaroni alla Diavolo mit Salami, Paprika und Zwiebel in Tomaten-Chilisauce",
+        "en": "macaroni alla Diavolo with salami, bell pepper and onions in tomato chili sauce"
       },
       "labels": [
         {
@@ -151,12 +151,16 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
-        "a1"
+        "1",
+        "2",
+        "3",
+        "a1",
+        "Q"
       ],
       "dinner": false,
       "cake": false,

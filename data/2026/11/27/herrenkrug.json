@@ -112,10 +112,10 @@
       "section": null
     },
     {
-      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "key": "one pot mac and cheese - makkaroni, cremige käsesauce, röstzwiebeln",
       "name": {
-        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
-        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+        "de": "One Pot Mac and Cheese - Makkaroni, cremige Käsesauce, Röstzwiebeln",
+        "en": "One Pot Mac and Chese - macaroni, creamy cheese sauce, fried onions"
       },
       "labels": [
         {
@@ -136,8 +136,8 @@
         }
       ],
       "codes": [
+        "1",
         "a1",
-        "c",
         "g"
       ],
       "dinner": false,

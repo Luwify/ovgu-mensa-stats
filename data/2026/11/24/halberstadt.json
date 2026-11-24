@@ -73,6 +73,35 @@
       "dinner": false,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "sellerieschnitzel, schnittlauchsauce, möhren-steckrübengemüse, süß-saure linsen mit backpflaumen",
+      "name": {
+        "de": "Sellerieschnitzel, Schnittlauchsauce, Möhren-Steckrübengemüse, süß-saure Linsen mit Backpflaumen",
+        "en": "celery schnitzel, chive sauce, carrot turnip vegetables, sweet and sour lentils with pruns"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "f",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
     }
   ]
 }

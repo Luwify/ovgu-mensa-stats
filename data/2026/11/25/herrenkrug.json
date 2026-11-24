@@ -17,12 +17,7 @@
         "de": "Kaiserschmarrn, Zwetschgenröster, Vanillesauce",
         "en": "sweet cut up Austrian pancake, plum compote, vanilla sauce"
       },
-      "labels": [
-        {
-          "de": "Ausgabe Cafeteria",
-          "en": "Counter Cafeteria"
-        }
-      ],
+      "labels": [],
       "prices": {
         "students": 310,
         "staff": 480,

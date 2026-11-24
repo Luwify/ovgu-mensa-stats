@@ -12,82 +12,12 @@
   "source": "main",
   "dishes": [
     {
-      "key": "barbecue-jackfruit-burger, kartoffelspalten, avocadodip",
+      "key": "hühnerfrikassee mit spargel, champignons und kapern, gemüseallerlei, wildreismischung",
       "name": {
-        "de": "Barbecue-Jackfruit-Burger, Kartoffelspalten, Avocadodip",
-        "en": "barbecue jackfruit burger, potato wedges, avocado dip"
+        "de": "Hühnerfrikassee mit Spargel, Champignons und Kapern, Gemüseallerlei, Wildreismischung",
+        "en": "chicken fricassee with asparagus, champignons and capers, vegetable mix, wild rice mix"
       },
       "labels": [],
-      "prices": {
-        "students": 400,
-        "staff": 570,
-        "guests": 710
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegan",
-          "label": "vegan"
-        }
-      ],
-      "codes": [
-        "3",
-        "9",
-        "a1",
-        "a4",
-        "f",
-        "i",
-        "k"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "gebratene hähnchenbrust mit tomate und mozzarella überbacken, basilikum-pestosauce, zucchinigemüse oder kaisergemüse, wildreismischung oder kartoffel-gnocchi",
-      "name": {
-        "de": "Gebratene Hähnchenbrust mit Tomate und Mozzarella überbacken, Basilikum-Pestosauce, Zucchinigemüse oder Kaisergemüse, Wildreismischung oder Kartoffel-Gnocchi",
-        "en": "fried chicken breast gratinated with tomato and mozzarella cheese, basil pesto sauce, courgette vegetables or mixed vegetables, wild rice mix or potato gnocchi"
-      },
-      "labels": [],
-      "prices": {
-        "students": 380,
-        "staff": 550,
-        "guests": 690
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "gefluegel",
-          "label": "Geflügel"
-        },
-        {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        }
-      ],
-      "codes": [
-        "a1",
-        "g",
-        "h4",
-        "T"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "hühnerfrikassee mit spargel, champignons und kapern, kaisergemüse, wildreismischung",
-      "name": {
-        "de": "Hühnerfrikassee mit Spargel, Champignons und Kapern, Kaisergemüse, Wildreismischung",
-        "en": "chicken fricassee with asparagus, champignons and capers, mixed vegetables, wild rice mix"
-      },
-      "labels": [
-        {
-          "de": "Save the meal",
-          "en": "Save the meal"
-        }
-      ],
       "prices": {
         "students": 340,
         "staff": 510,
@@ -142,10 +72,10 @@
       "section": null
     },
     {
-      "key": "makkaroni alla siciliana mit zucchini und aubergine in tomatensugo",
+      "key": "farfalle alla siciliana mit zucchini und aubergine in tomatensugo",
       "name": {
-        "de": "Makkaroni alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
-        "en": "macaroni alla Siciliana with courgette and eggplant in tomato sugo"
+        "de": "Farfalle alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
+        "en": "farfalle alla Siciliana with courgette and eggplant in tomato sugo"
       },
       "labels": [
         {
@@ -173,10 +103,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al ragù alla bolognese mit hack und wurzelgemüse in tomatensauce",
+      "key": "farfalle al ragù alla bolognese mit hack und wurzelgemüse in tomatensauce",
       "name": {
-        "de": "Makkaroni al Ragù alla Bolognese mit Hack und Wurzelgemüse in Tomatensauce",
-        "en": "macaroni al Ragù alla Bolognese with Ground meat and root vegetables in tomato sauce"
+        "de": "Farfalle al Ragù alla Bolognese mit Hack und Wurzelgemüse in Tomatensauce",
+        "en": "farfalle al Ragù alla Bolognese with Ground meat and root vegetables in tomato sauce"
       },
       "labels": [
         {

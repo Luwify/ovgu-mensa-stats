@@ -39,10 +39,10 @@
       "section": null
     },
     {
-      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce, schwarzwurzeln oder rahmwirsing, schupfnudeln oder kartoffelkroketten",
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce, schwarzwurzeln oder rahmwirsing, kräuterspätzle oder kartoffelkroketten",
       "name": {
-        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce, Schwarzwurzeln oder Rahmwirsing, Schupfnudeln oder Kartoffelkroketten",
-        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce, black salsify additional creamed savoy cabbage, potato noodles and potato croquettes"
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce, Schwarzwurzeln oder Rahmwirsing, Kräuterspätzle oder Kartoffelkroketten",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce, black salsify additional creamed savoy cabbage, herb spaetzle and potato croquettes"
       },
       "labels": [],
       "prices": {
@@ -59,6 +59,7 @@
       ],
       "codes": [
         "a1",
+        "c",
         "g"
       ],
       "dinner": false,
@@ -100,39 +101,31 @@
       "section": null
     },
     {
-      "key": "2 rucola-süßkartoffel-bratlinge, erdnuss-chili-koriandersoße, asiatisches pfannengemüse",
+      "key": "pizza flammkuchen style mit schinkenspeck, zweierlei zwiebeln, porree und creme fraiche",
       "name": {
-        "de": "2 Rucola-Süßkartoffel-Bratlinge, Erdnuss-Chili-Koriandersoße, asiatisches Pfannengemüse",
-        "en": "2 sweet potato arugula patty, peanut-chili-coriander sauce, asian pan vegetables"
+        "de": "Pizza Flammkuchen Style mit Schinkenspeck, zweierlei Zwiebeln, Porree und Creme fraiche",
+        "en": "Pizza 'tarte flambée' style with bacon, two different kinds of onions, leek and crème fraîche"
       },
-      "labels": [
-        {
-          "de": "Grab the prep",
-          "en": "Grab the prep"
-        }
-      ],
+      "labels": [],
       "prices": {
-        "students": 370,
-        "staff": 540,
-        "guests": 680
+        "students": 420,
+        "staff": 590,
+        "guests": 730
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
         "2",
+        "3",
+        "8",
         "a1",
-        "a3",
-        "e",
-        "f"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,

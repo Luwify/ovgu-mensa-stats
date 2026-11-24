@@ -41,10 +41,10 @@
       "section": null
     },
     {
-      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, cola-zwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream",
+      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, cola-zwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream oder wasabidip",
       "name": {
-        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Cola-Zwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream",
-        "en": "Chicken ranch burger - soft bun, miced poultry steak, Cola onions, pickles and barbeque sauce, potato wedges, sour cream"
+        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Cola-Zwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream oder Wasabidip",
+        "en": "Chicken ranch burger - soft bun, miced poultry steak, Cola onions, pickles and barbeque sauce, potato wedges, sour cream or wasabi dip"
       },
       "labels": [],
       "prices": {
@@ -67,7 +67,8 @@
         "a3",
         "c",
         "g",
-        "i"
+        "i",
+        "j"
       ],
       "dinner": false,
       "cake": false,
@@ -100,6 +101,82 @@
       ],
       "dinner": false,
       "cake": false,
+      "section": null
+    },
+    {
+      "key": "bombay bowl - tandoori chicken, raita, kichererbsen-blumenkohlsalat, sesam-spinat, cashewkerne",
+      "name": {
+        "de": "Bombay Bowl - Tandoori Chicken, Raita, Kichererbsen-Blumenkohlsalat, Sesam-Spinat, Cashewkerne",
+        "en": "Bombay bowl - Tandoori chicken, raita, chickpea cauliflower salad, sesame spinach and cashews"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "g",
+        "h4",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "magdeburger butter-zucker-kuchen vom blech",
+      "name": {
+        "de": "Magdeburger Butter-Zucker-Kuchen vom Blech",
+        "en": "butter sugar cake 'Magdeburg Style' from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
       "section": null
     },
     {

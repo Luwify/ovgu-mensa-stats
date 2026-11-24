@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "date": "2026-11-30",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitzel peppadew mit paprika-frischkäsefüllung, thymiansauce, pfannengemüse, langkornreis oder pommes frites",
+      "name": {
+        "de": "Hähnchenschnitzel Peppadew mit Paprika-Frischkäsefüllung, Thymiansauce, Pfannengemüse, Langkornreis oder Pommes Frites",
+        "en": "chicken escalope peppadew with bell pepper cream cheese filling, thyme sauce, pan-fried vegetables, long grain rice or French fries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 410,
+        "staff": 580,
+        "guests": 720
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "7 brokkoli-käse-nuggets, tomatensauce, blumenkohl, bio vollkorn-penne rigate",
+      "name": {
+        "de": "7 Brokkoli-Käse-Nuggets, Tomatensauce, Blumenkohl, BIO Vollkorn-Penne Rigate",
+        "en": "7 broccoli cheese nuggets, tomato sauce, cauliflower, organic wholemeal Penne Rigate"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "c",
+        "f",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kichererbsen-spinat-masala mit ananas und tomate",
+      "name": {
+        "de": "Kichererbsen-Spinat-Masala mit Ananas und Tomate",
+        "en": "chickpea spinach Masala with pineapple and tomato"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla norma mit pikantem auberginen-tomatensugo",
+      "name": {
+        "de": "Penne Rigate alla Norma mit pikantem Auberginen-Tomatensugo",
+        "en": "penne rigate alla Norma with spicy eggplant tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

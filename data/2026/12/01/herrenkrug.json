@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "gebackenes schweinerückensteak in senf-zwiebel-eihülle, majoransauce, schwarzwurzel-karotten-bohnengemüse, kartoffelspalten oder spätzle",
+      "name": {
+        "de": "Gebackenes Schweinerückensteak in Senf-Zwiebel-Eihülle, Majoransauce, Schwarzwurzel-Karotten-Bohnengemüse, Kartoffelspalten oder Spätzle",
+        "en": "baked pork loin steak in a mustard-onion-egg coating, marjoram sauce, black salsify-carrot-bean vegetables, potato wedges or spaetzle"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "a1",
+        "c",
+        "g",
+        "j",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kürbis-chiasamen-burger mit orangen-preiselbeer-chutney, kartoffelspalten, veganer kräuterdip",
+      "name": {
+        "de": "Kürbis-Chiasamen-Burger mit Orangen-Preiselbeer-Chutney, Kartoffelspalten, veganer Kräuterdip",
+        "en": "pumpkin chia seed burger with orange and European cranberry chutney, potato wedges, vegan herb dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "tandoori-blumenkohl, exotisches früchte-gemüsecurry, langkornreis",
+      "name": {
+        "de": "Tandoori-Blumenkohl, exotisches Früchte-Gemüsecurry, Langkornreis",
+        "en": "Tandoori cauliflower, exotic fruit vegetables curry, rice"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate al gorgonzola mit gorgonzola-sahnesauce",
+      "name": {
+        "de": "Penne Rigate al Gorgonzola mit Gorgonzola-Sahnesauce",
+        "en": "penne rigate al Gorgonzola with gorgonzola cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [
+        "a1",
+        "g",
+        "T"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´arrabiatta mit knoblauch und chili in tomatensauce",
+      "name": {
+        "de": "Penne Rigate all´Arrabiatta mit Knoblauch und Chili in Tomatensauce",
+        "en": "penne rigate all´Arrabiatta with garlic and chilli in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
