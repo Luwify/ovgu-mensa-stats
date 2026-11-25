@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "kaiserschmarrn, zwetschgenröster, vanillesauce",
+      "key": "kaiserschmarrn, vanillesauce, geröstete mandeln",
       "name": {
-        "de": "Kaiserschmarrn, Zwetschgenröster, Vanillesauce",
-        "en": "sweet cut up Austrian pancake, plum compote, vanilla sauce"
+        "de": "Kaiserschmarrn, Vanillesauce, geröstete Mandeln",
+        "en": "sweet cut up Austrian pancake, vanilla sauce, roasted almonds"
       },
       "labels": [],
       "prices": {
@@ -33,17 +33,18 @@
       "codes": [
         "a1",
         "c",
-        "g"
+        "g",
+        "h1"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, paprikasauce, schwarzwurzeln oder rahmwirsing, schupfnudeln oder kartoffelkroketten",
+      "key": "putenbruststeak appenzeller art mit röstzwiebeln und reibekäse überbacken, rahmsauce, schwarzwurzeln oder rahmwirsing, schupfnudeln oder kartoffelkroketten",
       "name": {
-        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Paprikasauce, Schwarzwurzeln oder Rahmwirsing, Schupfnudeln oder Kartoffelkroketten",
-        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, bell pepper sauce, black salsify additional creamed savoy cabbage, potato noodles and potato croquettes"
+        "de": "Putenbruststeak Appenzeller Art mit Röstzwiebeln und Reibekäse überbacken, Rahmsauce, Schwarzwurzeln oder Rahmwirsing, Schupfnudeln oder Kartoffelkroketten",
+        "en": "turkey breast steak 'Appenzeller style' baked with fried onions and grated cheese, cream sauce, black salsify additional creamed savoy cabbage, potato noodles and potato croquettes"
       },
       "labels": [],
       "prices": {
@@ -59,8 +60,11 @@
         }
       ],
       "codes": [
+        "1",
+        "5",
         "a1",
-        "g"
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -95,40 +99,6 @@
         "a3",
         "e",
         "f"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "magdeburger gehacktesstippe, gewürzgurke, kartoffelstampf",
-      "name": {
-        "de": "Magdeburger Gehacktesstippe, Gewürzgurke, Kartoffelstampf",
-        "en": "minced meat stew 'Magdeburg', pickled cucumber, mashed potatoes"
-      },
-      "labels": [
-        {
-          "de": "Ausgabe Cafeteria",
-          "en": "Counter Cafeteria"
-        }
-      ],
-      "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "schwein",
-          "label": "Schwein"
-        }
-      ],
-      "codes": [
-        "3",
-        "9",
-        "g",
-        "j"
       ],
       "dinner": false,
       "cake": false,

@@ -166,15 +166,19 @@
       "section": null
     },
     {
-      "key": "penne rigate al´asciutta mit schweinehack und wurzelgemüse in tomaten-sahnesauce",
+      "key": "mac and cheese, cremige käsesauce",
       "name": {
-        "de": "Penne Rigate al´Asciutta mit Schweinehack und Wurzelgemüse in Tomaten-Sahnesauce",
-        "en": "penne rigate al´Asciutta with minced pork and root vegetables in tomato cream sauce"
+        "de": "Mac and Cheese, cremige Käsesauce",
+        "en": "Mac and Chese, creamy cheese sauce"
       },
       "labels": [
         {
           "de": "Pastabuffet",
           "en": "pasta buffet"
+        },
+        {
+          "de": "Penne Rigate Save the meal",
+          "en": "penne rigate Save the meal"
         }
       ],
       "prices": {
@@ -185,18 +189,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "schwein",
-          "label": "Schwein"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
+        "1",
         "a1",
-        "g",
-        "i"
+        "g"
       ],
       "dinner": false,
       "cake": false,
@@ -307,10 +307,10 @@
       "section": null
     },
     {
-      "key": "rinderhacksteak mit frischkäsefüllung, bördeländer letschosauce, langkornreis oder pommes frites und marinierte blattsalate",
+      "key": "3 königsberger klopse vom kalb, bördeländer letschosauce, langkornreis oder pommes frites und marinierte blattsalate",
       "name": {
-        "de": "Rinderhacksteak mit Frischkäsefüllung, Bördeländer Letschosauce, Langkornreis oder Pommes Frites und marinierte Blattsalate",
-        "en": "minced beef steak with cream cheese filling, Bördeländer bell pepper tomato stew, long grain rice or French fries and marinated leaf salads"
+        "de": "3 Königsberger Klopse vom Kalb, Bördeländer Letschosauce, Langkornreis oder Pommes Frites und marinierte Blattsalate",
+        "en": "3 Königsberger style' veal meatballs, Bördeländer bell pepper tomato stew, long grain rice or French fries and marinated leaf salads"
       },
       "labels": [
         {
@@ -326,10 +326,6 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
           "key": "rind",
           "label": "Rind"
         }
@@ -338,8 +334,9 @@
         "2",
         "9",
         "a1",
+        "a3",
         "c",
-        "g"
+        "j"
       ],
       "dinner": true,
       "cake": false,

@@ -140,10 +140,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al´asciutta mit schweinehack und wurzelgemüse in tomaten-sahnesauce",
+      "key": "makkaroni al´asciutta mit geflügelhack und wurzelgemüse in tomaten-sahnesauce",
       "name": {
-        "de": "Makkaroni al´Asciutta mit Schweinehack und Wurzelgemüse in Tomaten-Sahnesauce",
-        "en": "macaroni al´Asciutta with minced pork and root vegetables in tomato cream sauce"
+        "de": "Makkaroni al´Asciutta mit Geflügelhack und Wurzelgemüse in Tomaten-Sahnesauce",
+        "en": "macaroni al´Asciutta with minced chicken and root vegetables in tomato cream sauce"
       },
       "labels": [
         {
@@ -159,12 +159,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
+          "key": "gefluegel",
+          "label": "Geflügel"
         },
         {
-          "key": "schwein",
-          "label": "Schwein"
+          "key": "knoblauch",
+          "label": "Knoblauch"
         }
       ],
       "codes": [

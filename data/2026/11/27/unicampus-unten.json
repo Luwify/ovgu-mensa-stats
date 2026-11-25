@@ -208,10 +208,10 @@
       "section": null
     },
     {
-      "key": "tagessuppe",
+      "key": "hackfleisch-käse-lauchsuppe mit kartoffeln",
       "name": {
-        "de": "Tagessuppe",
-        "en": "Soup of the day"
+        "de": "Hackfleisch-Käse-Lauchsuppe mit Kartoffeln",
+        "en": "minced meat-cheese-leek soup with potatoes"
       },
       "labels": [],
       "prices": {
@@ -222,11 +222,18 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
           "key": "suppe",
           "label": "Suppe"
         }
       ],
-      "codes": [],
+      "codes": [
+        "1",
+        "g"
+      ],
       "dinner": false,
       "cake": false,
       "section": null

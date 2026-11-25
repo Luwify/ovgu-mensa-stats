@@ -1,0 +1,307 @@
+{
+  "schema": 1,
+  "date": "2026-12-02",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "loaded fries mexican style - pommes frites, chili sin carne aus bio-sonnenblumenhack, guacamole, koriander-aioli",
+      "name": {
+        "de": "Loaded Fries Mexican Style - Pommes frites, Chili sin carne aus BIO-Sonnenblumenhack, Guacamole, Koriander-Aioli",
+        "en": "loaded fries Mexican Style - french fries, chili sin carne of organic sunflower mince, guacamole,coriander aioli"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a4",
+        "f",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "loaded fries shawarma style - pommes frites, hähnchen-kebab, auberginen-sesamsauce, gemüse-tabouleh",
+      "name": {
+        "de": "Loaded Fries Shawarma Style - Pommes frites, Hähnchen-Kebab, Auberginen-Sesamsauce, Gemüse-Tabouleh",
+        "en": "loaded fries Shawarma Style - french fries, chicken kebab, eggplant sesame sauce, vegetable tabbouleh"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "g",
+        "k"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "bunte schupfnudel-gemüsepfanne mit gartenkräutern",
+      "name": {
+        "de": "Bunte Schupfnudel-Gemüsepfanne mit Gartenkräutern",
+        "en": "colourful potato noodles vegetable pan with garden herbs"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-kirschkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Kirschkuchen",
+        "en": "vegan chocolate cherry cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate al sugo piccante mit rinderhack und chili in gemüsesugo",
+      "name": {
+        "de": "Penne Rigate al Sugo piccante mit Rinderhack und Chili in Gemüsesugo",
+        "en": "penne rigate al Sugo piccante with minced beef and chilli in vegetable sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate al funghi mit champignons in cremesauce",
+      "name": {
+        "de": "Penne Rigate al Funghi mit Champignons in Cremesauce",
+        "en": "penne rigate al Funghi with champignons in cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 back-camembert, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Back-Camembert, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 baked camembert, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, basmatireis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, Basmatireis",
+        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, basmati rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "f"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel cordon bleu mit schinken-käsefüllung, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Schweineschnitzel Cordon bleu mit Schinken-Käsefüllung, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "pork escalope cordon bleu with ham cheese filling, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

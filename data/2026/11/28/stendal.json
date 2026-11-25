@@ -38,28 +38,29 @@
       "section": null
     },
     {
-      "key": "sojageschnetzeltes mit ananas, paprika, karotte, bambus und lauch in süß-saurer sauce, langkornreis",
+      "key": "bunte spätzle-gemüsepfanne, ajvardip",
       "name": {
-        "de": "Sojageschnetzeltes mit Ananas, Paprika, Karotte, Bambus und Lauch in süß-saurer Sauce, Langkornreis",
-        "en": "sliced soya in cream sauce with pineapple, bell pepper, carrot, bamboo and leek in sweet and sour sauce, long grain rice"
+        "de": "Bunte Spätzle-Gemüsepfanne, Ajvardip",
+        "en": "colourful spaetzle vegetable pan, Ajvardip"
       },
       "labels": [],
       "prices": {
-        "students": 310,
-        "staff": 480,
-        "guests": 620
+        "students": 220,
+        "staff": 390,
+        "guests": 530
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
         "2",
-        "9",
-        "f"
+        "a1",
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": false,

@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "date": "2026-12-02",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchen-cordon bleu mit putenkochschinken-goudafüllung, pfeffer-rahmsauce, kaisergemüse, pommes frites oder salzkartoffeln",
+      "name": {
+        "de": "Hähnchen-Cordon bleu mit Putenkochschinken-Goudafüllung, Pfeffer-Rahmsauce, Kaisergemüse, Pommes Frites oder Salzkartoffeln",
+        "en": "chicken cordon bleu with cooked turkey ham Gouda cheese filling, pepper cream sauce, mixed creamed vegetables, french fries or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "2",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chop suey mit plantbased beef und chinagemüse, mienudeln",
+      "name": {
+        "de": "Chop Suey mit Plantbased Beef und Chinagemüse, Mienudeln",
+        "en": "Chop Suey with plantbased beef and Chinese vegetables, mie noodles"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a3",
+        "f",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "szegediner schweinegulasch mit sauerkraut, paprikamus, böhmische knödel",
+      "name": {
+        "de": "Szegediner Schweinegulasch mit Sauerkraut, Paprikamus, Böhmische Knödel",
+        "en": "'Szegedin style' pork goulash with sauerkraut, sweet pepper puree, Bohemian dumplings"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chop suey mit plantbased beef und chinagemüse, mienudeln",
+      "name": {
+        "de": "Chop Suey mit Plantbased Beef und Chinagemüse, Mienudeln",
+        "en": "Chop Suey with plantbased beef and Chinese vegetables, mie noodles"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a3",
+        "f",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-kirschkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Kirschkuchen",
+        "en": "vegan chocolate cherry cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

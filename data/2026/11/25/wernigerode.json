@@ -106,6 +106,75 @@
       "section": null
     },
     {
+      "key": "brokkoli-nuss-ecke, tomatensauce, spätzle-gemüsepfanne",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Spätzle-Gemüsepfanne",
+        "en": "broccoli nut steak, tomato sauce, spaetzle vegetable pan"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "c",
+        "g",
+        "h1",
+        "h2"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "magdeburger butter-zucker-kuchen vom blech",
+      "name": {
+        "de": "Magdeburger Butter-Zucker-Kuchen vom Blech",
+        "en": "butter sugar cake 'Magdeburg Style' from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
       "key": "makkaroni al spinaci mit spinat-cremesauce",
       "name": {
         "de": "Makkaroni al Spinaci mit Spinat-Cremesauce",
@@ -125,13 +194,48 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "makkaroni alla pesto rucola in raukepesto",
+      "name": {
+        "de": "Makkaroni alla Pesto Rucola in Raukepesto",
+        "en": "macaroni alla Pesto Arugula in arugula pesto"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "a1",
-        "f"
+        "a1"
       ],
       "dinner": false,
       "cake": false,
@@ -162,6 +266,7 @@
         }
       ],
       "codes": [
+        "1",
         "2",
         "3",
         "8",

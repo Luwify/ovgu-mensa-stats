@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "stendal",
+    "name": {
+      "de": "Stendal",
+      "en": "Stendal"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "tagliatelle chicken alfredo mit hähnchenbruststreifen in käse-sahnesauce",
+      "name": {
+        "de": "Tagliatelle Chicken Alfredo mit Hähnchenbruststreifen in Käse-Sahnesauce",
+        "en": "Tagliatelle Chicken Alfredo with chicken breast slices in cheese cream sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kohlroulade mit hackfleischfüllung, rahmsauce, salzkartoffeln, marinierte blattsalate",
+      "name": {
+        "de": "Kohlroulade mit Hackfleischfüllung, Rahmsauce, Salzkartoffeln, marinierte Blattsalate",
+        "en": "stuffed cabbage with minced meat filling, cream sauce, salt potatoes, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "kürbis-chiasamen-burger mit orangen-preiselbeer-chutney, kartoffelspalten, veganer kräuterdip",
+      "name": {
+        "de": "Kürbis-Chiasamen-Burger mit Orangen-Preiselbeer-Chutney, Kartoffelspalten, veganer Kräuterdip",
+        "en": "pumpkin chia seed burger with orange and European cranberry chutney, potato wedges, vegan herb dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 440,
+        "staff": 610,
+        "guests": 750
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "j",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 quinoa-erbsen-frikadellen, bördeländer letschosauce, brokkoli oder rosenkohl, bratkartoffeln",
+      "name": {
+        "de": "2 Quinoa-Erbsen-Frikadellen, Bördeländer Letschosauce, Brokkoli oder Rosenkohl, Bratkartoffeln",
+        "en": "2 fried quinoa pea patties, Bördeländer bell pepper tomato stew, broccoli or brussel sprouts, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate, käse-sahnesauce",
+      "name": {
+        "de": "Penne Rigate, Käse-Sahnesauce",
+        "en": "penne rigate, cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´arrabiatta mit knoblauch und chili in tomatensauce",
+      "name": {
+        "de": "Penne Rigate all´Arrabiatta mit Knoblauch und Chili in Tomatensauce",
+        "en": "penne rigate all´Arrabiatta with garlic and chilli in tomato sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

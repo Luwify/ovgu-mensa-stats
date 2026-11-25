@@ -169,10 +169,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla capricciosa mit kochschinken, salami, champignons und brokkoli in tomaten-sahnesauce",
+      "key": "penne rigate alla capricciosa mit salami, champignons und brokkoli in tomaten-sahnesauce",
       "name": {
-        "de": "Penne Rigate alla Capricciosa mit Kochschinken, Salami, Champignons und Brokkoli in Tomaten-Sahnesauce",
-        "en": "penne rigate alla Capricciosa with cooked ham, salami, champignons and broccoli in tomato cream sauce"
+        "de": "Penne Rigate alla Capricciosa mit Salami, Champignons und Brokkoli in Tomaten-Sahnesauce",
+        "en": "penne rigate alla Capricciosa with salami, champignons and broccoli in tomato cream sauce"
       },
       "labels": [
         {
@@ -196,7 +196,6 @@
         "1",
         "2",
         "3",
-        "8",
         "a1",
         "g",
         "Q"
@@ -206,10 +205,10 @@
       "section": null
     },
     {
-      "key": "blumenkohl-käsetaler, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "key": "schwarzwurzel-knusper-karree, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
       "name": {
-        "de": "Blumenkohl-Käsetaler, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
-        "en": "cauliflower cheese pieces, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+        "de": "Schwarzwurzel-Knusper-Karree, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "crunchy black salsify rhombi, cream sauce, mashed potatoes or French fries, marinated leaf salads"
       },
       "labels": [
         {
@@ -232,8 +231,8 @@
       "codes": [
         "3",
         "a1",
-        "c",
-        "g"
+        "g",
+        "k"
       ],
       "dinner": true,
       "cake": false,
@@ -329,6 +328,39 @@
       ],
       "codes": [
         "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "pizza-special 14:00 bis 16:00 uhr: geflügelsalami-pizza mit gouda und oregano",
+      "name": {
+        "de": "Pizza-Special 14:00 bis 16:00 Uhr: Geflügelsalami-Pizza mit Gouda und Oregano",
+        "en": "pizza special 2:00 pm - 4:00 pm: chicken salami pizza with oregano and gouda cheese"
+      },
+      "labels": [],
+      "prices": {
+        "students": 550,
+        "staff": 720,
+        "guests": 860
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "g"
       ],
       "dinner": false,
       "cake": false,
