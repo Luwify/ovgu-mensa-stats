@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "serbische bohnen-reispfanne",
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
       "name": {
-        "de": "Serbische Bohnen-Reispfanne",
-        "en": "Serbian bean rice pan"
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
       },
       "labels": [],
       "prices": {
@@ -26,16 +26,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "knoblauch",
-          "label": "Knoblauch"
-        },
-        {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "vegetarisch",
+          "label": "vegetarisch"
         }
       ],
       "codes": [
-        "2"
+        "a1",
+        "c",
+        "g"
       ],
       "dinner": false,
       "cake": false,

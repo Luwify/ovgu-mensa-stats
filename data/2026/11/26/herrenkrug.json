@@ -49,10 +49,10 @@
       "section": null
     },
     {
-      "key": "rindergulasch, rotkohl, semmelknödel",
+      "key": "rindergulasch, rotkohl oder rahmwirsing, semmelknödel",
       "name": {
-        "de": "Rindergulasch, Rotkohl, Semmelknödel",
-        "en": "beef goulash, red cabbage, bread dumplings"
+        "de": "Rindergulasch, Rotkohl oder Rahmwirsing, Semmelknödel",
+        "en": "beef goulash, red cabbage additional creamed savoy cabbage, bread dumplings"
       },
       "labels": [],
       "prices": {
@@ -78,10 +78,10 @@
       "section": null
     },
     {
-      "key": "2 fischfrikadellen, zitronen-dillsauce, balkangemüse oder rahmporree, kartoffelpüree oder langkornreis",
+      "key": "2 fischfrikadellen, weißweinsauce, schwarzwurzeln oder rahmporree, langkornreis",
       "name": {
-        "de": "2 Fischfrikadellen, Zitronen-Dillsauce, Balkangemüse oder Rahmporree, Kartoffelpüree oder Langkornreis",
-        "en": "2 fishcakes, lemon dill sauce, Balkan vegetables or creamed leek, mashed potatoes or long grain rice"
+        "de": "2 Fischfrikadellen, Weißweinsauce, Schwarzwurzeln oder Rahmporree, Langkornreis",
+        "en": "2 fishcakes, white wine sauce, black salsify or creamed leek, long grain rice"
       },
       "labels": [],
       "prices": {
@@ -92,6 +92,10 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
           "key": "fisch",
           "label": "Fisch"
         },
@@ -101,11 +105,13 @@
         }
       ],
       "codes": [
-        "3",
+        "2",
+        "5",
         "a1",
         "d",
         "g",
-        "j"
+        "j",
+        "l"
       ],
       "dinner": false,
       "cake": false,
@@ -168,10 +174,48 @@
         }
       ],
       "codes": [
-        "2",
         "a1",
         "f",
         "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 rucola-süßkartoffel-bratlinge, erdnuss-chili-koriandersoße, asiatisches pfannengemüse",
+      "name": {
+        "de": "2 Rucola-Süßkartoffel-Bratlinge, Erdnuss-Chili-Koriandersoße, asiatisches Pfannengemüse",
+        "en": "2 sweet potato arugula patty, peanut-chili-coriander sauce, asian pan vegetables"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "a3",
+        "e",
+        "f"
       ],
       "dinner": false,
       "cake": false,

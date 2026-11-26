@@ -43,10 +43,10 @@
       "section": null
     },
     {
-      "key": "sudenburger currywurst, pommes frites, bunter weißkrautsalat",
+      "key": "sudenburger currywurst, pommes frites oder kartoffelpüree, bunter weißkrautsalat",
       "name": {
-        "de": "Sudenburger Currywurst, Pommes Frites, bunter Weißkrautsalat",
-        "en": "currywurst 'Sudenburger style', french fries, colourful white cabbage salad"
+        "de": "Sudenburger Currywurst, Pommes Frites oder Kartoffelpüree, bunter Weißkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries or mashed potatoes, colourful white cabbage salad"
       },
       "labels": [],
       "prices": {
@@ -72,6 +72,7 @@
         "4",
         "8",
         "9",
+        "g",
         "Q"
       ],
       "dinner": false,

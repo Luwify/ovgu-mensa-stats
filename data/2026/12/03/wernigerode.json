@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "date": "2026-12-03",
+  "mensa": {
+    "id": "wernigerode",
+    "name": {
+      "de": "Wernigerode",
+      "en": "Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "paniertes seelachsfilet, dillsauce, leipziger allerlei, kartoffelstampf",
+      "name": {
+        "de": "Paniertes Seelachsfilet, Dillsauce, Leipziger Allerlei, Kartoffelstampf",
+        "en": "breaded pollock fillet, dill sauce, mixed vegetables 'Leipzig style', mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "crunchy chicken-burger, kartoffelspalten, sour cream",
+      "name": {
+        "de": "Crunchy Chicken-Burger, Kartoffelspalten, Sour Cream",
+        "en": "crunchy Chicken Burger, potato wedges, sour cream"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit tofu, bio-langkornreis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Tofu, BIO-Langkornreis",
+        "en": "Asian pan-fried vegetables with tofu, organic long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´amatriciana mit kochschinken und chili in tomaten-sahnesauce",
+      "name": {
+        "de": "Penne Rigate all´Amatriciana mit Kochschinken und Chili in Tomaten-Sahnesauce",
+        "en": "penne rigate all´Amatriciana with cooked ham and chilli in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "name": {
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "multi grain-burger mit vegetarischem schnitzel, pommes frites, mediterrane gemüsesalsa",
+      "key": "multi grain-burger mit vegetarischem schnitzel, pommes frites, gemüsesalsa",
       "name": {
-        "de": "Multi Grain-Burger mit vegetarischem Schnitzel, Pommes Frites, mediterrane Gemüsesalsa",
-        "en": "multigrain burger with vegetarian escalope, french fries, mediterranean vegetable salsa"
+        "de": "Multi Grain-Burger mit vegetarischem Schnitzel, Pommes Frites, Gemüsesalsa",
+        "en": "multigrain burger with vegetarian escalope, french fries, vegetable salsa"
       },
       "labels": [],
       "prices": {
@@ -41,6 +41,7 @@
         "c",
         "f",
         "g",
+        "i",
         "j",
         "k"
       ],

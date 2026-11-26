@@ -173,15 +173,19 @@
       "section": null
     },
     {
-      "key": "penne rigate alla cipolla mit geflügelhackfleisch in zwiebel-sahnesauce",
+      "key": "kohlrabi-hackfleisch-pfanne",
       "name": {
-        "de": "Penne Rigate alla Cipolla mit Geflügelhackfleisch in Zwiebel-Sahnesauce",
-        "en": "penne rigate alla Cipolla with chicken breast strips in onion cream sauce"
+        "de": "Kohlrabi-Hackfleisch-Pfanne",
+        "en": "kohlrabi minced meat pan"
       },
       "labels": [
         {
           "de": "Pastabuffet",
           "en": "pasta buffet"
+        },
+        {
+          "de": "Penne Rigate Save the meal",
+          "en": "penne rigate Save the meal"
         }
       ],
       "prices": {
@@ -192,13 +196,13 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "gefluegel",
-          "label": "Geflügel"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
         "a1",
-        "g"
+        "j"
       ],
       "dinner": false,
       "cake": false,

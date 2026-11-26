@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "date": "2026-12-03",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "2 quinoa-erbsen-frikadellen, bördeländer letschosauce, brokkoli oder rosenkohl, kartoffelspalten",
+      "name": {
+        "de": "2 Quinoa-Erbsen-Frikadellen, Bördeländer Letschosauce, Brokkoli oder Rosenkohl, Kartoffelspalten",
+        "en": "2 fried quinoa pea patties, Bördeländer bell pepper tomato stew, broccoli or brussel sprouts, potato wedges"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "paniertes seelachsfilet, dillsauce, leipziger allerlei, kartoffelstampf",
+      "name": {
+        "de": "Paniertes Seelachsfilet, Dillsauce, Leipziger Allerlei, Kartoffelstampf",
+        "en": "breaded pollock fillet, dill sauce, mixed vegetables 'Leipzig style', mashed potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "fisch",
+          "label": "Fisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "d",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "crunchy chicken-burger, kartoffelspalten, sour cream",
+      "name": {
+        "de": "Crunchy Chicken-Burger, Kartoffelspalten, Sour Cream",
+        "en": "crunchy Chicken Burger, potato wedges, sour cream"
+      },
+      "labels": [],
+      "prices": {
+        "students": 400,
+        "staff": 570,
+        "guests": 710
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i",
+        "k",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit tofu, bio-langkornreis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Tofu, BIO-Langkornreis",
+        "en": "Asian pan-fried vegetables with tofu, organic long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

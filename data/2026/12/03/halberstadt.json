@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "date": "2026-12-03",
+  "mensa": {
+    "id": "halberstadt",
+    "name": {
+      "de": "DomCafete Halberstadt",
+      "en": "DomCafete Halberstadt"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweinefrikadelle, zwiebelsauce, leipziger allerlei, salzkartoffeln",
+      "name": {
+        "de": "Schweinefrikadelle, Zwiebelsauce, Leipziger Allerlei, Salzkartoffeln",
+        "en": "fried pork meatball, onion sauce, mixed cream vegetables 'Leipzig style', salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit tofu, langkornreis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Tofu, Langkornreis",
+        "en": "Asian pan-fried vegetables with tofu, long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

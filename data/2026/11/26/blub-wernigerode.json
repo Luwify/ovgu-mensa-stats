@@ -12,17 +12,12 @@
   "source": "main",
   "dishes": [
     {
-      "key": "makkaroni alla boscaiola mit mischpilzen und schinkenspeck in tomaten-sahnesauce",
+      "key": "makkaroni alla saporita mit seelachswürfel und blattspinat in sahnesauce",
       "name": {
-        "de": "Makkaroni alla Boscaiola mit Mischpilzen und Schinkenspeck in Tomaten-Sahnesauce",
-        "en": "macaroni alla Boscaiola with mixed mushrooms and bacon in tomato cream sauce"
+        "de": "Makkaroni alla Saporita mit Seelachswürfel und Blattspinat in Sahnesauce",
+        "en": "macaroni alla Saporita with pollock cubes and leaf spinach in cream sauce"
       },
-      "labels": [
-        {
-          "de": "Pastabuffet",
-          "en": "pasta buffet"
-        }
-      ],
+      "labels": [],
       "prices": {
         "students": 200,
         "staff": 380,
@@ -31,17 +26,21 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "schwein",
-          "label": "Schwein"
+          "key": "alkohol",
+          "label": "enth lt Alkohol"
+        },
+        {
+          "key": "fisch",
+          "label": "Fisch"
         }
       ],
       "codes": [
         "2",
-        "3",
-        "8",
+        "5",
         "a1",
+        "d",
         "g",
-        "i"
+        "l"
       ],
       "dinner": false,
       "cake": false,

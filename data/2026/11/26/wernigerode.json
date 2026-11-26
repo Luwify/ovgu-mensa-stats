@@ -44,10 +44,10 @@
       "section": null
     },
     {
-      "key": "geflügel-hackbraten, majoransauce, buttererbsen oder rahmporree, kartoffelstampf oder bratkartoffeln",
+      "key": "geflügelhacksteak, majoransauce, buttererbsen oder rahmporree, kartoffelstampf oder bratkartoffeln",
       "name": {
-        "de": "Geflügel-Hackbraten, Majoransauce, Buttererbsen oder Rahmporree, Kartoffelstampf oder Bratkartoffeln",
-        "en": "Chicken Meatloaf, marjoram sauce, butter peas or creamed leek, mashed potatoes or fried potatoes"
+        "de": "Geflügelhacksteak, Majoransauce, Buttererbsen oder Rahmporree, Kartoffelstampf oder Bratkartoffeln",
+        "en": "minced poultry steak, marjoram sauce, butter peas or creamed leek, mashed potatoes or fried potatoes"
       },
       "labels": [],
       "prices": {
@@ -74,9 +74,9 @@
       "section": null
     },
     {
-      "key": "6 seelachs-kibbelinge, zitronen-dillsauce, buttererbsen oder rahmporree, kartoffelpüree oder bratkartoffeln",
+      "key": "6 seelachs-kibbelinge, zitronen-dillsauce, buttererbsen oder rahmporree, kartoffelstampf oder bratkartoffeln",
       "name": {
-        "de": "6 Seelachs-Kibbelinge, Zitronen-Dillsauce, Buttererbsen oder Rahmporree, Kartoffelpüree oder Bratkartoffeln",
+        "de": "6 Seelachs-Kibbelinge, Zitronen-Dillsauce, Buttererbsen oder Rahmporree, Kartoffelstampf oder Bratkartoffeln",
         "en": "6 deep fried pollacks, lemon dill sauce, butter peas or creamed leek, mashed potatoes or fried potatoes"
       },
       "labels": [],
@@ -97,6 +97,44 @@
         "a1",
         "d",
         "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, röstzwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream",
+      "name": {
+        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Röstzwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream",
+        "en": "Chicken ranch burger - soft bun, miced poultry steak, roasted onions, pickles and barbeque sauce, potato wedges, sour cream"
+      },
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
+      "prices": {
+        "students": 430,
+        "staff": 600,
+        "guests": 740
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,
@@ -131,10 +169,10 @@
       "section": null
     },
     {
-      "key": "makkaroni alla napoli mit fruchtiger tomaten-basilikumsauce",
+      "key": "makkaroni alla siciliana mit zucchini und aubergine in tomatensugo",
       "name": {
-        "de": "Makkaroni alla Napoli mit fruchtiger Tomaten-Basilikumsauce",
-        "en": "macaroni alla Napoli with fruity tomato-basil sauce"
+        "de": "Makkaroni alla Siciliana mit Zucchini und Aubergine in Tomatensugo",
+        "en": "macaroni alla Siciliana with courgette and eggplant in tomato sugo"
       },
       "labels": [
         {
@@ -155,11 +193,7 @@
         }
       ],
       "codes": [
-        "1",
-        "2",
-        "5",
-        "a1",
-        "l"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

@@ -104,10 +104,10 @@
       "section": null
     },
     {
-      "key": "nudel-gemüse-eintopf mit gebratenen sojastreifen",
+      "key": "nudel-gemüse-eintopf mit gebratenen erbsenprotein",
       "name": {
-        "de": "Nudel-Gemüse-Eintopf mit gebratenen Sojastreifen",
-        "en": "noodle vegetable stew with fried soya strips"
+        "de": "Nudel-Gemüse-Eintopf mit gebratenen Erbsenprotein",
+        "en": "noodle vegetable stew with fried pea protein"
       },
       "labels": [],
       "prices": {
@@ -272,10 +272,10 @@
       "section": null
     },
     {
-      "key": "gebratene kartoffel-gnocchi, mediterranes gemüseragout",
+      "key": "gebratene schupfnudeln, mediterranes gemüseragout",
       "name": {
-        "de": "Gebratene Kartoffel-Gnocchi, mediterranes Gemüseragout",
-        "en": "fried potato gnocchi, mediterranean vegetable ragout"
+        "de": "Gebratene Schupfnudeln, mediterranes Gemüseragout",
+        "en": "fried schupfnudeln, mediterranean vegetable ragout"
       },
       "labels": [
         {

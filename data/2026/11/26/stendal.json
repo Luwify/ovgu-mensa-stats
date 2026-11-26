@@ -140,10 +140,10 @@
       "section": null
     },
     {
-      "key": "makkaroni al´asciutta mit geflügelhack und wurzelgemüse in tomaten-sahnesauce",
+      "key": "makkaroni al´asciutta mit geflügelhack und oliven in tomaten-sahnesauce",
       "name": {
-        "de": "Makkaroni al´Asciutta mit Geflügelhack und Wurzelgemüse in Tomaten-Sahnesauce",
-        "en": "macaroni al´Asciutta with minced chicken and root vegetables in tomato cream sauce"
+        "de": "Makkaroni al´Asciutta mit Geflügelhack und Oliven in Tomaten-Sahnesauce",
+        "en": "macaroni al´Asciutta with minced chicken and oliven in tomato cream sauce"
       },
       "labels": [
         {
@@ -168,6 +168,8 @@
         }
       ],
       "codes": [
+        "3",
+        "7",
         "a1",
         "g",
         "i"
@@ -177,10 +179,10 @@
       "section": null
     },
     {
-      "key": "makkaroni alla caponata mit mediterranem gemüse, oliven und kapern in tomatensugo",
+      "key": "makkaroni alla caponata mit mediterranem gemüse und kapern in tomatensugo",
       "name": {
-        "de": "Makkaroni alla Caponata mit mediterranem Gemüse, Oliven und Kapern in Tomatensugo",
-        "en": "macaroni alla Caponata with mediterranean vegetables, olives and capers in tomato sugo"
+        "de": "Makkaroni alla Caponata mit mediterranem Gemüse und Kapern in Tomatensugo",
+        "en": "macaroni alla Caponata with mediterranean vegetables and capers in tomato sugo"
       },
       "labels": [
         {

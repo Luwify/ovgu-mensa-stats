@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "date": "2026-12-03",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "loaded fries bosporus style - pommes frites, kichererbsenbällchen, tomatensugo, basilikumpesto",
+      "name": {
+        "de": "Loaded Fries Bosporus Style - Pommes frites, Kichererbsenbällchen, Tomatensugo, Basilikumpesto",
+        "en": "loaded fries Bosporus Style - french fries, chickpea balls, tomato sugo, basil pesto"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "loaded fries bologna style - pommes frites, rindfleisch-bolognese, mozarella, rucola",
+      "name": {
+        "de": "Loaded Fries Bologna Style - Pommes frites, Rindfleisch-Bolognese, Mozarella, Rucola",
+        "en": "loaded fries Bologna Style - french fries, beef bolognese, mozzarella cheese, arugula"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "3",
+        "5",
+        "g",
+        "i",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit tofu, bio-langkornreis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Tofu, BIO-Langkornreis",
+        "en": "Asian pan-fried vegetables with tofu, organic long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "saftiger kokos-buttermilch-kuchen vom blech",
+      "name": {
+        "de": "Saftiger Kokos-Buttermilch-Kuchen vom Blech",
+        "en": "juicy coconut buttermilk cake from the baking tray"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favorite cake of the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla napoletana mit geschmortem rindfleisch und wurzelgemüse",
+      "name": {
+        "de": "Penne Rigate alla Napoletana mit geschmortem Rindfleisch und Wurzelgemüse",
+        "en": "penne rigate alla Napoletana with braised beef and root vegetables"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla montanara mit mischpilzen in tomaten-basilikumsauce",
+      "name": {
+        "de": "Penne Rigate alla Montanara mit Mischpilzen in Tomaten-Basilikumsauce",
+        "en": "penne rigate alla Montanara with mixed mushrooms in tomato basil sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "erdnuss-sesamnudeln mit asiatischem pfannengemüse",
+      "name": {
+        "de": "Erdnuss-Sesamnudeln mit asiatischem Pfannengemüse",
+        "en": "peanut sesame noodles with asian stir fried vegetables"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 280,
+        "staff": 450,
+        "guests": 590
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "a1",
+        "e",
+        "f",
+        "k"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 spinat-dinkelmedaillons, gorgonzolasauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Spinat-Dinkelmedaillons, Gorgonzolasauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 spinach spelt medallions, Gorgonzola cheese sauce, salt potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [],
+      "codes": [
+        "a1",
+        "a5",
+        "c",
+        "g",
+        "T"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "putenbruststeak, gorgonzolasauce, salzkartoffeln oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Putenbruststeak, Gorgonzolasauce, Salzkartoffeln oder Pommes Frites, marinierte Blattsalate",
+        "en": "turkey breast steak, Gorgonzola cheese sauce, salt potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im oberen Speisesaal",
+          "en": "Dinner in the upper dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "g",
+        "T"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
