@@ -36,6 +36,7 @@
       ],
       "codes": [
         "a1",
+        "f",
         "g"
       ],
       "dinner": false,
@@ -114,10 +115,10 @@
       "section": null
     },
     {
-      "key": "gebratene schinken-krakauer, meerrettich-senfsauce, grünkohl, bratkartoffeln",
+      "key": "knacker, meerrettich-senfsauce, grünkohl, bratkartoffeln",
       "name": {
-        "de": "Gebratene Schinken-Krakauer, Meerrettich-Senfsauce, Grünkohl, Bratkartoffeln",
-        "en": "fried ham sausage 'Krakauer style', horseradish mustard sauce, kale, fried potatoes"
+        "de": "Knacker, Meerrettich-Senfsauce, Grünkohl, Bratkartoffeln",
+        "en": "sausage, horseradish mustard sauce, kale, fried potatoes"
       },
       "labels": [],
       "prices": {
@@ -202,37 +203,6 @@
         "3",
         "c",
         "j"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "hackfleisch-käse-lauchsuppe mit kartoffeln",
-      "name": {
-        "de": "Hackfleisch-Käse-Lauchsuppe mit Kartoffeln",
-        "en": "minced meat-cheese-leek soup with potatoes"
-      },
-      "labels": [],
-      "prices": {
-        "students": 60,
-        "staff": 80,
-        "guests": 100
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "rind",
-          "label": "Rind"
-        },
-        {
-          "key": "suppe",
-          "label": "Suppe"
-        }
-      ],
-      "codes": [
-        "1",
-        "g"
       ],
       "dinner": false,
       "cake": false,

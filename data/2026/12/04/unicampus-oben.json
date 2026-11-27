@@ -1,0 +1,302 @@
+{
+  "schema": 1,
+  "date": "2026-12-04",
+  "mensa": {
+    "id": "unicampus-oben",
+    "name": {
+      "de": "UniCampus oben",
+      "en": "UniCampus upper"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "loaded fries montreal style - pommes frites, champignonragout, radieschen, bärlauchpesto",
+      "name": {
+        "de": "Loaded Fries Montreal Style - Pommes frites, Champignonragout, Radieschen, Bärlauchpesto",
+        "en": "loaded fries Montreal Style - french fries, champignon stew, radish, wild garlic pesto"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "loaded fries cinema style - pommes frites, käsesauce, tomaten-paprikasalsa, jalapenos",
+      "name": {
+        "de": "Loaded Fries Cinema Style - Pommes frites, Käsesauce, Tomaten-Paprikasalsa, Jalapenos",
+        "en": "loaded fries Cinema Style - french fries, cheese sauce, tomato bell pepper salsa, Jalapenos"
+      },
+      "labels": [],
+      "prices": {
+        "students": 310,
+        "staff": 480,
+        "guests": 620
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "4 eierkuchen, heiße zimtkirschen",
+      "name": {
+        "de": "4 Eierkuchen, heiße Zimtkirschen",
+        "en": "4 pancakes, hot cinnamon cherries"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "apfelkuchen mit zimtstreusel",
+      "name": {
+        "de": "Apfelkuchen mit Zimtstreusel",
+        "en": "apple cake with cinnamon crumble"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake of our Mensa-Team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "penne rigate alla primavera mit buntem gemüse in kräutersauce",
+      "name": {
+        "de": "Penne Rigate alla Primavera mit buntem Gemüse in Kräutersauce",
+        "en": "penne rigate alla Primavera with colourful vegetables in herb sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "penne rigate all´amatriciana mit kochschinken und chili in tomaten-sahnesauce",
+      "name": {
+        "de": "Penne Rigate all´Amatriciana mit Kochschinken und Chili in Tomaten-Sahnesauce",
+        "en": "penne rigate all´Amatriciana with cooked ham and chilli in tomato cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 kräutersaitling-schnitzel, tomatensauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Kräutersaitling-Schnitzel, Tomatensauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 king oyster mushroom schnitzel, tomato sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "brokkoli-nuss-ecke, tomatensauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Brokkoli-Nuss-Ecke, Tomatensauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "broccoli nut steak, tomato sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a4",
+        "h1",
+        "h2"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "thailändisches putengeschnetzeltes, basmatireis, geröstete kokosflocken",
+      "name": {
+        "de": "Thailändisches Putengeschnetzeltes, Basmatireis, geröstete Kokosflocken",
+        "en": "Thai turkey strips in cream sauce, basmati rice, roasted coconut flakes"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        },
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        }
+      ],
+      "codes": [
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

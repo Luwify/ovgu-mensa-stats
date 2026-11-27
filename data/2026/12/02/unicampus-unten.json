@@ -206,6 +206,111 @@
       "dinner": false,
       "cake": false,
       "section": null
+    },
+    {
+      "key": "2 back-camembert, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Back-Camembert, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 baked camembert, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, basmatireis",
+      "name": {
+        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, Basmatireis",
+        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, basmati rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "a1",
+        "f"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "schweineschnitzel cordon bleu mit schinken-käsefüllung, rahmsauce, kartoffelstampf oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Schweineschnitzel Cordon bleu mit Schinken-Käsefüllung, Rahmsauce, Kartoffelstampf oder Pommes Frites, marinierte Blattsalate",
+        "en": "pork escalope cordon bleu with ham cheese filling, cream sauce, mashed potatoes or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
     }
   ]
 }

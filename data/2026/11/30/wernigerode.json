@@ -12,27 +12,33 @@
   "source": "main",
   "dishes": [
     {
-      "key": "mexican one-pot mit kartoffeln, bunten bohnen, paprika, erbsen, mais und tomaten",
+      "key": "asiatische gemüsepfanne mit plantbased chicken in hoisinsauce, langkornreis",
       "name": {
-        "de": "Mexican One-Pot mit Kartoffeln, bunten Bohnen, Paprika, Erbsen, Mais und Tomaten",
-        "en": "Mexican One-Pot with potatoes, mixed beans, bell pepper, peas, corn and tomatoes"
+        "de": "Asiatische Gemüsepfanne mit Plantbased Chicken in Hoisinsauce, Langkornreis",
+        "en": "Asian pan-fried vegetables with plantbased chicken in hoisin sauce, long grain rice"
       },
       "labels": [],
       "prices": {
-        "students": 200,
-        "staff": 380,
-        "guests": 520
+        "students": 340,
+        "staff": 510,
+        "guests": 650
       },
       "unassignedPrices": [],
       "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
         {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
+        "1",
         "2",
-        "3"
+        "a1",
+        "f"
       ],
       "dinner": false,
       "cake": false,

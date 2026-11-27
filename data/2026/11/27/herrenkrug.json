@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hähnchenbrust formaggio mit kräuter-frischkäsefüllung, pfeffer-rahmsauce, möhren-kürbis-lauchgemüse, pommes frites",
+      "key": "hähnchenbrust formaggio mit kräuter-frischkäsefüllung, champignon-rahmsauce, möhren-kürbis-lauchgemüse, pommes frites",
       "name": {
-        "de": "Hähnchenbrust Formaggio mit Kräuter-Frischkäsefüllung, Pfeffer-Rahmsauce, Möhren-Kürbis-Lauchgemüse, Pommes Frites",
-        "en": "chicken breast Formaggio with herb and cream cheese filling, pepper cream sauce, carrot-pumpkin-leek vegetables, french fries"
+        "de": "Hähnchenbrust Formaggio mit Kräuter-Frischkäsefüllung, Champignon-Rahmsauce, Möhren-Kürbis-Lauchgemüse, Pommes Frites",
+        "en": "chicken breast Formaggio with herb and cream cheese filling, champignon cream sauce, carrot-pumpkin-leek vegetables, french fries"
       },
       "labels": [],
       "prices": {
@@ -35,18 +35,22 @@
         }
       ],
       "codes": [
+        "1",
+        "3",
+        "5",
         "a1",
-        "g"
+        "g",
+        "l"
       ],
       "dinner": false,
       "cake": false,
       "section": null
     },
     {
-      "key": "sudenburger currywurst, pommes frites, bunter weißkrautsalat",
+      "key": "sudenburger currywurst, pommes frites, weißkrautsalat",
       "name": {
-        "de": "Sudenburger Currywurst, Pommes Frites, bunter Weißkrautsalat",
-        "en": "currywurst 'Sudenburger style', french fries, colourful white cabbage salad"
+        "de": "Sudenburger Currywurst, Pommes Frites, Weißkrautsalat",
+        "en": "currywurst 'Sudenburger style', french fries, white cabbage salad"
       },
       "labels": [],
       "prices": {
@@ -129,16 +133,12 @@
         "guests": 520
       },
       "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
-        }
-      ],
+      "tags": [],
       "codes": [
         "1",
         "a1",
-        "g"
+        "g",
+        "T"
       ],
       "dinner": false,
       "cake": false,

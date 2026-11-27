@@ -12,12 +12,17 @@
   "source": "main",
   "dishes": [
     {
-      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella",
+      "key": "italienischer nudelauflauf mit champignons, brokkoli, tomaten und mozzarella,tomaten- basilikum-pestosauce",
       "name": {
-        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella",
-        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese"
+        "de": "Italienischer Nudelauflauf mit Champignons, Brokkoli, Tomaten und Mozzarella,Tomaten- Basilikum-Pestosauce",
+        "en": "Italian pasta casserole with champignons, broccoli, tomatoes and mozzarella cheese, tomato basil pesto sauce"
       },
-      "labels": [],
+      "labels": [
+        {
+          "de": "Save the meal",
+          "en": "Save the meal"
+        }
+      ],
       "prices": {
         "students": 200,
         "staff": 380,
@@ -26,14 +31,16 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "knoblauch",
+          "label": "Knoblauch"
         }
       ],
       "codes": [
         "a1",
         "c",
-        "g"
+        "g",
+        "h4",
+        "T"
       ],
       "dinner": false,
       "cake": false,
@@ -54,6 +61,10 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "rind",
           "label": "Rind"
         },
@@ -70,6 +81,40 @@
         "8",
         "9",
         "Q"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganes schnitzel, nudelsalat mit grillgemüse, ajvardip",
+      "name": {
+        "de": "Veganes Schnitzel, Nudelsalat mit Grillgemüse, Ajvardip",
+        "en": "Vegan escalope, noodle salad with grilled vegetables, ajvar dip"
+      },
+      "labels": [],
+      "prices": {
+        "students": 280,
+        "staff": 450,
+        "guests": 590
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "5",
+        "a1",
+        "l"
       ],
       "dinner": false,
       "cake": false,

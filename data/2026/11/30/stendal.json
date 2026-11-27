@@ -128,10 +128,10 @@
       "section": null
     },
     {
-      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "key": "penne rigate, zitronen-dillsauce mit wildlachs",
       "name": {
-        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
-        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+        "de": "Penne Rigate, Zitronen-Dillsauce mit Wildlachs",
+        "en": "penne rigate, lemon dill sauce and wild salmon"
       },
       "labels": [
         {
@@ -147,18 +147,14 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "schwein",
-          "label": "Schwein"
+          "key": "fisch",
+          "label": "Fisch"
         }
       ],
       "codes": [
-        "1",
-        "2",
-        "3",
-        "8",
         "a1",
-        "g",
-        "i"
+        "d",
+        "g"
       ],
       "dinner": false,
       "cake": false,

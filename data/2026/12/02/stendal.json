@@ -190,10 +190,10 @@
       "section": null
     },
     {
-      "key": "penne rigate al funghi mit champignons in cremesauce",
+      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
       "name": {
-        "de": "Penne Rigate al Funghi mit Champignons in Cremesauce",
-        "en": "penne rigate al Funghi with champignons in cream sauce"
+        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "penne rigate Carbonara with ham in cheese cream sauce"
       },
       "labels": [
         {
@@ -209,13 +209,18 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegan",
-          "label": "vegan"
+          "key": "schwein",
+          "label": "Schwein"
         }
       ],
       "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
         "a1",
-        "f"
+        "g",
+        "i"
       ],
       "dinner": false,
       "cake": false,

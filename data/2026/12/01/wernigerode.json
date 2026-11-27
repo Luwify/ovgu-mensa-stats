@@ -109,10 +109,10 @@
       "section": null
     },
     {
-      "key": "penne rigate carbonara mit schinkenspeck in käse-sahnesauce",
+      "key": "penne rigate alla casalinga mit kochschinken und erbsen in sahnesauce",
       "name": {
-        "de": "Penne Rigate Carbonara mit Schinkenspeck in Käse-Sahnesauce",
-        "en": "penne rigate Carbonara with ham in cheese cream sauce"
+        "de": "Penne Rigate alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
+        "en": "penne rigate alla Casalinga with cooked ham and peas in cream sauce"
       },
       "labels": [
         {
@@ -133,13 +133,11 @@
         }
       ],
       "codes": [
-        "1",
         "2",
         "3",
         "8",
         "a1",
-        "g",
-        "i"
+        "g"
       ],
       "dinner": false,
       "cake": false,

@@ -44,10 +44,10 @@
       "section": null
     },
     {
-      "key": "kohlroulade mit hackfleischfüllung, rahmsauce, salzkartoffeln, marinierte blattsalate",
+      "key": "wirsingkohlroulade, rahmsauce, salzkartoffeln, marinierte blattsalate",
       "name": {
-        "de": "Kohlroulade mit Hackfleischfüllung, Rahmsauce, Salzkartoffeln, marinierte Blattsalate",
-        "en": "stuffed cabbage with minced meat filling, cream sauce, salt potatoes, marinated leaf salads"
+        "de": "Wirsingkohlroulade, Rahmsauce, Salzkartoffeln, marinierte Blattsalate",
+        "en": "savoy cabbage roulade, cream sauce, salt potatoes, marinated leaf salads"
       },
       "labels": [
         {
@@ -141,10 +141,10 @@
       "section": null
     },
     {
-      "key": "penne rigate, käse-sahnesauce",
+      "key": "penne rigate rindergulasch",
       "name": {
-        "de": "Penne Rigate, Käse-Sahnesauce",
-        "en": "penne rigate, cheese cream sauce"
+        "de": "Penne Rigate Rindergulasch",
+        "en": "penne rigate beef goulash"
       },
       "labels": [
         {
@@ -160,14 +160,12 @@
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "vegetarisch",
-          "label": "vegetarisch"
+          "key": "rind",
+          "label": "Rind"
         }
       ],
       "codes": [
-        "1",
-        "a1",
-        "g"
+        "a1"
       ],
       "dinner": false,
       "cake": false,

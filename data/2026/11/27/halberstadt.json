@@ -12,6 +12,63 @@
   "source": "main",
   "dishes": [
     {
+      "key": "2 spinat-dinkelmedaillons, paprikasauce, gemüseallerlei, schupfnudeln",
+      "name": {
+        "de": "2 Spinat-Dinkelmedaillons, Paprikasauce, Gemüseallerlei, Schupfnudeln",
+        "en": "2 spinach spelt medallions, bell pepper sauce, mixed vegetables, potato noodles"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a5",
+        "c",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "2 quinoa-erbsen-frikadellen, bördeländer letschosauce, brokkoli, bratkartoffeln",
+      "name": {
+        "de": "2 Quinoa-Erbsen-Frikadellen, Bördeländer Letschosauce, Brokkoli, Bratkartoffeln",
+        "en": "2 fried quinoa pea patties, Bördeländer bell pepper tomato stew, broccoli, fried potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
       "key": "currywurstpfanne, pommes frites, weißkrautsalat",
       "name": {
         "de": "Currywurstpfanne, Pommes Frites, Weißkrautsalat",
@@ -42,34 +99,6 @@
         "8",
         "9",
         "Q"
-      ],
-      "dinner": false,
-      "cake": false,
-      "section": null
-    },
-    {
-      "key": "2 quinoa-erbsen-frikadellen, bördeländer letschosauce, brokkoli, bratkartoffeln",
-      "name": {
-        "de": "2 Quinoa-Erbsen-Frikadellen, Bördeländer Letschosauce, Brokkoli, Bratkartoffeln",
-        "en": "2 fried quinoa pea patties, Bördeländer bell pepper tomato stew, broccoli, fried potatoes"
-      },
-      "labels": [],
-      "prices": {
-        "students": 370,
-        "staff": 540,
-        "guests": 680
-      },
-      "unassignedPrices": [],
-      "tags": [
-        {
-          "key": "vegan",
-          "label": "vegan"
-        }
-      ],
-      "codes": [
-        "2",
-        "9",
-        "a1"
       ],
       "dinner": false,
       "cake": false,

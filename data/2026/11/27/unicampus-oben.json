@@ -138,10 +138,10 @@
       "section": null
     },
     {
-      "key": "penne rigate alla napoli mit fruchtiger tomaten-basilikumsauce",
+      "key": "penne rigate save the meal:, mediterranes gemüseragout",
       "name": {
-        "de": "Penne Rigate alla Napoli mit fruchtiger Tomaten-Basilikumsauce",
-        "en": "penne rigate alla Napoli with fruity tomato-basil sauce"
+        "de": "Penne Rigate Save the meal:, mediterranes Gemüseragout",
+        "en": "penne rigate Save the meal:, mediterranean vegetable ragout"
       },
       "labels": [
         {
@@ -157,16 +157,16 @@
       "unassignedPrices": [],
       "tags": [
         {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
           "key": "vegan",
           "label": "vegan"
         }
       ],
       "codes": [
-        "1",
-        "2",
-        "5",
-        "a1",
-        "l"
+        "a1"
       ],
       "dinner": false,
       "cake": false,
@@ -216,8 +216,8 @@
       },
       "labels": [
         {
-          "de": "Abendessen im oberen Speisesaal",
-          "en": "Dinner in the upper dining room"
+          "de": "Abendessen im Café Latte",
+          "en": "Dinner at Café Latte"
         }
       ],
       "prices": {
@@ -251,8 +251,8 @@
       },
       "labels": [
         {
-          "de": "Abendessen im oberen Speisesaal",
-          "en": "Dinner in the upper dining room"
+          "de": "Abendessen im Café Latte",
+          "en": "Dinner at Café Latte"
         }
       ],
       "prices": {

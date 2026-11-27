@@ -38,33 +38,33 @@
       "section": null
     },
     {
-      "key": "chicken ranch-burger - soft-bun, geflügelhacksteak, cola-zwiebeln, gurkenpickles und bbq-sauce, kartoffelspalten, sour cream",
+      "key": "fish and chips, mixed pickles-remoulade, marinierte blattsalate",
       "name": {
-        "de": "Chicken Ranch-Burger - Soft-Bun, Geflügelhacksteak, Cola-Zwiebeln, Gurkenpickles und BBQ-Sauce, Kartoffelspalten, Sour Cream",
-        "en": "Chicken ranch burger - soft bun, miced poultry steak, Cola onions, pickles and barbeque sauce, potato wedges, sour cream"
+        "de": "Fish and Chips, Mixed Pickles-Remoulade, marinierte Blattsalate",
+        "en": "Fish and Chips, mixed pickles remoulade, marinated leaf salads"
       },
       "labels": [],
       "prices": {
-        "students": 430,
-        "staff": 600,
-        "guests": 740
+        "students": 370,
+        "staff": 540,
+        "guests": 680
       },
       "unassignedPrices": [],
       "tags": [
         {
-          "key": "gefluegel",
-          "label": "Geflügel"
+          "key": "fisch",
+          "label": "Fisch"
         }
       ],
       "codes": [
-        "1",
-        "2",
+        "3",
+        "5",
         "9",
         "a1",
-        "a3",
         "c",
+        "d",
         "g",
-        "i"
+        "l"
       ],
       "dinner": false,
       "cake": false,

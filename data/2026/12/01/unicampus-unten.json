@@ -181,6 +181,109 @@
       "dinner": false,
       "cake": true,
       "section": null
+    },
+    {
+      "key": "2 kohlrabi-kräutermedaillons, paprika-rucolasauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "2 Kohlrabi-Kräutermedaillons, Paprika-Rucolasauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "2 kohlrabi herb medallions, bell pepper arugula sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "a1",
+        "c",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "yellow thai curry mit plantbased beef, möhren, zuckerschoten, paprika, sprossen und erdnüssen, basmatireis",
+      "name": {
+        "de": "Yellow Thai Curry mit Plantbased Beef, Möhren, Zuckerschoten, Paprika, Sprossen und Erdnüssen, Basmatireis",
+        "en": "Yellow Thai curry with plant-based beef, carrots, mangetout, bell pepper, sprouts and peanuts, basmati rice"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "e",
+        "f"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hähnchenbrust milano mit tomaten-käsefüllung, paprika-rucolasauce, pasta oder pommes frites, marinierte blattsalate",
+      "name": {
+        "de": "Hähnchenbrust Milano mit Tomaten-Käsefüllung, Paprika-Rucolasauce, Pasta oder Pommes Frites, marinierte Blattsalate",
+        "en": "chicken breast 'Milano' with tomato cheese filling, bell pepper arugula sauce, pasta or French fries, marinated leaf salads"
+      },
+      "labels": [
+        {
+          "de": "Abendessen im unteren Speisesaal",
+          "en": "Dinner in the lower dining room"
+        }
+      ],
+      "prices": {
+        "students": 390,
+        "staff": 560,
+        "guests": 700
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": true,
+      "cake": false,
+      "section": null
     }
   ]
 }

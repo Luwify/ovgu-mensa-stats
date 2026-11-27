@@ -12,10 +12,10 @@
   "source": "main",
   "dishes": [
     {
-      "key": "hähnchenbrust formaggio mit kräuter-frischkäsefüllung, pfeffer-rahmsauce, möhren-kürbis-lauchgemüse, pommes frites",
+      "key": "putenschnitzel, pfeffer-rahmsauce, möhren-kürbis-lauchgemüse, spätzle",
       "name": {
-        "de": "Hähnchenbrust Formaggio mit Kräuter-Frischkäsefüllung, Pfeffer-Rahmsauce, Möhren-Kürbis-Lauchgemüse, Pommes Frites",
-        "en": "chicken breast Formaggio with herb and cream cheese filling, pepper cream sauce, carrot-pumpkin-leek vegetables, french fries"
+        "de": "Putenschnitzel, Pfeffer-Rahmsauce, Möhren-Kürbis-Lauchgemüse, Spätzle",
+        "en": "turkey escalope, pepper cream sauce, carrot-pumpkin-leek vegetables, spaetzle"
       },
       "labels": [],
       "prices": {
@@ -28,14 +28,11 @@
         {
           "key": "gefluegel",
           "label": "Geflügel"
-        },
-        {
-          "key": "knoblauch",
-          "label": "Knoblauch"
         }
       ],
       "codes": [
         "a1",
+        "c",
         "g"
       ],
       "dinner": false,
