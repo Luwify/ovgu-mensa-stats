@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "date": "2026-12-07",
+  "mensa": {
+    "id": "unicampus-unten",
+    "name": {
+      "de": "UniCampus unten",
+      "en": "UniCampus lower"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitzel, rahmsauce, möhren-erbsen-maisgemüse, pommes frites oder salzkartoffeln",
+      "name": {
+        "de": "Hähnchenschnitzel, Rahmsauce, Möhren-Erbsen-Maisgemüse, Pommes Frites oder Salzkartoffeln",
+        "en": "chicken escalope, cream sauce, carrot-pea-corn vegetables, french fries or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 cevapcici, ajvar-joghurtdip, balkangemüse, bio-langkornreis",
+      "name": {
+        "de": "5 Cevapcici, Ajvar-Joghurtdip, Balkangemüse, BIO-Langkornreis",
+        "en": "5 cevapcici, Ajvar yoghurt dip, Balkan vegetables, organic long grain rice"
+      },
+      "labels": [],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "5 cevapcici, ajvar-joghurtdip, balkangemüse, bio-langkornreis",
+      "name": {
+        "de": "5 Cevapcici, Ajvar-Joghurtdip, Balkangemüse, BIO-Langkornreis",
+        "en": "5 cevapcici, Ajvar yoghurt dip, Balkan vegetables, organic long grain rice"
+      },
+      "labels": [
+        {
+          "de": "Grab the prep",
+          "en": "Grab the prep"
+        }
+      ],
+      "prices": {
+        "students": 380,
+        "staff": 550,
+        "guests": 690
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        }
+      ],
+      "codes": [
+        "2",
+        "9",
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "veganer schokoladen-birnenkuchen",
+      "name": {
+        "de": "Veganer Schokoladen-Birnenkuchen",
+        "en": "vegan chocolate pear cake"
+      },
+      "labels": [
+        {
+          "de": "Der heutige Lieblingskuchen vom Mensa-Team",
+          "en": "Today's favourite cake from the Mensa team"
+        }
+      ],
+      "prices": {
+        "students": 150,
+        "staff": 180,
+        "guests": 210
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "3",
+        "a1",
+        "f"
+      ],
+      "dinner": false,
+      "cake": true,
+      "section": null
+    },
+    {
+      "key": "allgäuer spätzleauflauf mit wirsing, schwarzwurzeln und schmelzkäse, röstzwiebeln, marinierter feldsalat mit apfel und walnüssen",
+      "name": {
+        "de": "Allgäuer Spätzleauflauf mit Wirsing, Schwarzwurzeln und Schmelzkäse, Röstzwiebeln, marinierter Feldsalat mit Apfel und Walnüssen",
+        "en": "spaetzle casserole 'Allgäuer style' with savoy cabbage, black salsifies and processed cheese, fried onions, marinated lamb´s lettuce with apple and walnuts"
+      },
+      "labels": [
+        {
+          "de": "Aktion",
+          "en": "Special offer"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g",
+        "h3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

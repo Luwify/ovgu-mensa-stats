@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "date": "2026-12-07",
+  "mensa": {
+    "id": "herrenkrug",
+    "name": {
+      "de": "Herrenkrug",
+      "en": "Herrenkrug"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "hähnchenschnitzel, rahmsauce, möhren-erbsen-maisgemüse, pommes frites oder salzkartoffeln",
+      "name": {
+        "de": "Hähnchenschnitzel, Rahmsauce, Möhren-Erbsen-Maisgemüse, Pommes Frites oder Salzkartoffeln",
+        "en": "chicken escalope, cream sauce, carrot-pea-corn vegetables, french fries or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "gefluegel",
+          "label": "Geflügel"
+        }
+      ],
+      "codes": [
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "hackbällchen mit tomatensauce, möhren-erbsengemüse, pommes frites oder salzkartoffeln",
+      "name": {
+        "de": "Hackbällchen mit Tomatensauce, Möhren-Erbsengemüse, Pommes Frites oder Salzkartoffeln",
+        "en": "meatballs with tomato sauce, carrot pea vegetables, french fries or salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 370,
+        "staff": 540,
+        "guests": 680
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "rind",
+          "label": "Rind"
+        },
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti, belugalinsen-bolognese, veganer käseersatz",
+      "name": {
+        "de": "Gabelspaghetti, Belugalinsen-Bolognese, veganer Käseersatz",
+        "en": "cut up shortened spaghetti, beluga lentil bolognese, vegan cheese substitute"
+      },
+      "labels": [
+        {
+          "de": "Ausgabe Cafeteria",
+          "en": "Counter Cafeteria"
+        }
+      ],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "knoblauch",
+          "label": "Knoblauch"
+        },
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "allgäuer spätzleauflauf mit wirsing, schwarzwurzeln und schmelzkäse, röstzwiebeln, marinierter feldsalat mit apfel und walnüssen",
+      "name": {
+        "de": "Allgäuer Spätzleauflauf mit Wirsing, Schwarzwurzeln und Schmelzkäse, Röstzwiebeln, marinierter Feldsalat mit Apfel und Walnüssen",
+        "en": "spaetzle casserole 'Allgäuer style' with savoy cabbage, black salsifies and processed cheese, fried onions, marinated lamb´s lettuce with apple and walnuts"
+      },
+      "labels": [
+        {
+          "de": "Aktion",
+          "en": "Special offer"
+        }
+      ],
+      "prices": {
+        "students": 340,
+        "staff": 510,
+        "guests": 650
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "1",
+        "a1",
+        "c",
+        "g",
+        "h3"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "portion pommes frites, ketchup oder mayonnaise, marinierte blattsalate",
+      "name": {
+        "de": "Portion Pommes Frites, Ketchup oder Mayonnaise, marinierte Blattsalate",
+        "en": "Serving of french fries, ketchup or mayonnaise, marinated leaf salads"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegetarisch",
+          "label": "vegetarisch"
+        }
+      ],
+      "codes": [
+        "3",
+        "c",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti al pomodoro mit fruchtigem tomaten-zwiebel-basilikumsugo",
+      "name": {
+        "de": "Gabelspaghetti al Pomodoro mit fruchtigem Tomaten-Zwiebel-Basilikumsugo",
+        "en": "cut up shortened spaghetti al Pomodoro with fruity tomato-onion-basil sugo"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "5",
+        "a1",
+        "l"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    },
+    {
+      "key": "gabelspaghetti carbonara mit schinkenspeck in käse-sahnesauce",
+      "name": {
+        "de": "Gabelspaghetti Carbonara mit Schinkenspeck in Käse-Sahnesauce",
+        "en": "cut up shortened spaghetti Carbonara with ham in cheese cream sauce"
+      },
+      "labels": [
+        {
+          "de": "Pastabuffet",
+          "en": "pasta buffet"
+        }
+      ],
+      "prices": {
+        "students": 50,
+        "staff": 80,
+        "guests": 110
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g",
+        "i"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

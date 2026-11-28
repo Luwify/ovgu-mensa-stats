@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "date": "2026-12-01",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "penne rigate alla casalinga mit kochschinken und erbsen in sahnesauce",
+      "name": {
+        "de": "Penne Rigate alla Casalinga mit Kochschinken und Erbsen in Sahnesauce",
+        "en": "penne rigate alla Casalinga with cooked ham and peas in cream sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

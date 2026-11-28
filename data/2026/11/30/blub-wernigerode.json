@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "date": "2026-11-30",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "schweinefrikadelle, zwiebelsauce, kaisergemüse, salzkartoffeln",
+      "name": {
+        "de": "Schweinefrikadelle, Zwiebelsauce, Kaisergemüse, Salzkartoffeln",
+        "en": "fried pork meatball, onion sauce, mixed creamed vegetables, salt potatoes"
+      },
+      "labels": [],
+      "prices": {
+        "students": 250,
+        "staff": 420,
+        "guests": 560
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "a1",
+        "a3",
+        "c",
+        "g",
+        "j"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

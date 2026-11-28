@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "date": "2026-12-03",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "penne rigate all´amatriciana mit kochschinken und chili in tomaten-sahnesauce",
+      "name": {
+        "de": "Penne Rigate all´Amatriciana mit Kochschinken und Chili in Tomaten-Sahnesauce",
+        "en": "penne rigate all´Amatriciana with cooked ham and chilli in tomato cream sauce"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "schwein",
+          "label": "Schwein"
+        }
+      ],
+      "codes": [
+        "2",
+        "3",
+        "8",
+        "a1",
+        "g"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}

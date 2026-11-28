@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "date": "2026-12-02",
+  "mensa": {
+    "id": "blub-wernigerode",
+    "name": {
+      "de": "blub Wernigerode",
+      "en": "blub Wernigerode"
+    }
+  },
+  "fixed": false,
+  "source": "main",
+  "dishes": [
+    {
+      "key": "bunte schupfnudel-gemüsepfanne mit gartenkräutern",
+      "name": {
+        "de": "Bunte Schupfnudel-Gemüsepfanne mit Gartenkräutern",
+        "en": "colourful potato noodles vegetable pan with garden herbs"
+      },
+      "labels": [],
+      "prices": {
+        "students": 200,
+        "staff": 380,
+        "guests": 520
+      },
+      "unassignedPrices": [],
+      "tags": [
+        {
+          "key": "vegan",
+          "label": "vegan"
+        }
+      ],
+      "codes": [
+        "a1"
+      ],
+      "dinner": false,
+      "cake": false,
+      "section": null
+    }
+  ]
+}
